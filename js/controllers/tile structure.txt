@@ -1,0 +1,15 @@
+tile structure: 
+
+
+{
+	span:{
+		row: , 
+		column: , 
+	}
+	image: 
+	content:
+	type: article/paper/event,
+	content:
+	background: 
+	
+}

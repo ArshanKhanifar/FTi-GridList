@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>FTI</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
+    <link href="bower_components/angular-material/angular-material.css" rel="stylesheet" />
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/grid.css">
+
+  </head>
+
+  <body ng-app="myApp">
+
+<div id="fb-root"></div>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '540649782779555',
+        xfbml      : true,
+        version    : 'v2.5'
+      });
+    };
+
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "//connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+  <script>window.twttr = (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0],
+      t = window.twttr || {};
+    if (d.getElementById(id)) return t;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "https://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js, fjs);
+   
+    t._e = [];
+    t.ready = function(f) {
+      t._e.push(f);
+    };
+   
+    return t;
+  }(document, "script", "twitter-wjs"));
+  </script>
+
+  <ng-view></ng-view>
+
+  
+  <script src='bower_components/angular/angular.js'></script>
+  <script src="bower_components/angular-route/angular-route.min.js"></script>
+  <script src="bower_components/angular-messages/angular-messages.min.js"></script>
+  <script src='bower_components/angular-animate/angular-animate.min.js'></script>
+  <script src='bower_components/angular-aria/angular-aria.min.js'></script>
+  <script src='bower_components/angular-material/angular-material.min.js'></script>
+  <script src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/directives/holefill.js"></script>
+  <script src="js/directives/khArticle.js"></script>
+  <script src="js/directives/topicLength.js"></script>
+  <script src="js/directives/searchbar.js"></script>
+
+  <script src="js/controllers/MainController.js"></script>
+  <script src="js/controllers/SignupController.js"></script>
+  <script src="js/controllers/gridListDemoCtrl.js"></script>
+
+  <script src="js/services/fbShare.js"></script>
+  <script src="js/services/tShare.js"></script>
+  <script src="js/services/searchCriteria.js"></script>
+  <script src="js/services/searchArticle.js"></script>
+  <script src="js/services/searcher.js"></script>
+  <script src="js/services/topicsBar.js"></script>
+  <script src="js/services/secondarySearch.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>
