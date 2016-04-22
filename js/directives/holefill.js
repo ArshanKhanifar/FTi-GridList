@@ -25,7 +25,12 @@ app.directive('holefill',['$mdMedia','$compile','$timeout','secondarySearch','to
 				scope.$broadcast('searching');
 			}
 			function reArrange(){
+				if($mdMedia('xs')){
+					scope.wholeSearch = false;
+					return;
+				}
 				if(elem.children().length==0){
+					scope.wholeSearch = false;
 					return;
 				}
 				var thePositions = [];
@@ -33,7 +38,6 @@ app.directive('holefill',['$mdMedia','$compile','$timeout','secondarySearch','to
 				angular.forEach(elem.children(),function(e){
 					tiles.push(angular.element(e));
 				})
-
 				var noCols = columnGetter();
 				var noRows = rowGetter(noCols,tiles);
 				var tilePositions = getTilePositions(tiles);
@@ -183,7 +187,12 @@ app.directive('holefill',['$mdMedia','$compile','$timeout','secondarySearch','to
 				//     },20);
 				// })
 				secondarySearch(numberMissing).then(function success(response){
+					if(numberMissing==0){
+						scope.wholeSearch = false;
+						return;
+					}
 					if(response.data.data.length<numberMissing){
+						scope.wholeSearch = false;
 						return;
 					}
 					response.data.data.forEach(function(elem){
@@ -221,7 +230,8 @@ app.directive('holefill',['$mdMedia','$compile','$timeout','secondarySearch','to
 				    		cssSetter(elems[i],e.position.x,e.position.y,noCols);
 				    	})
 				    	containerPaddingSetter(noCols,noRows);
-				    },20);
+				    	scope.wholeSearch = false;
+				    },50);
 				})
 			}
 			function cssSetter(elem,x,y,noCols){

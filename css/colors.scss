@@ -1,5 +1,20 @@
 $colors: #FF1744 #304FFE #FFF553 #129E3A #FF80AB #64B5F6 #FF3D00 #FF6F00 #036708 #795548 #0091EA #FF9800 #9C27B0 #B71C1C #304FFE #F4FF81 #E65100 #E91E63 #FF1744 #03A9F4 #FFEB3B #607D8B #5D4037 #00B0FF #00838F #9E9D24 #558B2F;
 $i : 1;
+
+md-grid-tile{
+	transition: all 300ms ease-out;
+}
+
+
+// @for $z from 1 through 50{
+// 	md-grid-tile:nth-child(#{$z}).ng-enter{
+// 		transition: all 300ms ease-out $z*50ms;
+// 	}
+// 	// md-grid-tile:nth-child(#{$z}).ng-enter{
+// 	// 	transition-delay: $z*100ms; 
+// 	// }
+// }
+
 @each $color in $colors {
 	.color#{$i}{
 		background: $color;
@@ -83,14 +98,6 @@ $i : 1;
 	.gridListdemoDynamicTiles .color#{$i} {
 	  background: $color; }
 	$i : $i + 1 ;
-}
-
-
-
-@for $z from 1 through 50{
-	md-grid-tile:nth-child(#{$z}){
-		transition-delay: $z*0ms; 
-	}
 }
 
 

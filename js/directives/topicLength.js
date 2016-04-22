@@ -10,16 +10,21 @@ app.directive('topicLength',function(){
 			var secondText = secondTopic.children()[0];
 			var thirdText = thirdTopic.children()[0];
 
+			var theMainTextLength = scope.tile.article.topics[0].length
+			var mainWidth;
+			var secondWidth;
+			var thirdWidth;
 
+			setTimeout(function(){
+				mainWidth = mainText.getClientRects()[0].width - (theMainTextLength)*16 + 14;
+				secondWidth = secondText.getClientRects()[0].width + 14 ;
+				thirdWidth = thirdText.getClientRects()[0].width + 14 ;
+			},100)
 
 			elem.bind('mouseenter',function(){
-				var mainWidth = mainText.getClientRects()[0].width;
-				var secondWidth = secondText.getClientRects()[0].width;
-				var thirdWidth = thirdText.getClientRects()[0].width;
-
-				mainTopic.css('width',mainWidth/1.7 +'px');
-				secondTopic.css('width',secondWidth/1 +'px');
-				thirdTopic.css('width',thirdWidth/1 +'px');
+				mainTopic.css('width',mainWidth +'px');
+				secondTopic.css('width',secondWidth +'px');
+				thirdTopic.css('width',thirdWidth +'px');
 			})
 			elem.bind('mouseleave',function(){
 				mainTopic.css('width','');

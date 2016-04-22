@@ -2,258 +2,137 @@ body{
 	background:#fafafa;
 	height: auto;
 }
-#header{
-	background: url('../img/headerBackground.png') no-repeat ;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	height: 254px;
-	position: relative;
+.clearfix::after{
+	content: '';
+	clear: both;
+	display: block;
 }
 .header{
-	height: 200px;
+	height: auto;
+	margin-bottom: 20px;
 }
-
-
-#userAuthButtons{
-	margin: 0;
-	padding: 0;
-	width: 100%;
-}
-#userAuthButtons li{
-	list-style: none;
-	font-size: 20px;
-	display: inline-block;
-	float: right;
-	margin: 12px;
-	padding: 10px;
-	background: rgba(0,0,0,0.35);
-	border: 4px solid #A7DCE4;
-	border-radius: 5px;
-	transition: all 0.5s;
-	
-}
-#userAuthButtons li:hover a{
-	color:rgba(0,0,0,0.35);
-}
-#userAuthButtons li:hover{
-	background:#A7DCE4;
-}
-#userAuthButtons a:visited{
-	color:#A7DCE4;
+.header .logo{
+  width: 50%;
+  height: 130px;
+  display: inline-block;
+  float: left;
 }
 .header img{
 	height: 100%;
 }
-#userAuthButtons a{
-	text-decoration: none;
-	color:#A7DCE4;
-	transition: all 0.5s;
+.header .searchBar{
+  width: 33%;
+  margin-top:  25px; 
+  margin-right:25px;
+  z-index: 1;
+  float: right;
+  padding:0px;
+  border-radius: 5px;
+  display: inline-block;
+  height: 69px;
+  overflow: hidden;
+  transition: all 0.5s;
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.27);  
+}
+.header .searchBar.slider{
+	height: 135px;
+}
+.header .searchBar .searchIcon{
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+}
+.header .searchBar .searchIcon img{
+  width: 100%;
+}
+.header .searchBar .sliderIcon{
+  margin: 30px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  width: 30px;
+  height: 30px;
+  margin-top: 19px;
+  transition: all 0.3s;
 }
 
-#logo{
-	height: 240px;
-	margin-top: 10px;
-	margin-left: 11px;
-	position: absolute;
-	left: 0;
-	top: 0;
+.header .searchBar .sliderIcon img{
+  width: 100%;
 }
-#logo img{
-	height: 100%;
+.header .searchBar .searchIcon,.header .searchBar .textInput,.header .searchBar .sliderIcon{
+  outline: none;
+  display: inline-block;
+  float: left;
 }
-
-
-
-#searchBar{
-	position: absolute;
-	left: 132px;
-	bottom: 10px;
-	height: 100px;
+.header .searchBar .textInput{
+  width: 0;
+  height: 57px;
+  font-size: 24px;
+  transition: all 0.5s;
+  padding:0px;
+  padding-top: 5px;
+  border:none;
+  color: rgba(0,0,0,0.7);
+  background: transparent;
 }
-
-#searchBar input{
-	vertical-align: text-bottom;
-	height: 104.5px;
-	background-color: rgba(255,255,255,0.4);
-	outline: none;
-	padding: 0;
-	margin: 0;
-	margin-bottom: 4px;
-	width: 0;
-	transition: all 0.5s;
-	font-size: 60px;
-	border: none;
-	color:black;
-}
-#searchBar input.searching{
-	width: 70vw;
+.header .searchBar .textInput.active{
+  width: calc(95% - 200px);
+  padding-left: 5px
 }
 
-
-#searchBar img{
-	height: 100px;
-	background-color: rgba(167,220,228,0.5);
-	border-radius:7px; 
-	border-top-right-radius: 0;
-	border-bottom-right-radius: 0;
-	padding-bottom: 5px;
-	margin-right: -5px; 
-	outline: none;
+.header .searchBar .numberInput.active{
+  opacity: 1;
+  width: calc(100% - 10px);;
 }
-
-#searchBar form{
-	height: 100px;
+.header .searchBar .numberInput{
+	clear: left;
+  margin-top: 10px;
+  transition: 0.5s;
+  opacity: 0;
+  width: 100px;
+  float:left;
 }
-
-#contentLayout{
-	text-align: center;
+.header .searchBar .numberInput label{
+  display: inline-block;
+  font-weight: bold;
+  margin: 7px;
 }
-
-
-md-radio-button{
-	display: inline-block;
+ md-slider-container{
+  display: inline-block;
+  margin-top: 6px;
+  width: calc(100% - 155px);
 }
-
-
-
-md-autocomplete input:not(.md-input){
-	height: 90px;
-	font-size: 40px;
+.searchBar span,md-slider-container{
+  float: left;
 }
-md-autocomplete md-autocomplete-wrap{
-	height: 90px;
-}
-md-autocomplete{
-	height: 90px;
-}
-md-autocomplete button{
-	width:60px;
-	height:60px;
-}
-
-md-autocomplete md-icon{
-	height: 48px; 
-	width: 48px;
-}
-md-card-header{
-	min-height: 72px;
-}
-
-md-card.md-default-theme md-card-header md-card-avatar md-icon, md-card md-card-header md-card-avatar md-icon{
-	background-color: white;
-    box-shadow: 1px 2px 6px #888888;
-}
-
-md-card .md-actions:not(.layout-column) .md-button.md-icon-button, md-card md-card-actions:not(.layout-column) .md-button.md-icon-button{
-	margin:0;
-	padding: 0;
-}
-
-md-card{
-	transition: all 1s;
-	outline: none;
-}
-
-md-card.fullscreen{
-	position: fixed;
-	z-index: 1;
-	top:0;
-	height:100vh;
-	left: 10%;
-	right: 10%;
-	overflow-y: scroll;
-	box-shadow: 0 0 60px #3C3C3C;
-	outline: none;
-	transition: all 0.4s;
-}
-
-md-icon{
-	outline: none;
-}
-
-event md-card-header-text,
-article md-card-header-text{
-	position: relative;
+.searchBar span {
+  margin: 20px;
 }
 
 
-.closeButton,.expandButton{
-	outline: none;
-	position: absolute;
-	right: 0;
-	top: 0;
-}
-.closeButton{
-	height: 60px;
-	width: 60px;
-}
-.expandButton{
-	height:20px;
-	width: 20px; 
-	min-height: 35px;
-	min-width: 35px;
-}
-
-md-card.fullscreen > img{
-	width: 50%;
-	margin:auto;
-}
 
 
-.faded{
-	opacity: 0;
-}
 
-.overlay{
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
 
+@media screen and (max-width: 1100px) {
+	.header .searchBar{
+		float: left;
+    clear: left;
+    margin-left: 25%;
+    width: 50%;
+	}
 }
-
-md-card{
-	background: #EBFDFF;
-}
-md-card:hover{
-	background :#B3F7FF;
-	transition: all 0.5s;
-}
-md-card img{
-	width: 100%;
-	height: initial;
-}
-
-.resultModifications{
-	text-align: center;
-}
-.resultModifications h1{
-	display: inline-block;
-}
-.resultModifications img{
-	height: 35px;
-}
-
 @media screen and (max-width: 700px) {
-	#header .headerContainer h1{
-		font-size: 2em;
-	}
-	md-card.fullscreen{
-		left: 0;
-		right: 0;
-	}
-	#searchBar input.searching{
-		width: 70vw;	
-	}
-}
-
-
-
-@media screen and (max-width: 1200px) {
-	#header{
-		height: 254px;
-	}
+  .header .searchBar{
+    float: left;
+    clear: left;
+    margin-left: 5%;
+    width: 90%;
+  }
+  .header .logo{
+    width: 100%;
+  }
+  .header .logo img {
+    width: 100%;
+    height: auto;
+  }
 }

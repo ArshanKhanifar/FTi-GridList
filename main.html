@@ -1,15 +1,28 @@
-<div class="header">
-  <img src="img/logo.svg">
-</div>
-<div class="searchBar" searchbar>
-  <div class="searchIcon" ng-click="search()">
-    <img src="img/search.svg" alt="search icon" align="bottom">
+<div class="header clearfix">
+  <div class="logo">
+    <img src="img/logo.svg">  
   </div>
-  <input type="text" placeholder="search here!" ng-model="searchText" align="top">
-  <div class="numberInput">
-    <label>Number:</label><md-slider min="7" max="25" ng-model="tileNum" aria-label="number of articles">  
+  
+  <div class="searchBar" searchbar>
+    <div class="sliderIcon">
+      <img src="img/slider.svg" alt="search icon" align="bottom">
+    </div>
+    <div class="searchIcon" ng-click="search()">
+      <img src="img/search.svg" alt="search icon" align="bottom">
+    </div>
+    <input class="textInput" type="text" placeholder="search here!" ng-model="searchText">
+    <div class="numberInput">
+    <span>Less</span>
+    <md-slider-container>
+      <md-slider flex min="7" max="27" ng-model="tileNum" aria-label="number of tiles">
+      </md-slider>
+    </md-slider-container>
+    <span>More</span>
+    </div>
   </div>
 </div>
+
+
 <div ng-controller="gridListDemoCtrl"  flex="" ng-cloak="" class="gridListdemoDynamicTiles" ng-app="MyApp">
 
   <div class="topicsBar">

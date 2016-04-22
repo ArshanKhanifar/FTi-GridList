@@ -18,60 +18,6 @@ md-grid-tile.ng-hide{
 md-grid-tile.ng-hide-add,md-grid-tile.ng-hide-remove{
   transition: all 0.3s;
 }
-.searchBar{
-  display: inline-block;
-  position: fixed;
-  left: 0;
-  top:10%;
-  z-index: 3;
-  padding:5px;
-  border-radius: 5px;
-}
-.searchBar .searchIcon,.searchBar input{
-  outline: none;
-  display: inline-block;
-}
-.searchBar input{
-  width: 0;
-  height: 100px;
-  font-size: 50px;
-  transition: all 0.5s;
-  padding:0;
-  border:none;
-  position: absolute;
-  left: 100px;
-  top: 0;
-  color: white;
-  background: rgba(0,0,0,0.4);
-}
-.searchBar input.active{
-  width: 300px;
-}
-.searchBar.active{
-  width: 400px;
-  transition: width 0.5s, background 0.5s;
-  background: rgba(255,255,255,0.4);
-
-}
-.searchBar .numberInput.active{
-  opacity: 1;
-  width: 300px;
-}
-.searchBar .numberInput{
-  transition: 0.5s;
-  opacity: 0;
-  width: 100px;
-}
-.searchBar .numberInput label{
-  font-weight: bold;
-}
-.searchBar .searchIcon{
-  width: 100px;
-  height: 100px;
-}
-.searchBar .searchIcon img{
-  width: 100px;
-}
 
 .topicsBar{
   display: flex;
@@ -305,6 +251,7 @@ md-grid-tile:hover h4{
   transition: all 1s;
   transform: scale(16);
   z-index: 3;
+  opacity: 0.8;
 }
 .articleIn{
   position: fixed;
@@ -315,9 +262,10 @@ md-grid-tile:hover h4{
   left:13%;
   right: 13%;  
   z-index: 5;
-  background: rgba(255, 255, 255, 0.6);
-  padding: 50px;
+  background: #fafafa ;
+  padding: 7%;
   padding-top: 70px;
+  box-shadow: 0 0 39px rgba(0,0,0,0.7);
 }
 .articleIn.articleFaded{
   opacity: 0;
@@ -365,9 +313,10 @@ md-grid-tile.faded{
   margin: 24px; 
   margin-bottom: 0;
 }
+md-grid-tile{
+  transition: all 300ms ease-out;
+}
 
-md-grid-tile {
-  transition: all 300ms ease-out; }
 
 .gridListdemoDynamicTiles md-grid-tile md-icon {
   padding-bottom: 32px; }
