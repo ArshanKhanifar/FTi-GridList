@@ -35,13 +35,12 @@ md-grid-tile.ng-hide-add,md-grid-tile.ng-hide-remove{
   color:white;
   overflow: hidden;
   transition: all 0.3s;
-  flex-grow: 1;
 }
 .topicChip.active{
   flex-grow: 100;
 }
 .topicChip.inactive{
-  flex-grow: 1;
+  flex-grow: initial;
   border-radius: 100%;
   width: 35px;
   padding: 0;

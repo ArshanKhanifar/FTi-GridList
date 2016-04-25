@@ -4,7 +4,7 @@ app.factory('secondarySearch',['$http','searchCriteria', function($http,criteria
 	// 		method:'GET',
 	// 		url:'http://content.guardianapis.com/search',
 	// 		params:{
-	// 			"page" : Math.ceil(criteria.page * criteria.tileNum/numberRequests)+1,
+	// 			"page" : Math.ceil(criteria.page.val * criteria.tileNum/numberRequests)+1,
 	// 			"page-size" : numberRequests, 
 	// 			"show-fields" : "all",
 	// 			"q" : criteria.searchText,

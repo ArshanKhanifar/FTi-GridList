@@ -1,7 +1,11 @@
 app.factory('topicsBar',['searchCriteria',function(criteria){
 	var colorPool = [];
-	for (var i = 0 ; i < 27 ; i++){
-		colorPool.push('color'+(i+1));
+	for (var i = 1 ; i <= 5 ; i++){
+		var colorSet = [];
+		for (var j = 1 ; j <= 11 ; j++){
+			colorSet.push('color-'+i+'-'+j);
+		}
+		colorPool.push(colorSet);
 	}
 	return {
 		colorPool:colorPool,
@@ -29,10 +33,11 @@ app.factory('topicsBar',['searchCriteria',function(criteria){
 			})
 			return val;
 		},
-		addTopic:function(topic){
+		addTopic:function(topic,topicId){
 			this.topics.push({
 				topic:topic,
-				color:this.colorPool.shift(),
+				topicId:topicId,
+				color:this.colorPool[criteria.colorSet].shift(),
 				active:false,
 				inactive:criteria.filtered,
 			})
@@ -52,7 +57,7 @@ app.factory('topicsBar',['searchCriteria',function(criteria){
 			var topicsBar = this;
 			topicsBar.topics.forEach(function(e,i){
 				if(e.color!='undefined'){
-					topicsBar.colorPool.push(e.color);	
+					topicsBar.colorPool[criteria.colorSet].push(e.color);	
 				}
 			});
 			topicsBar.topics.splice(0,topicsBar.topics.length);

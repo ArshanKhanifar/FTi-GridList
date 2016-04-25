@@ -2,7 +2,7 @@ app
   .controller('gridListDemoCtrl', ['$scope','searcher','$timeout','topicsBar','searchCriteria',function($scope,searcher,$timeout,topicsBar,criteria) {
     $scope.searching = false;
     $scope.wholeSearch = false;
-
+    $scope.noResults = false;
     $scope.topics=[];
 
     $scope.updateTopicsBar = function(){
@@ -10,6 +10,7 @@ app
     };
 
     $scope.toggle = function(topic){
+      criteria.page.val = 1;
       if(!$scope.wholeSearch){
         var getsActive = false;
         var activeTopics = 0;
@@ -63,12 +64,17 @@ app
     $scope.$on('searching',function(javaScriptEvent){
       $scope.searching = true;
       $scope.wholeSearch = true;
+      $scope.noResults = false;
       $scope.tiles = [];
       if(!criteria.topicsBar) topicsBar.empty();
+      console.log(topicsBar);
       $scope.updateTopicsBar();
       searcher()
       .then(function(theResults){
         $scope.searching = false;
+        if(theResults.length==0){
+          $scope.noResults = true;
+        }
         $scope.updateTopicsBar();
         var randomized = randomify(theResults);
         for (var i=0 ; i < randomized.length; i++){

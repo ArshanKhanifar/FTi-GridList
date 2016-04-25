@@ -10,7 +10,9 @@ app.directive('topicLength',function(){
 			var secondText = secondTopic.children()[0];
 			var thirdText = thirdTopic.children()[0];
 
-			var theMainTextLength = scope.tile.article.topics[0].length
+			var theMainTextLength = scope.tile.article.topics[0].length;
+			// var theMainTextLength = scope.tile.article.topic.length
+
 			var mainWidth;
 			var secondWidth;
 			var thirdWidth;

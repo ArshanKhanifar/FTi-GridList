@@ -38,22 +38,39 @@ body{
 	height: 135px;
 }
 .header .searchBar .searchIcon{
-  margin-top: 10px;
+  border-radius: 100%;
+  margin-top: 5px;
   width: 50px;
   height: 50px;
+  transition: all 0.3s;
+}
+.header .searchBar .searchIcon:hover{
+  background: rgba(55, 71, 79, 0.26);
+}
+.header .searchBar .searchIcon input{
+  outline: none;
+  width: 100%;
+  height: 100%;
 }
 .header .searchBar .searchIcon img{
   width: 100%;
 }
 .header .searchBar .sliderIcon{
-  margin: 30px;
-  margin-right: 15px;
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 5px;
+  margin-right: 6px;
   margin-bottom: 10px;
+  margin-left: 16px;
+  border-radius: 100%;
   width: 30px;
   height: 30px;
-  margin-top: 19px;
   transition: all 0.3s;
 }
+.header .searchBar .sliderIcon:hover{
+  background: rgba(55, 71, 79, 0.26);
+}
+
 
 .header .searchBar .sliderIcon img{
   width: 100%;
@@ -101,6 +118,17 @@ body{
   margin-top: 6px;
   width: calc(100% - 155px);
 }
+md-grid-tile{
+  cursor: pointer;
+}
+.topicChip{
+  cursor: pointer;
+}
+
+
+
+
+
 .searchBar span,md-slider-container{
   float: left;
 }
@@ -108,7 +136,17 @@ body{
   margin: 20px;
 }
 
+.pagContainer{
+  text-align: center;
+  margin-top: 25px;
+}
 
+.pagination{
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  outline: none;
+}
 
 
 

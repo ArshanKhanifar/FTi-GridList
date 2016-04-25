@@ -1,8 +1,12 @@
-app.factory('searcher', ['searchCriteria','searchArticle','topicsBar', function(criteria,searchArticle,topicsBar){
+app.factory('searcher', ['searchCriteria','searchArticle','topicsBar','inventory', function(criteria,searchArticle,topicsBar,inventory){
 	return function(){
 		var promise = new Promise(function(resolve,reject){ 
 			var theResults = [];
-			searchArticle().then(function success(response){
+			inventory().then(function success(response){
+				// if (response.data.response.results.length==0){
+				// 	resolve(theResults);
+				// 	return;
+				// }
 				// response.data.response.results.forEach(function(elem){
 				// 	var topic = elem.sectionName;
 				// 	var topicId = elem.sectionId;
@@ -29,6 +33,10 @@ app.factory('searcher', ['searchCriteria','searchArticle','topicsBar', function(
 				// 	}
 				// 	theResults.push(tile);
 				// })
+				if (response.data.data.length==0){
+					resolve(theResults);
+					return;
+				}
 				response.data.data.forEach(function(elem){
 					var topic = elem.topics[0]; 
 					if(!topicsBar.hasTopic(topic)){

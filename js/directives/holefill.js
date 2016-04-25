@@ -1,4 +1,4 @@
-app.directive('holefill',['$mdMedia','$compile','$timeout','secondarySearch','topicsBar','searchCriteria',function($mdMedia,$compile,$timeout,secondarySearch,topicsBar,criteria){
+app.directive('holefill',['$mdMedia','$compile','$timeout','secondarySearch','topicsBar','searchCriteria','inventory',function($mdMedia,$compile,$timeout,secondarySearch,topicsBar,criteria,inventory){
 	var firstSearch = false;
 	return{
 		restrict:'A',
@@ -147,6 +147,10 @@ app.directive('holefill',['$mdMedia','$compile','$timeout','secondarySearch','to
 			function addTiles(missingSpots,noCols,noRows){
 				var numberMissing=missingSpots.length;
 				// secondarySearch(numberMissing).then(function success(response){
+				// 	if(numberMissing==0){
+				// 		scope.wholeSearch = false;
+				// 		return;
+				// 	}
 				// 	response.data.response.results.forEach(function(elem){
 				// 		var topic = elem.sectionName;
 				// 		var topicId = elem.sectionId;
@@ -184,9 +188,10 @@ app.directive('holefill',['$mdMedia','$compile','$timeout','secondarySearch','to
 				//     		cssSetter(elems[i],e.position.x,e.position.y,noCols);
 				//     	})
 				//     	containerPaddingSetter(noCols,noRows);
+				//     	scope.wholeSearch = false;
 				//     },20);
 				// })
-				secondarySearch(numberMissing).then(function success(response){
+				inventory(numberMissing).then(function success(response){
 					if(numberMissing==0){
 						scope.wholeSearch = false;
 						return;
@@ -201,34 +206,37 @@ app.directive('holefill',['$mdMedia','$compile','$timeout','secondarySearch','to
 				 			topicsBar.addTopic(topic);
 						}
 					});
-					response.data.data.forEach(function(elem){
-						var tile = {
-							background:topicsBar.setColor(elem.topics[0]),
-							span:{
-								row: 1,
-								col: 1
-							},
-							article: {
-								title:   elem.title,
-								image:   elem.image,
-								link:    elem.link,
-								date:    elem.date,
-								topics:   elem.topics,
-								content: elem.raw_content
+					scope.$apply(function(){
+						response.data.data.forEach(function(elem){
+							var tile = {
+								background:topicsBar.setColor(elem.topics[0]),
+								span:{
+									row: 1,
+									col: 1
+								},
+								article: {
+									title:   elem.title,
+									image:   elem.image,
+									link:    elem.link,
+									date:    elem.date,
+									topics:   elem.topics,
+									content: elem.raw_content
+								}
 							}
-						}
-						scope.tiles.push(tile);
-					})
+							scope.tiles.push(tile);
+
+						})
+					});
 					$timeout(function(){
 				    	var elems = [];
 				    	angular.forEach(elem.children(),function(e,i){
 				    		if(i>elem.children().length-missingSpots.length-1){
 				    			elems.push(angular.element(e));
 				    		}
-				    	})
+				    	});
 				    	angular.forEach(missingSpots,function(e,i){
 				    		cssSetter(elems[i],e.position.x,e.position.y,noCols);
-				    	})
+				    	});
 				    	containerPaddingSetter(noCols,noRows);
 				    	scope.wholeSearch = false;
 				    },50);

@@ -1,5 +1,10 @@
-$colors: #FF1744 #304FFE #FFF553 #129E3A #FF80AB #64B5F6 #FF3D00 #FF6F00 #036708 #795548 #0091EA #FF9800 #9C27B0 #B71C1C #304FFE #F4FF81 #E65100 #E91E63 #FF1744 #03A9F4 #FFEB3B #607D8B #5D4037 #00B0FF #00838F #9E9D24 #558B2F;
-$i : 1;
+$colors1: #004F7F #00CC97 #00FFBD #4CBBFF #007ECC #00CC97 #FFD84C #009EFF #265D7F #FFC700 #00FFBD #FFD700 #FFB500 #007ECC #00CC97 #FFD84C #009EFF #265D7F #FFC700 #00FFBD #FFD700;
+$colors2: #3CBAC8 #3CBAC8 #F16881 #93EDD4 #F9CB8F #F19181 #F1509A #9C775B #F150EE #80DF98 #2C74BF #795548 #0091EA #F1509A #9C775B #F150EE #80DF98 #3CBAC8 #F16881 #93EDD4;
+$colors3: #D5F8B4 #88CDB1 #7E566B #8A9A85 #422335 #732B4B #70E3C6 #96F8B4 #7BAD74 #972B89 #0091EA #3DE3C6 #DC456B #8A9A85 #422335 #732B4B #96F8B4 #7BAD74 #972B89 #0091EA #3DE3C6;
+$colors4: #0D1C33 #17373C #2B6832 #4F9300 #A1D700 #769D23 #11205C #2B7D32 #036708 #20472C #0091EA #86AF23 #2B7D32 #4F9300 #A1D700 #769D23 #11205C #0D1C33 #17373C #2B6832;
+$colors5: #FF1744 #304FFE #FFF553 #129E3A #FF80AB #64B5F6 #FF3D00 #FF6F00 #036708 #795548 #0091EA #FF9800 #9C27B0 #B71C1C #304FFE #F4FF81 #E65100 #E91E63 #FF1744 #03A9F4 #FFEB3B #607D8B #5D4037 #00B0FF #00838F #9E9D24 #558B2F; 
+
+
 
 md-grid-tile{
 	transition: all 300ms ease-out;
@@ -14,91 +19,379 @@ md-grid-tile{
 // 	// 	transition-delay: $z*100ms; 
 // 	// }
 // }
+$i:1;
 
-@each $color in $colors {
-	.color#{$i}{
+@each $color in $colors1 {
+	.color-1-#{$i}{
 		background: $color;
 	} 
-	.topicChip.color#{$i}{
+	.topicChip.color-1-#{$i}{
 		background: $color;
 		color:rgba(0,0,0,0.7);
 	}
-	.title.title-1-1.color#{$i}{
+	.title.title-1-1.color-1-#{$i}{
 	  background: linear-gradient(transparent,$color);
 	}
-	.title.title-2-2.color#{$i}{
+	.title.title-2-2.color-1-#{$i}{
 	  background: linear-gradient(transparent,$color);
 	}
-	.title.title-2-1.color#{$i}{
+	.title.title-2-1.color-1-#{$i}{
 	  background: linear-gradient(transparent,$color);
 	}
-	.topicChip.color#{$i}{
-	  background: $color;
-	  color:rgba(0,0,0,0.7);
-	}
-	.title.title-1-1.color#{$i}{
-	  background: linear-gradient(transparent,$color);
-	}
-	.title.title-2-2.color#{$i}{
-	  background: linear-gradient(transparent,$color);
-	}
-	.title.title-2-1.color#{$i}{
-	  background: linear-gradient(transparent,$color);
-	}
-	.overlay.color#{$i}{
+	.overlay.color-1-#{$i}{
 	  background: $color;
 	}
-	.articleIn.color#{$i}{
+	.articleIn.color-1-#{$i}{
 	}
 	
 	@if($i%4==0){
-		md-grid-tile.color#{$i}.ng-enter{
+		md-grid-tile.color-1-#{$i}.ng-enter{
 		  transform:translateX(-200px);
 		  opacity: 0;
 		}
-		md-grid-tile.color#{$i}.ng-leave-active{
+		md-grid-tile.color-1-#{$i}.ng-leave-active{
 		  transition: all 0.3s;
 		  transform:translateY(+200px);
 		  opacity: 0;
 		}
 	}
 	@if($i%4==1){
-		md-grid-tile.color#{$i}.ng-enter{
+		md-grid-tile.color-1-#{$i}.ng-enter{
 		  transform:translateY(+200px);
 		  opacity: 0;
 		}
-		md-grid-tile.color#{$i}.ng-leave-active{
+		md-grid-tile.color-1-#{$i}.ng-leave-active{
 		  transition: all 0.3s;
 		  transform:translateX(+200px);
 		  opacity: 0;
 		}
 	}
 	@if($i%4==2){
-		md-grid-tile.color#{$i}.ng-enter{
+		md-grid-tile.color-1-#{$i}.ng-enter{
 		  transform:translateX(+200px);
 		  opacity: 0;
 		}
-		md-grid-tile.color#{$i}.ng-leave-active{
+		md-grid-tile.color-1-#{$i}.ng-leave-active{
 		  transition: all 0.3s;
 		  transform:translateY(-200px);
 		  opacity: 0;
 		}
 	}
 	@if($i%4==3){
-		md-grid-tile.color#{$i}.ng-enter{
+		md-grid-tile.color-1-#{$i}.ng-enter{
 		  transform:translateY(-200px);
 		  opacity: 0;
 		}
-		md-grid-tile.color#{$i}.ng-leave-active{
+		md-grid-tile.color-1-#{$i}.ng-leave-active{
 		  transition: all 0.3s;
 		  transform:translateX(-200px);
 		  opacity: 0;
 		}
 	}
-	.gridListdemoDynamicTiles .color#{$i} {
+	.gridListdemoDynamicTiles .color-1-#{$i} {
 	  background: $color; }
 	$i : $i + 1 ;
 }
+
+$i:1;
+
+@each $color in $colors2 {
+	.color-2-#{$i}{
+		background: $color;
+	} 
+	.topicChip.color-2-#{$i}{
+		background: $color;
+		color:rgba(0,0,0,0.7);
+	}
+	.title.title-2-1.color-2-#{$i}{
+	  background: linear-gradient(transparent,$color);
+	}
+	.title.title-2-2.color-2-#{$i}{
+	  background: linear-gradient(transparent,$color);
+	}
+	.title.title-2-1.color-2-#{$i}{
+	  background: linear-gradient(transparent,$color);
+	}
+	.overlay.color-2-#{$i}{
+	  background: $color;
+	}
+	.articleIn.color-2-#{$i}{
+	}
+	
+	@if($i%4==0){
+		md-grid-tile.color-2-#{$i}.ng-enter{
+		  transform:translateX(-200px);
+		  opacity: 0;
+		}
+		md-grid-tile.color-2-#{$i}.ng-leave-active{
+		  transition: all 0.3s;
+		  transform:translateY(+200px);
+		  opacity: 0;
+		}
+	}
+	@if($i%4==1){
+		md-grid-tile.color-2-#{$i}.ng-enter{
+		  transform:translateY(+200px);
+		  opacity: 0;
+		}
+		md-grid-tile.color-2-#{$i}.ng-leave-active{
+		  transition: all 0.3s;
+		  transform:translateX(+200px);
+		  opacity: 0;
+		}
+	}
+	@if($i%4==2){
+		md-grid-tile.color-2-#{$i}.ng-enter{
+		  transform:translateX(+200px);
+		  opacity: 0;
+		}
+		md-grid-tile.color-2-#{$i}.ng-leave-active{
+		  transition: all 0.3s;
+		  transform:translateY(-200px);
+		  opacity: 0;
+		}
+	}
+	@if($i%4==3){
+		md-grid-tile.color-2-#{$i}.ng-enter{
+		  transform:translateY(-200px);
+		  opacity: 0;
+		}
+		md-grid-tile.color-2-#{$i}.ng-leave-active{
+		  transition: all 0.3s;
+		  transform:translateX(-200px);
+		  opacity: 0;
+		}
+	}
+	.gridListdemoDynamicTiles .color-2-#{$i} {
+	  background: $color; }
+	$i : $i + 1 ;
+}
+
+$i:1;
+
+@each $color in $colors3 {
+	.color-3-#{$i}{
+		background: $color;
+	} 
+	.topicChip.color-3-#{$i}{
+	  background: $color;
+	  color:rgba(0,0,0,0.7);
+	}
+	.title.title-1-1.color-3-#{$i}{
+	  background: linear-gradient(transparent,$color);
+	}
+	.title.title-2-2.color-3-#{$i}{
+	  background: linear-gradient(transparent,$color);
+	}
+	.title.title-2-1.color-3-#{$i}{
+	  background: linear-gradient(transparent,$color);
+	}
+	.overlay.color-3-#{$i}{
+	  background: $color;
+	}
+	.articleIn.color-3-#{$i}{
+	}
+	
+	@if($i%4==0){
+		md-grid-tile.color-3-#{$i}.ng-enter{
+		  transform:translateX(-200px);
+		  opacity: 0;
+		}
+		md-grid-tile.color-3-#{$i}.ng-leave-active{
+		  transition: all 0.3s;
+		  transform:translateY(+200px);
+		  opacity: 0;
+		}
+	}
+	@if($i%4==1){
+		md-grid-tile.color-3-#{$i}.ng-enter{
+		  transform:translateY(+200px);
+		  opacity: 0;
+		}
+		md-grid-tile.color-3-#{$i}.ng-leave-active{
+		  transition: all 0.3s;
+		  transform:translateX(+200px);
+		  opacity: 0;
+		}
+	}
+	@if($i%4==2){
+		md-grid-tile.color-3-#{$i}.ng-enter{
+		  transform:translateX(+200px);
+		  opacity: 0;
+		}
+		md-grid-tile.color-3-#{$i}.ng-leave-active{
+		  transition: all 0.3s;
+		  transform:translateY(-200px);
+		  opacity: 0;
+		}
+	}
+	@if($i%4==3){
+		md-grid-tile.color-3-#{$i}.ng-enter{
+		  transform:translateY(-200px);
+		  opacity: 0;
+		}
+		md-grid-tile.color-3-#{$i}.ng-leave-active{
+		  transition: all 0.3s;
+		  transform:translateX(-200px);
+		  opacity: 0;
+		}
+	}
+	.gridListdemoDynamicTiles .color-3-#{$i} {
+	  background: $color; }
+	$i : $i + 1 ;
+}
+
+$i:1;
+
+@each $color in $colors4 {
+	.color-4-#{$i}{
+		background: $color;
+	} 
+	.topicChip.color-4-#{$i}{
+		background: $color;
+		color:rgba(0,0,0,0.7);
+	}
+	.title.title-1-1.color-4-#{$i}{
+	  background: linear-gradient(transparent,$color);
+	}
+	.title.title-2-2.color-4-#{$i}{
+	  background: linear-gradient(transparent,$color);
+	}
+	.title.title-2-1.color-4-#{$i}{
+	  background: linear-gradient(transparent,$color);
+	}
+	.overlay.color-4-#{$i}{
+	  background: $color;
+	}
+	.articleIn.color-4-#{$i}{
+	}
+	
+	@if($i%4==0){
+		md-grid-tile.color-4-#{$i}.ng-enter{
+		  transform:translateX(-200px);
+		  opacity: 0;
+		}
+		md-grid-tile.color-4-#{$i}.ng-leave-active{
+		  transition: all 0.3s;
+		  transform:translateY(+200px);
+		  opacity: 0;
+		}
+	}
+	@if($i%4==1){
+		md-grid-tile.color-4-#{$i}.ng-enter{
+		  transform:translateY(+200px);
+		  opacity: 0;
+		}
+		md-grid-tile.color-4-#{$i}.ng-leave-active{
+		  transition: all 0.3s;
+		  transform:translateX(+200px);
+		  opacity: 0;
+		}
+	}
+	@if($i%4==2){
+		md-grid-tile.color-4-#{$i}.ng-enter{
+		  transform:translateX(+200px);
+		  opacity: 0;
+		}
+		md-grid-tile.color-4-#{$i}.ng-leave-active{
+		  transition: all 0.3s;
+		  transform:translateY(-200px);
+		  opacity: 0;
+		}
+	}
+	@if($i%4==3){
+		md-grid-tile.color-4-#{$i}.ng-enter{
+		  transform:translateY(-200px);
+		  opacity: 0;
+		}
+		md-grid-tile.color-4-#{$i}.ng-leave-active{
+		  transition: all 0.3s;
+		  transform:translateX(-200px);
+		  opacity: 0;
+		}
+	}
+	.gridListdemoDynamicTiles .color-4-#{$i} {
+	  background: $color; }
+	$i : $i + 1 ;
+}
+
+$i:1;
+
+@each $color in $colors5 {
+	.color-5-#{$i}{
+		background: $color;
+	} 
+	.topicChip.color-5-#{$i}{
+	  background: $color;
+	  color:rgba(0,0,0,0.7);
+	}
+	.title.title-1-1.color-5-#{$i}{
+	  background: linear-gradient(transparent,$color);
+	}
+	.title.title-2-2.color-5-#{$i}{
+	  background: linear-gradient(transparent,$color);
+	}
+	.title.title-2-1.color-5-#{$i}{
+	  background: linear-gradient(transparent,$color);
+	}
+	.overlay.color-5-#{$i}{
+	  background: $color;
+	}
+	.articleIn.color-5-#{$i}{
+	}
+	
+	@if($i%4==0){
+		md-grid-tile.color-5-#{$i}.ng-enter{
+		  transform:translateX(-200px);
+		  opacity: 0;
+		}
+		md-grid-tile.color-5-#{$i}.ng-leave-active{
+		  transition: all 0.3s;
+		  transform:translateY(+200px);
+		  opacity: 0;
+		}
+	}
+	@if($i%4==1){
+		md-grid-tile.color-5-#{$i}.ng-enter{
+		  transform:translateY(+200px);
+		  opacity: 0;
+		}
+		md-grid-tile.color-5-#{$i}.ng-leave-active{
+		  transition: all 0.3s;
+		  transform:translateX(+200px);
+		  opacity: 0;
+		}
+	}
+	@if($i%4==2){
+		md-grid-tile.color-5-#{$i}.ng-enter{
+		  transform:translateX(+200px);
+		  opacity: 0;
+		}
+		md-grid-tile.color-5-#{$i}.ng-leave-active{
+		  transition: all 0.3s;
+		  transform:translateY(-200px);
+		  opacity: 0;
+		}
+	}
+	@if($i%4==3){
+		md-grid-tile.color-5-#{$i}.ng-enter{
+		  transform:translateY(-200px);
+		  opacity: 0;
+		}
+		md-grid-tile.color-5-#{$i}.ng-leave-active{
+		  transition: all 0.3s;
+		  transform:translateX(-200px);
+		  opacity: 0;
+		}
+	}
+	.gridListdemoDynamicTiles .color-5-#{$i} {
+	  background: $color; }
+	$i : $i + 1 ;
+}
+
+
+
+
 
 
 

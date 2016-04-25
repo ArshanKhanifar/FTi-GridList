@@ -1,7 +1,8 @@
 app.factory('searchCriteria',function(){
 	return {
 		searchText:'fintech',
-		page:1,
+		page:{val:1},
+		colorSet:2,
 		apiKeyArticle : '0575836f-d9c3-4472-9ee7-904248af6758',
 		tileNum:13,
 		topic:'',

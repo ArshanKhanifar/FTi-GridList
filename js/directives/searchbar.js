@@ -1,12 +1,16 @@
 app.directive('searchbar',['$document',function($document){
 	return{
 		link:function(scope,element,attrs){
-			var sliderImage = angular.element(element.children()[0]);
-			var searchImage = angular.element(element.children()[1]);
-			var searchInput = angular.element(element.children()[2]);
-			var numberInput = angular.element(element.children()[3]);
+			var form = angular.element(element.children()[0]);
+			var sliderImage = angular.element(form.children()[0]);
+			var searchImage = angular.element(form.children()[1]);
+			var searchInput = angular.element(form.children()[2]);
+			var numberInput = angular.element(form.children()[3]);
 			var state = true;
-			sliderImage.on('click',function(){
+			form.on('click',function(e){
+				e.stopPropagation();
+			})
+			sliderImage.on('click',function(e){
 				if(state){
 					element.addClass('slider');
 					state = false;
@@ -21,7 +25,7 @@ app.directive('searchbar',['$document',function($document){
 		    	searchInput.addClass('active');
 		    	numberInput.addClass('active');
 		    });
-			element.on('mouseleave',function(e){
+			$document.on('click',function(e){
 		    	searchInput.removeClass('active');
 		    	element.removeClass('active');
 		    	numberInput.removeClass('active');
