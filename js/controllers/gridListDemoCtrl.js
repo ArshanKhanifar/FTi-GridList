@@ -67,13 +67,14 @@ app
       $scope.noResults = false;
       $scope.tiles = [];
       if(!criteria.topicsBar) topicsBar.empty();
-      console.log(topicsBar);
+      console.log(topicsBar.colorPool[criteria.colorSet]);
       $scope.updateTopicsBar();
       searcher()
       .then(function(theResults){
         $scope.searching = false;
         if(theResults.length==0){
           $scope.noResults = true;
+          $scope.wholeSearch = false;
         }
         $scope.updateTopicsBar();
         var randomized = randomify(theResults);

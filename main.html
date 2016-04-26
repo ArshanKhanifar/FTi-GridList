@@ -23,8 +23,39 @@
       </div>
     </form>
   </div>
-
 </div>
+
+<div class="headerSmall clearfix" header-small>
+  <div class="logo">
+    <img src="img/logo.svg">
+  </div>
+  <div class="sliderIcon">
+    <img src="img/slider.svg" alt="search icon" align="bottom">
+  </div>
+  <div class="searchIcon">
+    <img src="img/search.svg" alt="search icon">    
+  </div>
+  
+  <div class="searchTextContainer">
+    <form>
+      <div class="searchIcon">
+        <input type="image" src="img/search.svg" alt="search icon" ng-click="search()">    
+      </div>
+      <input class="textInput" type="text" placeholder="search fintech news" ng-model="searchText">
+    </form>
+  </div>
+  <div class="sliderContainer">
+    <div class="numberInput">
+      <span>Less</span>
+      <md-slider-container>
+        <md-slider flex min="7" max="27" ng-model="tileNum" aria-label="number of tiles">
+        </md-slider>
+      </md-slider-container>
+      <span>More</span>
+    </div>
+  </div>
+</div>
+
 
 
 <div ng-controller="gridListDemoCtrl"  flex="" ng-cloak="" class="gridListdemoDynamicTiles" ng-app="MyApp">

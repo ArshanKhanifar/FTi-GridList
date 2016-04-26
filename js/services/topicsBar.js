@@ -1,9 +1,13 @@
 app.factory('topicsBar',['searchCriteria',function(criteria){
 	var colorPool = [];
 	for (var i = 1 ; i <= 5 ; i++){
-		var colorSet = [];
+		var colorSet = {
+			light:[],
+			dark:[]
+		};
 		for (var j = 1 ; j <= 11 ; j++){
-			colorSet.push('color-'+i+'-'+j);
+			colorSet.light.push('color-'+i+'-'+j+'-'+'light');
+			colorSet.dark.push('color-'+i+'-'+j+'-'+'dark');
 		}
 		colorPool.push(colorSet);
 	}
@@ -33,14 +37,24 @@ app.factory('topicsBar',['searchCriteria',function(criteria){
 			})
 			return val;
 		},
+		upcomingColor:'light',
 		addTopic:function(topic,topicId){
-			this.topics.push({
+			var topicObj = {
 				topic:topic,
 				topicId:topicId,
-				color:this.colorPool[criteria.colorSet].shift(),
 				active:false,
 				inactive:criteria.filtered,
-			})
+			};
+			if(this.upComingColor=='light'){
+				topicObj.color = this.colorPool[criteria.colorSet].light.shift();
+				topicObj.colorType = 'light';
+				this.upComingColor='dark';
+			}else{
+				topicObj.color = this.colorPool[criteria.colorSet].dark.shift();
+				topicObj.colorType = 'dark';
+				this.upComingColor='light';
+			};
+			this.topics.push(topicObj);
 		},
 		removeTopic:function(topic){ // not used yet! haven't found a use case either
 			var topicsBar = this;
@@ -48,7 +62,11 @@ app.factory('topicsBar',['searchCriteria',function(criteria){
 			topicsBar.topics.forEach(function(e,i){
 				if(e.topic == topic){
 					indexRemove = i;
-					topicsBar.colorPool.push(e.color);
+					if(e.topic.colorType=='light'){
+						topicsBar.colorPool[criteria.colorSet].light.push(e.color);
+					}else{
+						topiscBar.colorPool[criteria.colorSet].dark.push(e.color);
+					}
 				}
 			})
 			topicsBar.topics.splice(indexRemove,1);
@@ -57,7 +75,13 @@ app.factory('topicsBar',['searchCriteria',function(criteria){
 			var topicsBar = this;
 			topicsBar.topics.forEach(function(e,i){
 				if(e.color!='undefined'){
-					topicsBar.colorPool[criteria.colorSet].push(e.color);	
+					if(e.colorType=='light'){
+						topicsBar.colorPool[criteria.colorSet].light.unshift(e.color);
+					}else{
+						topicsBar.colorPool[criteria.colorSet].dark.unshift(e.color);
+					}
+				}else{
+
 				}
 			});
 			topicsBar.topics.splice(0,topicsBar.topics.length);

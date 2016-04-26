@@ -17,24 +17,37 @@ app.directive('topicLength',function(){
 			var secondWidth;
 			var thirdWidth;
 
+			var maxLength;
+
 			setTimeout(function(){
 				mainWidth = mainText.getClientRects()[0].width - (theMainTextLength)*16 + 14;
 				secondWidth = secondText.getClientRects()[0].width + 14 ;
 				thirdWidth = thirdText.getClientRects()[0].width + 14 ;
-			},100)
+				maxLength = maxOfThese([mainWidth,secondWidth,thirdWidth]);
+			},100);
 
 			elem.bind('mouseenter',function(){
 				mainTopic.css('width',mainWidth +'px');
-				secondTopic.css('width',secondWidth +'px');
-				thirdTopic.css('width',thirdWidth +'px');
-			})
-			elem.bind('mouseleave',function(){
+			}).bind('mouseleave',function(){
 				mainTopic.css('width','');
+			})
+			mainTopic.bind('mouseenter',function(){
+				mainTopic.css('width',maxLength+'px');
+				secondTopic.css('width',maxLength+'px');
+				thirdTopic.css('width',maxLength+'px');
+			}).bind('mouseleave',function(){
 				secondTopic.css('width','');
 				thirdTopic.css('width','');
 			})
-
-
 		}
+	}
+	function maxOfThese(arr){
+		var max = arr[0];
+		for (var i = 1 ; i < arr.length; i++){
+			if(max<arr[i]){
+				max = arr[i];
+			}
+		}
+		return max;
 	}
 })
