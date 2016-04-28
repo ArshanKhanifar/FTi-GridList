@@ -59,6 +59,24 @@ app.factory('searcher', ['searchCriteria','searchArticle','topicsBar','inventory
 							content: elem.raw_content
 						}
 					}
+
+					// var big = ((elem.size.width> myWidth) && (elem.size.height >myHeight));
+
+					// if(big){
+					// 	tile.span = {
+					// 		row: Math.ceil(Math.random()*2),
+					// 		col: 2
+					// 	}
+					// }else{
+					// 	tile.span = {
+					// 		row: Math.ceil(Math.random()*2),
+					// 		col: 1
+					// 	}	
+					// }
+
+					for(var i=0;i<tile.article.topics.length;i++){
+						tile.article.topics[i]=mekUppCase(tile.article.topics[i]);
+					}
 					theResults.push(tile);
 				})
 				resolve(theResults);
@@ -69,6 +87,13 @@ app.factory('searcher', ['searchCriteria','searchArticle','topicsBar','inventory
 		});
 		
 		return promise;
+	}
+	function mekUppCase(e){
+		var theWords = e.split(' ');
+		for(var i = 0; i < theWords.length; i++){
+			theWords[i] = theWords[i].substr(0,1).toUpperCase() + theWords[i].substr(1);
+		}
+		return theWords.join(' ');
 	}
 
 }])

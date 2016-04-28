@@ -23,6 +23,18 @@ md-grid-tile {
 .overlay.color-1-1-light {
   background: #00CC97; }
 
+.articleIn.color-1-1-light h1, .articleIn.color-1-1-light h2, .articleIn.color-1-1-light h3, .articleIn.color-1-1-light h4, .articleIn.color-1-1-light h5, .articleIn.color-1-1-light h6 {
+  color: black; }
+.articleIn.color-1-1-light strong {
+  color: black; }
+.articleIn.color-1-1-light a {
+  color: black;
+  text-decoration: none; }
+.articleIn.color-1-1-light a:visited {
+  color: black; }
+.articleIn.color-1-1-light .articleCloseButton:hover {
+  background: black; }
+
 md-grid-tile.color-1-1-light.ng-enter {
   transform: translateY(200px);
   opacity: 0; }
@@ -56,6 +68,18 @@ md-grid-tile.color-1-1-light.ng-leave-active {
 
 .overlay.color-1-2-light {
   background: #00FFBD; }
+
+.articleIn.color-1-2-light h1, .articleIn.color-1-2-light h2, .articleIn.color-1-2-light h3, .articleIn.color-1-2-light h4, .articleIn.color-1-2-light h5, .articleIn.color-1-2-light h6 {
+  color: black; }
+.articleIn.color-1-2-light strong {
+  color: black; }
+.articleIn.color-1-2-light a {
+  color: black;
+  text-decoration: none; }
+.articleIn.color-1-2-light a:visited {
+  color: black; }
+.articleIn.color-1-2-light .articleCloseButton:hover {
+  background: black; }
 
 md-grid-tile.color-1-2-light.ng-enter {
   transform: translateX(200px);
@@ -91,6 +115,18 @@ md-grid-tile.color-1-2-light.ng-leave-active {
 .overlay.color-1-3-light {
   background: #FFD84C; }
 
+.articleIn.color-1-3-light h1, .articleIn.color-1-3-light h2, .articleIn.color-1-3-light h3, .articleIn.color-1-3-light h4, .articleIn.color-1-3-light h5, .articleIn.color-1-3-light h6 {
+  color: #4c3b00; }
+.articleIn.color-1-3-light strong {
+  color: #4c3b00; }
+.articleIn.color-1-3-light a {
+  color: #4c3b00;
+  text-decoration: none; }
+.articleIn.color-1-3-light a:visited {
+  color: #4c3b00; }
+.articleIn.color-1-3-light .articleCloseButton:hover {
+  background: #4c3b00; }
+
 md-grid-tile.color-1-3-light.ng-enter {
   transform: translateY(-200px);
   opacity: 0; }
@@ -124,6 +160,18 @@ md-grid-tile.color-1-3-light.ng-leave-active {
 
 .overlay.color-1-4-light {
   background: #00CC97; }
+
+.articleIn.color-1-4-light h1, .articleIn.color-1-4-light h2, .articleIn.color-1-4-light h3, .articleIn.color-1-4-light h4, .articleIn.color-1-4-light h5, .articleIn.color-1-4-light h6 {
+  color: black; }
+.articleIn.color-1-4-light strong {
+  color: black; }
+.articleIn.color-1-4-light a {
+  color: black;
+  text-decoration: none; }
+.articleIn.color-1-4-light a:visited {
+  color: black; }
+.articleIn.color-1-4-light .articleCloseButton:hover {
+  background: black; }
 
 md-grid-tile.color-1-4-light.ng-enter {
   transform: translateX(-200px);
@@ -159,6 +207,18 @@ md-grid-tile.color-1-4-light.ng-leave-active {
 .overlay.color-1-5-light {
   background: #FFC700; }
 
+.articleIn.color-1-5-light h1, .articleIn.color-1-5-light h2, .articleIn.color-1-5-light h3, .articleIn.color-1-5-light h4, .articleIn.color-1-5-light h5, .articleIn.color-1-5-light h6 {
+  color: black; }
+.articleIn.color-1-5-light strong {
+  color: black; }
+.articleIn.color-1-5-light a {
+  color: black;
+  text-decoration: none; }
+.articleIn.color-1-5-light a:visited {
+  color: black; }
+.articleIn.color-1-5-light .articleCloseButton:hover {
+  background: black; }
+
 md-grid-tile.color-1-5-light.ng-enter {
   transform: translateY(200px);
   opacity: 0; }
@@ -192,6 +252,18 @@ md-grid-tile.color-1-5-light.ng-leave-active {
 
 .overlay.color-1-6-light {
   background: #00FFBD; }
+
+.articleIn.color-1-6-light h1, .articleIn.color-1-6-light h2, .articleIn.color-1-6-light h3, .articleIn.color-1-6-light h4, .articleIn.color-1-6-light h5, .articleIn.color-1-6-light h6 {
+  color: black; }
+.articleIn.color-1-6-light strong {
+  color: black; }
+.articleIn.color-1-6-light a {
+  color: black;
+  text-decoration: none; }
+.articleIn.color-1-6-light a:visited {
+  color: black; }
+.articleIn.color-1-6-light .articleCloseButton:hover {
+  background: black; }
 
 md-grid-tile.color-1-6-light.ng-enter {
   transform: translateX(200px);
@@ -227,6 +299,18 @@ md-grid-tile.color-1-6-light.ng-leave-active {
 .overlay.color-1-7-light {
   background: #FFD700; }
 
+.articleIn.color-1-7-light h1, .articleIn.color-1-7-light h2, .articleIn.color-1-7-light h3, .articleIn.color-1-7-light h4, .articleIn.color-1-7-light h5, .articleIn.color-1-7-light h6 {
+  color: black; }
+.articleIn.color-1-7-light strong {
+  color: black; }
+.articleIn.color-1-7-light a {
+  color: black;
+  text-decoration: none; }
+.articleIn.color-1-7-light a:visited {
+  color: black; }
+.articleIn.color-1-7-light .articleCloseButton:hover {
+  background: black; }
+
 md-grid-tile.color-1-7-light.ng-enter {
   transform: translateY(-200px);
   opacity: 0; }
@@ -260,6 +344,18 @@ md-grid-tile.color-1-7-light.ng-leave-active {
 
 .overlay.color-1-8-light {
   background: #FFB500; }
+
+.articleIn.color-1-8-light h1, .articleIn.color-1-8-light h2, .articleIn.color-1-8-light h3, .articleIn.color-1-8-light h4, .articleIn.color-1-8-light h5, .articleIn.color-1-8-light h6 {
+  color: black; }
+.articleIn.color-1-8-light strong {
+  color: black; }
+.articleIn.color-1-8-light a {
+  color: black;
+  text-decoration: none; }
+.articleIn.color-1-8-light a:visited {
+  color: black; }
+.articleIn.color-1-8-light .articleCloseButton:hover {
+  background: black; }
 
 md-grid-tile.color-1-8-light.ng-enter {
   transform: translateX(-200px);
@@ -295,6 +391,18 @@ md-grid-tile.color-1-8-light.ng-leave-active {
 .overlay.color-1-9-light {
   background: #00FFBD; }
 
+.articleIn.color-1-9-light h1, .articleIn.color-1-9-light h2, .articleIn.color-1-9-light h3, .articleIn.color-1-9-light h4, .articleIn.color-1-9-light h5, .articleIn.color-1-9-light h6 {
+  color: black; }
+.articleIn.color-1-9-light strong {
+  color: black; }
+.articleIn.color-1-9-light a {
+  color: black;
+  text-decoration: none; }
+.articleIn.color-1-9-light a:visited {
+  color: black; }
+.articleIn.color-1-9-light .articleCloseButton:hover {
+  background: black; }
+
 md-grid-tile.color-1-9-light.ng-enter {
   transform: translateY(200px);
   opacity: 0; }
@@ -327,6 +435,18 @@ md-grid-tile.color-1-9-light.ng-leave-active {
   background: linear-gradient(transparent, #004F7F); }
 
 .overlay.color-1-1-dark {
+  background: #004F7F; }
+
+.articleIn.color-1-1-dark h1, .articleIn.color-1-1-dark h2, .articleIn.color-1-1-dark h3, .articleIn.color-1-1-dark h4, .articleIn.color-1-1-dark h5, .articleIn.color-1-1-dark h6 {
+  color: #004F7F; }
+.articleIn.color-1-1-dark strong {
+  color: #004F7F; }
+.articleIn.color-1-1-dark a {
+  color: #004F7F;
+  text-decoration: none; }
+.articleIn.color-1-1-dark a:visited {
+  color: #004F7F; }
+.articleIn.color-1-1-dark .articleCloseButton:hover {
   background: #004F7F; }
 
 md-grid-tile.color-1-1-dark.ng-enter {
@@ -363,6 +483,18 @@ md-grid-tile.color-1-1-dark.ng-leave-active {
 .overlay.color-1-2-dark {
   background: #4CBBFF; }
 
+.articleIn.color-1-2-dark h1, .articleIn.color-1-2-dark h2, .articleIn.color-1-2-dark h3, .articleIn.color-1-2-dark h4, .articleIn.color-1-2-dark h5, .articleIn.color-1-2-dark h6 {
+  color: #4CBBFF; }
+.articleIn.color-1-2-dark strong {
+  color: #4CBBFF; }
+.articleIn.color-1-2-dark a {
+  color: #4CBBFF;
+  text-decoration: none; }
+.articleIn.color-1-2-dark a:visited {
+  color: #4CBBFF; }
+.articleIn.color-1-2-dark .articleCloseButton:hover {
+  background: #4CBBFF; }
+
 md-grid-tile.color-1-2-dark.ng-enter {
   transform: translateX(200px);
   opacity: 0; }
@@ -395,6 +527,18 @@ md-grid-tile.color-1-2-dark.ng-leave-active {
   background: linear-gradient(transparent, #007ECC); }
 
 .overlay.color-1-3-dark {
+  background: #007ECC; }
+
+.articleIn.color-1-3-dark h1, .articleIn.color-1-3-dark h2, .articleIn.color-1-3-dark h3, .articleIn.color-1-3-dark h4, .articleIn.color-1-3-dark h5, .articleIn.color-1-3-dark h6 {
+  color: #007ECC; }
+.articleIn.color-1-3-dark strong {
+  color: #007ECC; }
+.articleIn.color-1-3-dark a {
+  color: #007ECC;
+  text-decoration: none; }
+.articleIn.color-1-3-dark a:visited {
+  color: #007ECC; }
+.articleIn.color-1-3-dark .articleCloseButton:hover {
   background: #007ECC; }
 
 md-grid-tile.color-1-3-dark.ng-enter {
@@ -431,6 +575,18 @@ md-grid-tile.color-1-3-dark.ng-leave-active {
 .overlay.color-1-4-dark {
   background: #265D7F; }
 
+.articleIn.color-1-4-dark h1, .articleIn.color-1-4-dark h2, .articleIn.color-1-4-dark h3, .articleIn.color-1-4-dark h4, .articleIn.color-1-4-dark h5, .articleIn.color-1-4-dark h6 {
+  color: #265D7F; }
+.articleIn.color-1-4-dark strong {
+  color: #265D7F; }
+.articleIn.color-1-4-dark a {
+  color: #265D7F;
+  text-decoration: none; }
+.articleIn.color-1-4-dark a:visited {
+  color: #265D7F; }
+.articleIn.color-1-4-dark .articleCloseButton:hover {
+  background: #265D7F; }
+
 md-grid-tile.color-1-4-dark.ng-enter {
   transform: translateX(-200px);
   opacity: 0; }
@@ -463,6 +619,18 @@ md-grid-tile.color-1-4-dark.ng-leave-active {
   background: linear-gradient(transparent, #007ECC); }
 
 .overlay.color-1-5-dark {
+  background: #007ECC; }
+
+.articleIn.color-1-5-dark h1, .articleIn.color-1-5-dark h2, .articleIn.color-1-5-dark h3, .articleIn.color-1-5-dark h4, .articleIn.color-1-5-dark h5, .articleIn.color-1-5-dark h6 {
+  color: #007ECC; }
+.articleIn.color-1-5-dark strong {
+  color: #007ECC; }
+.articleIn.color-1-5-dark a {
+  color: #007ECC;
+  text-decoration: none; }
+.articleIn.color-1-5-dark a:visited {
+  color: #007ECC; }
+.articleIn.color-1-5-dark .articleCloseButton:hover {
   background: #007ECC; }
 
 md-grid-tile.color-1-5-dark.ng-enter {
@@ -499,6 +667,18 @@ md-grid-tile.color-1-5-dark.ng-leave-active {
 .overlay.color-1-6-dark {
   background: #009EFF; }
 
+.articleIn.color-1-6-dark h1, .articleIn.color-1-6-dark h2, .articleIn.color-1-6-dark h3, .articleIn.color-1-6-dark h4, .articleIn.color-1-6-dark h5, .articleIn.color-1-6-dark h6 {
+  color: #009EFF; }
+.articleIn.color-1-6-dark strong {
+  color: #009EFF; }
+.articleIn.color-1-6-dark a {
+  color: #009EFF;
+  text-decoration: none; }
+.articleIn.color-1-6-dark a:visited {
+  color: #009EFF; }
+.articleIn.color-1-6-dark .articleCloseButton:hover {
+  background: #009EFF; }
+
 md-grid-tile.color-1-6-dark.ng-enter {
   transform: translateX(200px);
   opacity: 0; }
@@ -531,6 +711,18 @@ md-grid-tile.color-1-6-dark.ng-leave-active {
   background: linear-gradient(transparent, #265D7F); }
 
 .overlay.color-1-7-dark {
+  background: #265D7F; }
+
+.articleIn.color-1-7-dark h1, .articleIn.color-1-7-dark h2, .articleIn.color-1-7-dark h3, .articleIn.color-1-7-dark h4, .articleIn.color-1-7-dark h5, .articleIn.color-1-7-dark h6 {
+  color: #265D7F; }
+.articleIn.color-1-7-dark strong {
+  color: #265D7F; }
+.articleIn.color-1-7-dark a {
+  color: #265D7F;
+  text-decoration: none; }
+.articleIn.color-1-7-dark a:visited {
+  color: #265D7F; }
+.articleIn.color-1-7-dark .articleCloseButton:hover {
   background: #265D7F; }
 
 md-grid-tile.color-1-7-dark.ng-enter {
@@ -567,6 +759,18 @@ md-grid-tile.color-1-7-dark.ng-leave-active {
 .overlay.color-1-8-dark {
   background: #009EFF; }
 
+.articleIn.color-1-8-dark h1, .articleIn.color-1-8-dark h2, .articleIn.color-1-8-dark h3, .articleIn.color-1-8-dark h4, .articleIn.color-1-8-dark h5, .articleIn.color-1-8-dark h6 {
+  color: #009EFF; }
+.articleIn.color-1-8-dark strong {
+  color: #009EFF; }
+.articleIn.color-1-8-dark a {
+  color: #009EFF;
+  text-decoration: none; }
+.articleIn.color-1-8-dark a:visited {
+  color: #009EFF; }
+.articleIn.color-1-8-dark .articleCloseButton:hover {
+  background: #009EFF; }
+
 md-grid-tile.color-1-8-dark.ng-enter {
   transform: translateX(-200px);
   opacity: 0; }
@@ -600,6 +804,18 @@ md-grid-tile.color-1-8-dark.ng-leave-active {
 
 .overlay.color-2-1-light {
   background: #3CBAC8; }
+
+.articleIn.color-2-1-light h1, .articleIn.color-2-1-light h2, .articleIn.color-2-1-light h3, .articleIn.color-2-1-light h4, .articleIn.color-2-1-light h5, .articleIn.color-2-1-light h6 {
+  color: #010404; }
+.articleIn.color-2-1-light strong {
+  color: #010404; }
+.articleIn.color-2-1-light a {
+  color: #010404;
+  text-decoration: none; }
+.articleIn.color-2-1-light a:visited {
+  color: #010404; }
+.articleIn.color-2-1-light .articleCloseButton:hover {
+  background: #010404; }
 
 md-grid-tile.color-2-1-light.ng-enter {
   transform: translateY(200px);
@@ -635,6 +851,18 @@ md-grid-tile.color-2-1-light.ng-leave-active {
 .overlay.color-2-2-light {
   background: #F9CB8F; }
 
+.articleIn.color-2-2-light h1, .articleIn.color-2-2-light h2, .articleIn.color-2-2-light h3, .articleIn.color-2-2-light h4, .articleIn.color-2-2-light h5, .articleIn.color-2-2-light h6 {
+  color: #824d07; }
+.articleIn.color-2-2-light strong {
+  color: #824d07; }
+.articleIn.color-2-2-light a {
+  color: #824d07;
+  text-decoration: none; }
+.articleIn.color-2-2-light a:visited {
+  color: #824d07; }
+.articleIn.color-2-2-light .articleCloseButton:hover {
+  background: #824d07; }
+
 md-grid-tile.color-2-2-light.ng-enter {
   transform: translateX(200px);
   opacity: 0; }
@@ -668,6 +896,18 @@ md-grid-tile.color-2-2-light.ng-leave-active {
 
 .overlay.color-2-3-light {
   background: #93EDD4; }
+
+.articleIn.color-2-3-light h1, .articleIn.color-2-3-light h2, .articleIn.color-2-3-light h3, .articleIn.color-2-3-light h4, .articleIn.color-2-3-light h5, .articleIn.color-2-3-light h6 {
+  color: #126f55; }
+.articleIn.color-2-3-light strong {
+  color: #126f55; }
+.articleIn.color-2-3-light a {
+  color: #126f55;
+  text-decoration: none; }
+.articleIn.color-2-3-light a:visited {
+  color: #126f55; }
+.articleIn.color-2-3-light .articleCloseButton:hover {
+  background: #126f55; }
 
 md-grid-tile.color-2-3-light.ng-enter {
   transform: translateY(-200px);
@@ -703,6 +943,18 @@ md-grid-tile.color-2-3-light.ng-leave-active {
 .overlay.color-2-4-light {
   background: #3CBAC8; }
 
+.articleIn.color-2-4-light h1, .articleIn.color-2-4-light h2, .articleIn.color-2-4-light h3, .articleIn.color-2-4-light h4, .articleIn.color-2-4-light h5, .articleIn.color-2-4-light h6 {
+  color: #010404; }
+.articleIn.color-2-4-light strong {
+  color: #010404; }
+.articleIn.color-2-4-light a {
+  color: #010404;
+  text-decoration: none; }
+.articleIn.color-2-4-light a:visited {
+  color: #010404; }
+.articleIn.color-2-4-light .articleCloseButton:hover {
+  background: #010404; }
+
 md-grid-tile.color-2-4-light.ng-enter {
   transform: translateX(-200px);
   opacity: 0; }
@@ -736,6 +988,18 @@ md-grid-tile.color-2-4-light.ng-leave-active {
 
 .overlay.color-2-5-light {
   background: #80DF98; }
+
+.articleIn.color-2-5-light h1, .articleIn.color-2-5-light h2, .articleIn.color-2-5-light h3, .articleIn.color-2-5-light h4, .articleIn.color-2-5-light h5, .articleIn.color-2-5-light h6 {
+  color: #134d22; }
+.articleIn.color-2-5-light strong {
+  color: #134d22; }
+.articleIn.color-2-5-light a {
+  color: #134d22;
+  text-decoration: none; }
+.articleIn.color-2-5-light a:visited {
+  color: #134d22; }
+.articleIn.color-2-5-light .articleCloseButton:hover {
+  background: #134d22; }
 
 md-grid-tile.color-2-5-light.ng-enter {
   transform: translateY(200px);
@@ -771,6 +1035,18 @@ md-grid-tile.color-2-5-light.ng-leave-active {
 .overlay.color-2-6-light {
   background: #80DF98; }
 
+.articleIn.color-2-6-light h1, .articleIn.color-2-6-light h2, .articleIn.color-2-6-light h3, .articleIn.color-2-6-light h4, .articleIn.color-2-6-light h5, .articleIn.color-2-6-light h6 {
+  color: #134d22; }
+.articleIn.color-2-6-light strong {
+  color: #134d22; }
+.articleIn.color-2-6-light a {
+  color: #134d22;
+  text-decoration: none; }
+.articleIn.color-2-6-light a:visited {
+  color: #134d22; }
+.articleIn.color-2-6-light .articleCloseButton:hover {
+  background: #134d22; }
+
 md-grid-tile.color-2-6-light.ng-enter {
   transform: translateX(200px);
   opacity: 0; }
@@ -804,6 +1080,18 @@ md-grid-tile.color-2-6-light.ng-leave-active {
 
 .overlay.color-2-7-light {
   background: #3CBAC8; }
+
+.articleIn.color-2-7-light h1, .articleIn.color-2-7-light h2, .articleIn.color-2-7-light h3, .articleIn.color-2-7-light h4, .articleIn.color-2-7-light h5, .articleIn.color-2-7-light h6 {
+  color: #010404; }
+.articleIn.color-2-7-light strong {
+  color: #010404; }
+.articleIn.color-2-7-light a {
+  color: #010404;
+  text-decoration: none; }
+.articleIn.color-2-7-light a:visited {
+  color: #010404; }
+.articleIn.color-2-7-light .articleCloseButton:hover {
+  background: #010404; }
 
 md-grid-tile.color-2-7-light.ng-enter {
   transform: translateY(-200px);
@@ -839,6 +1127,18 @@ md-grid-tile.color-2-7-light.ng-leave-active {
 .overlay.color-2-8-light {
   background: #93EDD4; }
 
+.articleIn.color-2-8-light h1, .articleIn.color-2-8-light h2, .articleIn.color-2-8-light h3, .articleIn.color-2-8-light h4, .articleIn.color-2-8-light h5, .articleIn.color-2-8-light h6 {
+  color: #126f55; }
+.articleIn.color-2-8-light strong {
+  color: #126f55; }
+.articleIn.color-2-8-light a {
+  color: #126f55;
+  text-decoration: none; }
+.articleIn.color-2-8-light a:visited {
+  color: #126f55; }
+.articleIn.color-2-8-light .articleCloseButton:hover {
+  background: #126f55; }
+
 md-grid-tile.color-2-8-light.ng-enter {
   transform: translateX(-200px);
   opacity: 0; }
@@ -871,6 +1171,18 @@ md-grid-tile.color-2-8-light.ng-leave-active {
   background: linear-gradient(transparent, #F16881); }
 
 .overlay.color-2-1-dark {
+  background: #F16881; }
+
+.articleIn.color-2-1-dark h1, .articleIn.color-2-1-dark h2, .articleIn.color-2-1-dark h3, .articleIn.color-2-1-dark h4, .articleIn.color-2-1-dark h5, .articleIn.color-2-1-dark h6 {
+  color: #F16881; }
+.articleIn.color-2-1-dark strong {
+  color: #F16881; }
+.articleIn.color-2-1-dark a {
+  color: #F16881;
+  text-decoration: none; }
+.articleIn.color-2-1-dark a:visited {
+  color: #F16881; }
+.articleIn.color-2-1-dark .articleCloseButton:hover {
   background: #F16881; }
 
 md-grid-tile.color-2-1-dark.ng-enter {
@@ -907,6 +1219,18 @@ md-grid-tile.color-2-1-dark.ng-leave-active {
 .overlay.color-2-2-dark {
   background: #F1509A; }
 
+.articleIn.color-2-2-dark h1, .articleIn.color-2-2-dark h2, .articleIn.color-2-2-dark h3, .articleIn.color-2-2-dark h4, .articleIn.color-2-2-dark h5, .articleIn.color-2-2-dark h6 {
+  color: #F1509A; }
+.articleIn.color-2-2-dark strong {
+  color: #F1509A; }
+.articleIn.color-2-2-dark a {
+  color: #F1509A;
+  text-decoration: none; }
+.articleIn.color-2-2-dark a:visited {
+  color: #F1509A; }
+.articleIn.color-2-2-dark .articleCloseButton:hover {
+  background: #F1509A; }
+
 md-grid-tile.color-2-2-dark.ng-enter {
   transform: translateX(200px);
   opacity: 0; }
@@ -939,6 +1263,18 @@ md-grid-tile.color-2-2-dark.ng-leave-active {
   background: linear-gradient(transparent, #9C775B); }
 
 .overlay.color-2-3-dark {
+  background: #9C775B; }
+
+.articleIn.color-2-3-dark h1, .articleIn.color-2-3-dark h2, .articleIn.color-2-3-dark h3, .articleIn.color-2-3-dark h4, .articleIn.color-2-3-dark h5, .articleIn.color-2-3-dark h6 {
+  color: #9C775B; }
+.articleIn.color-2-3-dark strong {
+  color: #9C775B; }
+.articleIn.color-2-3-dark a {
+  color: #9C775B;
+  text-decoration: none; }
+.articleIn.color-2-3-dark a:visited {
+  color: #9C775B; }
+.articleIn.color-2-3-dark .articleCloseButton:hover {
   background: #9C775B; }
 
 md-grid-tile.color-2-3-dark.ng-enter {
@@ -975,6 +1311,18 @@ md-grid-tile.color-2-3-dark.ng-leave-active {
 .overlay.color-2-4-dark {
   background: #F150EE; }
 
+.articleIn.color-2-4-dark h1, .articleIn.color-2-4-dark h2, .articleIn.color-2-4-dark h3, .articleIn.color-2-4-dark h4, .articleIn.color-2-4-dark h5, .articleIn.color-2-4-dark h6 {
+  color: #F150EE; }
+.articleIn.color-2-4-dark strong {
+  color: #F150EE; }
+.articleIn.color-2-4-dark a {
+  color: #F150EE;
+  text-decoration: none; }
+.articleIn.color-2-4-dark a:visited {
+  color: #F150EE; }
+.articleIn.color-2-4-dark .articleCloseButton:hover {
+  background: #F150EE; }
+
 md-grid-tile.color-2-4-dark.ng-enter {
   transform: translateX(-200px);
   opacity: 0; }
@@ -1007,6 +1355,18 @@ md-grid-tile.color-2-4-dark.ng-leave-active {
   background: linear-gradient(transparent, #2C74BF); }
 
 .overlay.color-2-5-dark {
+  background: #2C74BF; }
+
+.articleIn.color-2-5-dark h1, .articleIn.color-2-5-dark h2, .articleIn.color-2-5-dark h3, .articleIn.color-2-5-dark h4, .articleIn.color-2-5-dark h5, .articleIn.color-2-5-dark h6 {
+  color: #2C74BF; }
+.articleIn.color-2-5-dark strong {
+  color: #2C74BF; }
+.articleIn.color-2-5-dark a {
+  color: #2C74BF;
+  text-decoration: none; }
+.articleIn.color-2-5-dark a:visited {
+  color: #2C74BF; }
+.articleIn.color-2-5-dark .articleCloseButton:hover {
   background: #2C74BF; }
 
 md-grid-tile.color-2-5-dark.ng-enter {
@@ -1043,6 +1403,18 @@ md-grid-tile.color-2-5-dark.ng-leave-active {
 .overlay.color-2-6-dark {
   background: #795548; }
 
+.articleIn.color-2-6-dark h1, .articleIn.color-2-6-dark h2, .articleIn.color-2-6-dark h3, .articleIn.color-2-6-dark h4, .articleIn.color-2-6-dark h5, .articleIn.color-2-6-dark h6 {
+  color: #795548; }
+.articleIn.color-2-6-dark strong {
+  color: #795548; }
+.articleIn.color-2-6-dark a {
+  color: #795548;
+  text-decoration: none; }
+.articleIn.color-2-6-dark a:visited {
+  color: #795548; }
+.articleIn.color-2-6-dark .articleCloseButton:hover {
+  background: #795548; }
+
 md-grid-tile.color-2-6-dark.ng-enter {
   transform: translateX(200px);
   opacity: 0; }
@@ -1075,6 +1447,18 @@ md-grid-tile.color-2-6-dark.ng-leave-active {
   background: linear-gradient(transparent, #F19181); }
 
 .overlay.color-2-7-dark {
+  background: #F19181; }
+
+.articleIn.color-2-7-dark h1, .articleIn.color-2-7-dark h2, .articleIn.color-2-7-dark h3, .articleIn.color-2-7-dark h4, .articleIn.color-2-7-dark h5, .articleIn.color-2-7-dark h6 {
+  color: #F19181; }
+.articleIn.color-2-7-dark strong {
+  color: #F19181; }
+.articleIn.color-2-7-dark a {
+  color: #F19181;
+  text-decoration: none; }
+.articleIn.color-2-7-dark a:visited {
+  color: #F19181; }
+.articleIn.color-2-7-dark .articleCloseButton:hover {
   background: #F19181; }
 
 md-grid-tile.color-2-7-dark.ng-enter {
@@ -1111,6 +1495,18 @@ md-grid-tile.color-2-7-dark.ng-leave-active {
 .overlay.color-2-8-dark {
   background: #F1509A; }
 
+.articleIn.color-2-8-dark h1, .articleIn.color-2-8-dark h2, .articleIn.color-2-8-dark h3, .articleIn.color-2-8-dark h4, .articleIn.color-2-8-dark h5, .articleIn.color-2-8-dark h6 {
+  color: #F1509A; }
+.articleIn.color-2-8-dark strong {
+  color: #F1509A; }
+.articleIn.color-2-8-dark a {
+  color: #F1509A;
+  text-decoration: none; }
+.articleIn.color-2-8-dark a:visited {
+  color: #F1509A; }
+.articleIn.color-2-8-dark .articleCloseButton:hover {
+  background: #F1509A; }
+
 md-grid-tile.color-2-8-dark.ng-enter {
   transform: translateX(-200px);
   opacity: 0; }
@@ -1143,6 +1539,18 @@ md-grid-tile.color-2-8-dark.ng-leave-active {
   background: linear-gradient(transparent, #F150EE); }
 
 .overlay.color-2-9-dark {
+  background: #F150EE; }
+
+.articleIn.color-2-9-dark h1, .articleIn.color-2-9-dark h2, .articleIn.color-2-9-dark h3, .articleIn.color-2-9-dark h4, .articleIn.color-2-9-dark h5, .articleIn.color-2-9-dark h6 {
+  color: #F150EE; }
+.articleIn.color-2-9-dark strong {
+  color: #F150EE; }
+.articleIn.color-2-9-dark a {
+  color: #F150EE;
+  text-decoration: none; }
+.articleIn.color-2-9-dark a:visited {
+  color: #F150EE; }
+.articleIn.color-2-9-dark .articleCloseButton:hover {
   background: #F150EE; }
 
 md-grid-tile.color-2-9-dark.ng-enter {
@@ -1179,6 +1587,18 @@ md-grid-tile.color-2-9-dark.ng-leave-active {
 .overlay.color-2-10-dark {
   background: #0091EA; }
 
+.articleIn.color-2-10-dark h1, .articleIn.color-2-10-dark h2, .articleIn.color-2-10-dark h3, .articleIn.color-2-10-dark h4, .articleIn.color-2-10-dark h5, .articleIn.color-2-10-dark h6 {
+  color: #0091EA; }
+.articleIn.color-2-10-dark strong {
+  color: #0091EA; }
+.articleIn.color-2-10-dark a {
+  color: #0091EA;
+  text-decoration: none; }
+.articleIn.color-2-10-dark a:visited {
+  color: #0091EA; }
+.articleIn.color-2-10-dark .articleCloseButton:hover {
+  background: #0091EA; }
+
 md-grid-tile.color-2-10-dark.ng-enter {
   transform: translateX(200px);
   opacity: 0; }
@@ -1211,6 +1631,18 @@ md-grid-tile.color-2-10-dark.ng-leave-active {
   background: linear-gradient(transparent, #F16881); }
 
 .overlay.color-2-11-dark {
+  background: #F16881; }
+
+.articleIn.color-2-11-dark h1, .articleIn.color-2-11-dark h2, .articleIn.color-2-11-dark h3, .articleIn.color-2-11-dark h4, .articleIn.color-2-11-dark h5, .articleIn.color-2-11-dark h6 {
+  color: #F16881; }
+.articleIn.color-2-11-dark strong {
+  color: #F16881; }
+.articleIn.color-2-11-dark a {
+  color: #F16881;
+  text-decoration: none; }
+.articleIn.color-2-11-dark a:visited {
+  color: #F16881; }
+.articleIn.color-2-11-dark .articleCloseButton:hover {
   background: #F16881; }
 
 md-grid-tile.color-2-11-dark.ng-enter {
@@ -1247,6 +1679,18 @@ md-grid-tile.color-2-11-dark.ng-leave-active {
 .overlay.color-2-12-dark {
   background: #9C775B; }
 
+.articleIn.color-2-12-dark h1, .articleIn.color-2-12-dark h2, .articleIn.color-2-12-dark h3, .articleIn.color-2-12-dark h4, .articleIn.color-2-12-dark h5, .articleIn.color-2-12-dark h6 {
+  color: #9C775B; }
+.articleIn.color-2-12-dark strong {
+  color: #9C775B; }
+.articleIn.color-2-12-dark a {
+  color: #9C775B;
+  text-decoration: none; }
+.articleIn.color-2-12-dark a:visited {
+  color: #9C775B; }
+.articleIn.color-2-12-dark .articleCloseButton:hover {
+  background: #9C775B; }
+
 md-grid-tile.color-2-12-dark.ng-enter {
   transform: translateX(-200px);
   opacity: 0; }
@@ -1280,6 +1724,18 @@ md-grid-tile.color-2-12-dark.ng-leave-active {
 
 .overlay.color-3-1-light {
   background: #D5F8B4; }
+
+.articleIn.color-3-1-light h1, .articleIn.color-3-1-light h2, .articleIn.color-3-1-light h3, .articleIn.color-3-1-light h4, .articleIn.color-3-1-light h5, .articleIn.color-3-1-light h6 {
+  color: #549e0f; }
+.articleIn.color-3-1-light strong {
+  color: #549e0f; }
+.articleIn.color-3-1-light a {
+  color: #549e0f;
+  text-decoration: none; }
+.articleIn.color-3-1-light a:visited {
+  color: #549e0f; }
+.articleIn.color-3-1-light .articleCloseButton:hover {
+  background: #549e0f; }
 
 md-grid-tile.color-3-1-light.ng-enter {
   transform: translateY(200px);
@@ -1315,6 +1771,18 @@ md-grid-tile.color-3-1-light.ng-leave-active {
 .overlay.color-3-2-light {
   background: #88CDB1; }
 
+.articleIn.color-3-2-light h1, .articleIn.color-3-2-light h2, .articleIn.color-3-2-light h3, .articleIn.color-3-2-light h4, .articleIn.color-3-2-light h5, .articleIn.color-3-2-light h6 {
+  color: #193d2e; }
+.articleIn.color-3-2-light strong {
+  color: #193d2e; }
+.articleIn.color-3-2-light a {
+  color: #193d2e;
+  text-decoration: none; }
+.articleIn.color-3-2-light a:visited {
+  color: #193d2e; }
+.articleIn.color-3-2-light .articleCloseButton:hover {
+  background: #193d2e; }
+
 md-grid-tile.color-3-2-light.ng-enter {
   transform: translateX(200px);
   opacity: 0; }
@@ -1348,6 +1816,18 @@ md-grid-tile.color-3-2-light.ng-leave-active {
 
 .overlay.color-3-3-light {
   background: #70E3C6; }
+
+.articleIn.color-3-3-light h1, .articleIn.color-3-3-light h2, .articleIn.color-3-3-light h3, .articleIn.color-3-3-light h4, .articleIn.color-3-3-light h5, .articleIn.color-3-3-light h6 {
+  color: #0e4638; }
+.articleIn.color-3-3-light strong {
+  color: #0e4638; }
+.articleIn.color-3-3-light a {
+  color: #0e4638;
+  text-decoration: none; }
+.articleIn.color-3-3-light a:visited {
+  color: #0e4638; }
+.articleIn.color-3-3-light .articleCloseButton:hover {
+  background: #0e4638; }
 
 md-grid-tile.color-3-3-light.ng-enter {
   transform: translateY(-200px);
@@ -1383,6 +1863,18 @@ md-grid-tile.color-3-3-light.ng-leave-active {
 .overlay.color-3-4-light {
   background: #96F8B4; }
 
+.articleIn.color-3-4-light h1, .articleIn.color-3-4-light h2, .articleIn.color-3-4-light h3, .articleIn.color-3-4-light h4, .articleIn.color-3-4-light h5, .articleIn.color-3-4-light h6 {
+  color: #09862f; }
+.articleIn.color-3-4-light strong {
+  color: #09862f; }
+.articleIn.color-3-4-light a {
+  color: #09862f;
+  text-decoration: none; }
+.articleIn.color-3-4-light a:visited {
+  color: #09862f; }
+.articleIn.color-3-4-light .articleCloseButton:hover {
+  background: #09862f; }
+
 md-grid-tile.color-3-4-light.ng-enter {
   transform: translateX(-200px);
   opacity: 0; }
@@ -1416,6 +1908,18 @@ md-grid-tile.color-3-4-light.ng-leave-active {
 
 .overlay.color-3-5-light {
   background: #3DE3C6; }
+
+.articleIn.color-3-5-light h1, .articleIn.color-3-5-light h2, .articleIn.color-3-5-light h3, .articleIn.color-3-5-light h4, .articleIn.color-3-5-light h5, .articleIn.color-3-5-light h6 {
+  color: #041d19; }
+.articleIn.color-3-5-light strong {
+  color: #041d19; }
+.articleIn.color-3-5-light a {
+  color: #041d19;
+  text-decoration: none; }
+.articleIn.color-3-5-light a:visited {
+  color: #041d19; }
+.articleIn.color-3-5-light .articleCloseButton:hover {
+  background: #041d19; }
 
 md-grid-tile.color-3-5-light.ng-enter {
   transform: translateY(200px);
@@ -1451,6 +1955,18 @@ md-grid-tile.color-3-5-light.ng-leave-active {
 .overlay.color-3-6-light {
   background: #8A9A85; }
 
+.articleIn.color-3-6-light h1, .articleIn.color-3-6-light h2, .articleIn.color-3-6-light h3, .articleIn.color-3-6-light h4, .articleIn.color-3-6-light h5, .articleIn.color-3-6-light h6 {
+  color: #0f120e; }
+.articleIn.color-3-6-light strong {
+  color: #0f120e; }
+.articleIn.color-3-6-light a {
+  color: #0f120e;
+  text-decoration: none; }
+.articleIn.color-3-6-light a:visited {
+  color: #0f120e; }
+.articleIn.color-3-6-light .articleCloseButton:hover {
+  background: #0f120e; }
+
 md-grid-tile.color-3-6-light.ng-enter {
   transform: translateX(200px);
   opacity: 0; }
@@ -1484,6 +2000,18 @@ md-grid-tile.color-3-6-light.ng-leave-active {
 
 .overlay.color-3-7-light {
   background: #96F8B4; }
+
+.articleIn.color-3-7-light h1, .articleIn.color-3-7-light h2, .articleIn.color-3-7-light h3, .articleIn.color-3-7-light h4, .articleIn.color-3-7-light h5, .articleIn.color-3-7-light h6 {
+  color: #09862f; }
+.articleIn.color-3-7-light strong {
+  color: #09862f; }
+.articleIn.color-3-7-light a {
+  color: #09862f;
+  text-decoration: none; }
+.articleIn.color-3-7-light a:visited {
+  color: #09862f; }
+.articleIn.color-3-7-light .articleCloseButton:hover {
+  background: #09862f; }
 
 md-grid-tile.color-3-7-light.ng-enter {
   transform: translateY(-200px);
@@ -1519,6 +2047,18 @@ md-grid-tile.color-3-7-light.ng-leave-active {
 .overlay.color-3-8-light {
   background: #7BAD74; }
 
+.articleIn.color-3-8-light h1, .articleIn.color-3-8-light h2, .articleIn.color-3-8-light h3, .articleIn.color-3-8-light h4, .articleIn.color-3-8-light h5, .articleIn.color-3-8-light h6 {
+  color: #0e150d; }
+.articleIn.color-3-8-light strong {
+  color: #0e150d; }
+.articleIn.color-3-8-light a {
+  color: #0e150d;
+  text-decoration: none; }
+.articleIn.color-3-8-light a:visited {
+  color: #0e150d; }
+.articleIn.color-3-8-light .articleCloseButton:hover {
+  background: #0e150d; }
+
 md-grid-tile.color-3-8-light.ng-enter {
   transform: translateX(-200px);
   opacity: 0; }
@@ -1552,6 +2092,18 @@ md-grid-tile.color-3-8-light.ng-leave-active {
 
 .overlay.color-3-9-light {
   background: #0091EA; }
+
+.articleIn.color-3-9-light h1, .articleIn.color-3-9-light h2, .articleIn.color-3-9-light h3, .articleIn.color-3-9-light h4, .articleIn.color-3-9-light h5, .articleIn.color-3-9-light h6 {
+  color: black; }
+.articleIn.color-3-9-light strong {
+  color: black; }
+.articleIn.color-3-9-light a {
+  color: black;
+  text-decoration: none; }
+.articleIn.color-3-9-light a:visited {
+  color: black; }
+.articleIn.color-3-9-light .articleCloseButton:hover {
+  background: black; }
 
 md-grid-tile.color-3-9-light.ng-enter {
   transform: translateY(200px);
@@ -1587,6 +2139,18 @@ md-grid-tile.color-3-9-light.ng-leave-active {
 .overlay.color-3-10-light {
   background: #3DE3C6; }
 
+.articleIn.color-3-10-light h1, .articleIn.color-3-10-light h2, .articleIn.color-3-10-light h3, .articleIn.color-3-10-light h4, .articleIn.color-3-10-light h5, .articleIn.color-3-10-light h6 {
+  color: #041d19; }
+.articleIn.color-3-10-light strong {
+  color: #041d19; }
+.articleIn.color-3-10-light a {
+  color: #041d19;
+  text-decoration: none; }
+.articleIn.color-3-10-light a:visited {
+  color: #041d19; }
+.articleIn.color-3-10-light .articleCloseButton:hover {
+  background: #041d19; }
+
 md-grid-tile.color-3-10-light.ng-enter {
   transform: translateX(200px);
   opacity: 0; }
@@ -1619,6 +2183,18 @@ md-grid-tile.color-3-10-light.ng-leave-active {
   background: linear-gradient(transparent, #7E566B); }
 
 .overlay.color-3-1-dark {
+  background: #7E566B; }
+
+.articleIn.color-3-1-dark h1, .articleIn.color-3-1-dark h2, .articleIn.color-3-1-dark h3, .articleIn.color-3-1-dark h4, .articleIn.color-3-1-dark h5, .articleIn.color-3-1-dark h6 {
+  color: #7E566B; }
+.articleIn.color-3-1-dark strong {
+  color: #7E566B; }
+.articleIn.color-3-1-dark a {
+  color: #7E566B;
+  text-decoration: none; }
+.articleIn.color-3-1-dark a:visited {
+  color: #7E566B; }
+.articleIn.color-3-1-dark .articleCloseButton:hover {
   background: #7E566B; }
 
 md-grid-tile.color-3-1-dark.ng-enter {
@@ -1655,6 +2231,18 @@ md-grid-tile.color-3-1-dark.ng-leave-active {
 .overlay.color-3-2-dark {
   background: #8A9A85; }
 
+.articleIn.color-3-2-dark h1, .articleIn.color-3-2-dark h2, .articleIn.color-3-2-dark h3, .articleIn.color-3-2-dark h4, .articleIn.color-3-2-dark h5, .articleIn.color-3-2-dark h6 {
+  color: #8A9A85; }
+.articleIn.color-3-2-dark strong {
+  color: #8A9A85; }
+.articleIn.color-3-2-dark a {
+  color: #8A9A85;
+  text-decoration: none; }
+.articleIn.color-3-2-dark a:visited {
+  color: #8A9A85; }
+.articleIn.color-3-2-dark .articleCloseButton:hover {
+  background: #8A9A85; }
+
 md-grid-tile.color-3-2-dark.ng-enter {
   transform: translateX(200px);
   opacity: 0; }
@@ -1687,6 +2275,18 @@ md-grid-tile.color-3-2-dark.ng-leave-active {
   background: linear-gradient(transparent, #422335); }
 
 .overlay.color-3-3-dark {
+  background: #422335; }
+
+.articleIn.color-3-3-dark h1, .articleIn.color-3-3-dark h2, .articleIn.color-3-3-dark h3, .articleIn.color-3-3-dark h4, .articleIn.color-3-3-dark h5, .articleIn.color-3-3-dark h6 {
+  color: #422335; }
+.articleIn.color-3-3-dark strong {
+  color: #422335; }
+.articleIn.color-3-3-dark a {
+  color: #422335;
+  text-decoration: none; }
+.articleIn.color-3-3-dark a:visited {
+  color: #422335; }
+.articleIn.color-3-3-dark .articleCloseButton:hover {
   background: #422335; }
 
 md-grid-tile.color-3-3-dark.ng-enter {
@@ -1723,6 +2323,18 @@ md-grid-tile.color-3-3-dark.ng-leave-active {
 .overlay.color-3-4-dark {
   background: #422335; }
 
+.articleIn.color-3-4-dark h1, .articleIn.color-3-4-dark h2, .articleIn.color-3-4-dark h3, .articleIn.color-3-4-dark h4, .articleIn.color-3-4-dark h5, .articleIn.color-3-4-dark h6 {
+  color: #422335; }
+.articleIn.color-3-4-dark strong {
+  color: #422335; }
+.articleIn.color-3-4-dark a {
+  color: #422335;
+  text-decoration: none; }
+.articleIn.color-3-4-dark a:visited {
+  color: #422335; }
+.articleIn.color-3-4-dark .articleCloseButton:hover {
+  background: #422335; }
+
 md-grid-tile.color-3-4-dark.ng-enter {
   transform: translateX(-200px);
   opacity: 0; }
@@ -1755,6 +2367,18 @@ md-grid-tile.color-3-4-dark.ng-leave-active {
   background: linear-gradient(transparent, #732B4B); }
 
 .overlay.color-3-5-dark {
+  background: #732B4B; }
+
+.articleIn.color-3-5-dark h1, .articleIn.color-3-5-dark h2, .articleIn.color-3-5-dark h3, .articleIn.color-3-5-dark h4, .articleIn.color-3-5-dark h5, .articleIn.color-3-5-dark h6 {
+  color: #732B4B; }
+.articleIn.color-3-5-dark strong {
+  color: #732B4B; }
+.articleIn.color-3-5-dark a {
+  color: #732B4B;
+  text-decoration: none; }
+.articleIn.color-3-5-dark a:visited {
+  color: #732B4B; }
+.articleIn.color-3-5-dark .articleCloseButton:hover {
   background: #732B4B; }
 
 md-grid-tile.color-3-5-dark.ng-enter {
@@ -1791,6 +2415,18 @@ md-grid-tile.color-3-5-dark.ng-leave-active {
 .overlay.color-3-6-dark {
   background: #7BAD74; }
 
+.articleIn.color-3-6-dark h1, .articleIn.color-3-6-dark h2, .articleIn.color-3-6-dark h3, .articleIn.color-3-6-dark h4, .articleIn.color-3-6-dark h5, .articleIn.color-3-6-dark h6 {
+  color: #7BAD74; }
+.articleIn.color-3-6-dark strong {
+  color: #7BAD74; }
+.articleIn.color-3-6-dark a {
+  color: #7BAD74;
+  text-decoration: none; }
+.articleIn.color-3-6-dark a:visited {
+  color: #7BAD74; }
+.articleIn.color-3-6-dark .articleCloseButton:hover {
+  background: #7BAD74; }
+
 md-grid-tile.color-3-6-dark.ng-enter {
   transform: translateX(200px);
   opacity: 0; }
@@ -1823,6 +2459,18 @@ md-grid-tile.color-3-6-dark.ng-leave-active {
   background: linear-gradient(transparent, #972B89); }
 
 .overlay.color-3-7-dark {
+  background: #972B89; }
+
+.articleIn.color-3-7-dark h1, .articleIn.color-3-7-dark h2, .articleIn.color-3-7-dark h3, .articleIn.color-3-7-dark h4, .articleIn.color-3-7-dark h5, .articleIn.color-3-7-dark h6 {
+  color: #972B89; }
+.articleIn.color-3-7-dark strong {
+  color: #972B89; }
+.articleIn.color-3-7-dark a {
+  color: #972B89;
+  text-decoration: none; }
+.articleIn.color-3-7-dark a:visited {
+  color: #972B89; }
+.articleIn.color-3-7-dark .articleCloseButton:hover {
   background: #972B89; }
 
 md-grid-tile.color-3-7-dark.ng-enter {
@@ -1859,6 +2507,18 @@ md-grid-tile.color-3-7-dark.ng-leave-active {
 .overlay.color-3-8-dark {
   background: #0091EA; }
 
+.articleIn.color-3-8-dark h1, .articleIn.color-3-8-dark h2, .articleIn.color-3-8-dark h3, .articleIn.color-3-8-dark h4, .articleIn.color-3-8-dark h5, .articleIn.color-3-8-dark h6 {
+  color: #0091EA; }
+.articleIn.color-3-8-dark strong {
+  color: #0091EA; }
+.articleIn.color-3-8-dark a {
+  color: #0091EA;
+  text-decoration: none; }
+.articleIn.color-3-8-dark a:visited {
+  color: #0091EA; }
+.articleIn.color-3-8-dark .articleCloseButton:hover {
+  background: #0091EA; }
+
 md-grid-tile.color-3-8-dark.ng-enter {
   transform: translateX(-200px);
   opacity: 0; }
@@ -1891,6 +2551,18 @@ md-grid-tile.color-3-8-dark.ng-leave-active {
   background: linear-gradient(transparent, #DC456B); }
 
 .overlay.color-3-9-dark {
+  background: #DC456B; }
+
+.articleIn.color-3-9-dark h1, .articleIn.color-3-9-dark h2, .articleIn.color-3-9-dark h3, .articleIn.color-3-9-dark h4, .articleIn.color-3-9-dark h5, .articleIn.color-3-9-dark h6 {
+  color: #DC456B; }
+.articleIn.color-3-9-dark strong {
+  color: #DC456B; }
+.articleIn.color-3-9-dark a {
+  color: #DC456B;
+  text-decoration: none; }
+.articleIn.color-3-9-dark a:visited {
+  color: #DC456B; }
+.articleIn.color-3-9-dark .articleCloseButton:hover {
   background: #DC456B; }
 
 md-grid-tile.color-3-9-dark.ng-enter {
@@ -1927,6 +2599,18 @@ md-grid-tile.color-3-9-dark.ng-leave-active {
 .overlay.color-3-10-dark {
   background: #732B4B; }
 
+.articleIn.color-3-10-dark h1, .articleIn.color-3-10-dark h2, .articleIn.color-3-10-dark h3, .articleIn.color-3-10-dark h4, .articleIn.color-3-10-dark h5, .articleIn.color-3-10-dark h6 {
+  color: #732B4B; }
+.articleIn.color-3-10-dark strong {
+  color: #732B4B; }
+.articleIn.color-3-10-dark a {
+  color: #732B4B;
+  text-decoration: none; }
+.articleIn.color-3-10-dark a:visited {
+  color: #732B4B; }
+.articleIn.color-3-10-dark .articleCloseButton:hover {
+  background: #732B4B; }
+
 md-grid-tile.color-3-10-dark.ng-enter {
   transform: translateX(200px);
   opacity: 0; }
@@ -1959,6 +2643,18 @@ md-grid-tile.color-3-10-dark.ng-leave-active {
   background: linear-gradient(transparent, #972B89); }
 
 .overlay.color-3-11-dark {
+  background: #972B89; }
+
+.articleIn.color-3-11-dark h1, .articleIn.color-3-11-dark h2, .articleIn.color-3-11-dark h3, .articleIn.color-3-11-dark h4, .articleIn.color-3-11-dark h5, .articleIn.color-3-11-dark h6 {
+  color: #972B89; }
+.articleIn.color-3-11-dark strong {
+  color: #972B89; }
+.articleIn.color-3-11-dark a {
+  color: #972B89;
+  text-decoration: none; }
+.articleIn.color-3-11-dark a:visited {
+  color: #972B89; }
+.articleIn.color-3-11-dark .articleCloseButton:hover {
   background: #972B89; }
 
 md-grid-tile.color-3-11-dark.ng-enter {
@@ -1995,6 +2691,18 @@ md-grid-tile.color-3-11-dark.ng-leave-active {
 .overlay.color-4-1-light {
   background: #A1D700; }
 
+.articleIn.color-4-1-light h1, .articleIn.color-4-1-light h2, .articleIn.color-4-1-light h3, .articleIn.color-4-1-light h4, .articleIn.color-4-1-light h5, .articleIn.color-4-1-light h6 {
+  color: black; }
+.articleIn.color-4-1-light strong {
+  color: black; }
+.articleIn.color-4-1-light a {
+  color: black;
+  text-decoration: none; }
+.articleIn.color-4-1-light a:visited {
+  color: black; }
+.articleIn.color-4-1-light .articleCloseButton:hover {
+  background: black; }
+
 md-grid-tile.color-4-1-light.ng-enter {
   transform: translateY(200px);
   opacity: 0; }
@@ -2028,6 +2736,18 @@ md-grid-tile.color-4-1-light.ng-leave-active {
 
 .overlay.color-4-2-light {
   background: #769D23; }
+
+.articleIn.color-4-2-light h1, .articleIn.color-4-2-light h2, .articleIn.color-4-2-light h3, .articleIn.color-4-2-light h4, .articleIn.color-4-2-light h5, .articleIn.color-4-2-light h6 {
+  color: black; }
+.articleIn.color-4-2-light strong {
+  color: black; }
+.articleIn.color-4-2-light a {
+  color: black;
+  text-decoration: none; }
+.articleIn.color-4-2-light a:visited {
+  color: black; }
+.articleIn.color-4-2-light .articleCloseButton:hover {
+  background: black; }
 
 md-grid-tile.color-4-2-light.ng-enter {
   transform: translateX(200px);
@@ -2063,6 +2783,18 @@ md-grid-tile.color-4-2-light.ng-leave-active {
 .overlay.color-4-3-light {
   background: #0091EA; }
 
+.articleIn.color-4-3-light h1, .articleIn.color-4-3-light h2, .articleIn.color-4-3-light h3, .articleIn.color-4-3-light h4, .articleIn.color-4-3-light h5, .articleIn.color-4-3-light h6 {
+  color: black; }
+.articleIn.color-4-3-light strong {
+  color: black; }
+.articleIn.color-4-3-light a {
+  color: black;
+  text-decoration: none; }
+.articleIn.color-4-3-light a:visited {
+  color: black; }
+.articleIn.color-4-3-light .articleCloseButton:hover {
+  background: black; }
+
 md-grid-tile.color-4-3-light.ng-enter {
   transform: translateY(-200px);
   opacity: 0; }
@@ -2096,6 +2828,18 @@ md-grid-tile.color-4-3-light.ng-leave-active {
 
 .overlay.color-4-4-light {
   background: #86AF23; }
+
+.articleIn.color-4-4-light h1, .articleIn.color-4-4-light h2, .articleIn.color-4-4-light h3, .articleIn.color-4-4-light h4, .articleIn.color-4-4-light h5, .articleIn.color-4-4-light h6 {
+  color: black; }
+.articleIn.color-4-4-light strong {
+  color: black; }
+.articleIn.color-4-4-light a {
+  color: black;
+  text-decoration: none; }
+.articleIn.color-4-4-light a:visited {
+  color: black; }
+.articleIn.color-4-4-light .articleCloseButton:hover {
+  background: black; }
 
 md-grid-tile.color-4-4-light.ng-enter {
   transform: translateX(-200px);
@@ -2131,6 +2875,18 @@ md-grid-tile.color-4-4-light.ng-leave-active {
 .overlay.color-4-5-light {
   background: #4F9300; }
 
+.articleIn.color-4-5-light h1, .articleIn.color-4-5-light h2, .articleIn.color-4-5-light h3, .articleIn.color-4-5-light h4, .articleIn.color-4-5-light h5, .articleIn.color-4-5-light h6 {
+  color: black; }
+.articleIn.color-4-5-light strong {
+  color: black; }
+.articleIn.color-4-5-light a {
+  color: black;
+  text-decoration: none; }
+.articleIn.color-4-5-light a:visited {
+  color: black; }
+.articleIn.color-4-5-light .articleCloseButton:hover {
+  background: black; }
+
 md-grid-tile.color-4-5-light.ng-enter {
   transform: translateY(200px);
   opacity: 0; }
@@ -2164,6 +2920,18 @@ md-grid-tile.color-4-5-light.ng-leave-active {
 
 .overlay.color-4-6-light {
   background: #A1D700; }
+
+.articleIn.color-4-6-light h1, .articleIn.color-4-6-light h2, .articleIn.color-4-6-light h3, .articleIn.color-4-6-light h4, .articleIn.color-4-6-light h5, .articleIn.color-4-6-light h6 {
+  color: black; }
+.articleIn.color-4-6-light strong {
+  color: black; }
+.articleIn.color-4-6-light a {
+  color: black;
+  text-decoration: none; }
+.articleIn.color-4-6-light a:visited {
+  color: black; }
+.articleIn.color-4-6-light .articleCloseButton:hover {
+  background: black; }
 
 md-grid-tile.color-4-6-light.ng-enter {
   transform: translateX(200px);
@@ -2199,6 +2967,18 @@ md-grid-tile.color-4-6-light.ng-leave-active {
 .overlay.color-4-7-light {
   background: #769D23; }
 
+.articleIn.color-4-7-light h1, .articleIn.color-4-7-light h2, .articleIn.color-4-7-light h3, .articleIn.color-4-7-light h4, .articleIn.color-4-7-light h5, .articleIn.color-4-7-light h6 {
+  color: black; }
+.articleIn.color-4-7-light strong {
+  color: black; }
+.articleIn.color-4-7-light a {
+  color: black;
+  text-decoration: none; }
+.articleIn.color-4-7-light a:visited {
+  color: black; }
+.articleIn.color-4-7-light .articleCloseButton:hover {
+  background: black; }
+
 md-grid-tile.color-4-7-light.ng-enter {
   transform: translateY(-200px);
   opacity: 0; }
@@ -2231,6 +3011,18 @@ md-grid-tile.color-4-7-light.ng-leave-active {
   background: linear-gradient(transparent, #0D1C33); }
 
 .overlay.color-4-1-dark {
+  background: #0D1C33; }
+
+.articleIn.color-4-1-dark h1, .articleIn.color-4-1-dark h2, .articleIn.color-4-1-dark h3, .articleIn.color-4-1-dark h4, .articleIn.color-4-1-dark h5, .articleIn.color-4-1-dark h6 {
+  color: #0D1C33; }
+.articleIn.color-4-1-dark strong {
+  color: #0D1C33; }
+.articleIn.color-4-1-dark a {
+  color: #0D1C33;
+  text-decoration: none; }
+.articleIn.color-4-1-dark a:visited {
+  color: #0D1C33; }
+.articleIn.color-4-1-dark .articleCloseButton:hover {
   background: #0D1C33; }
 
 md-grid-tile.color-4-1-dark.ng-enter {
@@ -2267,6 +3059,18 @@ md-grid-tile.color-4-1-dark.ng-leave-active {
 .overlay.color-4-2-dark {
   background: #17373C; }
 
+.articleIn.color-4-2-dark h1, .articleIn.color-4-2-dark h2, .articleIn.color-4-2-dark h3, .articleIn.color-4-2-dark h4, .articleIn.color-4-2-dark h5, .articleIn.color-4-2-dark h6 {
+  color: #17373C; }
+.articleIn.color-4-2-dark strong {
+  color: #17373C; }
+.articleIn.color-4-2-dark a {
+  color: #17373C;
+  text-decoration: none; }
+.articleIn.color-4-2-dark a:visited {
+  color: #17373C; }
+.articleIn.color-4-2-dark .articleCloseButton:hover {
+  background: #17373C; }
+
 md-grid-tile.color-4-2-dark.ng-enter {
   transform: translateX(200px);
   opacity: 0; }
@@ -2299,6 +3103,18 @@ md-grid-tile.color-4-2-dark.ng-leave-active {
   background: linear-gradient(transparent, #2B6832); }
 
 .overlay.color-4-3-dark {
+  background: #2B6832; }
+
+.articleIn.color-4-3-dark h1, .articleIn.color-4-3-dark h2, .articleIn.color-4-3-dark h3, .articleIn.color-4-3-dark h4, .articleIn.color-4-3-dark h5, .articleIn.color-4-3-dark h6 {
+  color: #2B6832; }
+.articleIn.color-4-3-dark strong {
+  color: #2B6832; }
+.articleIn.color-4-3-dark a {
+  color: #2B6832;
+  text-decoration: none; }
+.articleIn.color-4-3-dark a:visited {
+  color: #2B6832; }
+.articleIn.color-4-3-dark .articleCloseButton:hover {
   background: #2B6832; }
 
 md-grid-tile.color-4-3-dark.ng-enter {
@@ -2335,6 +3151,18 @@ md-grid-tile.color-4-3-dark.ng-leave-active {
 .overlay.color-4-4-dark {
   background: #4F9300; }
 
+.articleIn.color-4-4-dark h1, .articleIn.color-4-4-dark h2, .articleIn.color-4-4-dark h3, .articleIn.color-4-4-dark h4, .articleIn.color-4-4-dark h5, .articleIn.color-4-4-dark h6 {
+  color: #4F9300; }
+.articleIn.color-4-4-dark strong {
+  color: #4F9300; }
+.articleIn.color-4-4-dark a {
+  color: #4F9300;
+  text-decoration: none; }
+.articleIn.color-4-4-dark a:visited {
+  color: #4F9300; }
+.articleIn.color-4-4-dark .articleCloseButton:hover {
+  background: #4F9300; }
+
 md-grid-tile.color-4-4-dark.ng-enter {
   transform: translateX(-200px);
   opacity: 0; }
@@ -2367,6 +3195,18 @@ md-grid-tile.color-4-4-dark.ng-leave-active {
   background: linear-gradient(transparent, #11205C); }
 
 .overlay.color-4-5-dark {
+  background: #11205C; }
+
+.articleIn.color-4-5-dark h1, .articleIn.color-4-5-dark h2, .articleIn.color-4-5-dark h3, .articleIn.color-4-5-dark h4, .articleIn.color-4-5-dark h5, .articleIn.color-4-5-dark h6 {
+  color: #11205C; }
+.articleIn.color-4-5-dark strong {
+  color: #11205C; }
+.articleIn.color-4-5-dark a {
+  color: #11205C;
+  text-decoration: none; }
+.articleIn.color-4-5-dark a:visited {
+  color: #11205C; }
+.articleIn.color-4-5-dark .articleCloseButton:hover {
   background: #11205C; }
 
 md-grid-tile.color-4-5-dark.ng-enter {
@@ -2403,6 +3243,18 @@ md-grid-tile.color-4-5-dark.ng-leave-active {
 .overlay.color-4-6-dark {
   background: #2B7D32; }
 
+.articleIn.color-4-6-dark h1, .articleIn.color-4-6-dark h2, .articleIn.color-4-6-dark h3, .articleIn.color-4-6-dark h4, .articleIn.color-4-6-dark h5, .articleIn.color-4-6-dark h6 {
+  color: #2B7D32; }
+.articleIn.color-4-6-dark strong {
+  color: #2B7D32; }
+.articleIn.color-4-6-dark a {
+  color: #2B7D32;
+  text-decoration: none; }
+.articleIn.color-4-6-dark a:visited {
+  color: #2B7D32; }
+.articleIn.color-4-6-dark .articleCloseButton:hover {
+  background: #2B7D32; }
+
 md-grid-tile.color-4-6-dark.ng-enter {
   transform: translateX(200px);
   opacity: 0; }
@@ -2435,6 +3287,18 @@ md-grid-tile.color-4-6-dark.ng-leave-active {
   background: linear-gradient(transparent, #036708); }
 
 .overlay.color-4-7-dark {
+  background: #036708; }
+
+.articleIn.color-4-7-dark h1, .articleIn.color-4-7-dark h2, .articleIn.color-4-7-dark h3, .articleIn.color-4-7-dark h4, .articleIn.color-4-7-dark h5, .articleIn.color-4-7-dark h6 {
+  color: #036708; }
+.articleIn.color-4-7-dark strong {
+  color: #036708; }
+.articleIn.color-4-7-dark a {
+  color: #036708;
+  text-decoration: none; }
+.articleIn.color-4-7-dark a:visited {
+  color: #036708; }
+.articleIn.color-4-7-dark .articleCloseButton:hover {
   background: #036708; }
 
 md-grid-tile.color-4-7-dark.ng-enter {
@@ -2471,6 +3335,18 @@ md-grid-tile.color-4-7-dark.ng-leave-active {
 .overlay.color-4-8-dark {
   background: #20472C; }
 
+.articleIn.color-4-8-dark h1, .articleIn.color-4-8-dark h2, .articleIn.color-4-8-dark h3, .articleIn.color-4-8-dark h4, .articleIn.color-4-8-dark h5, .articleIn.color-4-8-dark h6 {
+  color: #20472C; }
+.articleIn.color-4-8-dark strong {
+  color: #20472C; }
+.articleIn.color-4-8-dark a {
+  color: #20472C;
+  text-decoration: none; }
+.articleIn.color-4-8-dark a:visited {
+  color: #20472C; }
+.articleIn.color-4-8-dark .articleCloseButton:hover {
+  background: #20472C; }
+
 md-grid-tile.color-4-8-dark.ng-enter {
   transform: translateX(-200px);
   opacity: 0; }
@@ -2503,6 +3379,18 @@ md-grid-tile.color-4-8-dark.ng-leave-active {
   background: linear-gradient(transparent, #11205C); }
 
 .overlay.color-4-9-dark {
+  background: #11205C; }
+
+.articleIn.color-4-9-dark h1, .articleIn.color-4-9-dark h2, .articleIn.color-4-9-dark h3, .articleIn.color-4-9-dark h4, .articleIn.color-4-9-dark h5, .articleIn.color-4-9-dark h6 {
+  color: #11205C; }
+.articleIn.color-4-9-dark strong {
+  color: #11205C; }
+.articleIn.color-4-9-dark a {
+  color: #11205C;
+  text-decoration: none; }
+.articleIn.color-4-9-dark a:visited {
+  color: #11205C; }
+.articleIn.color-4-9-dark .articleCloseButton:hover {
   background: #11205C; }
 
 md-grid-tile.color-4-9-dark.ng-enter {
@@ -2539,6 +3427,18 @@ md-grid-tile.color-4-9-dark.ng-leave-active {
 .overlay.color-4-10-dark {
   background: #0D1C33; }
 
+.articleIn.color-4-10-dark h1, .articleIn.color-4-10-dark h2, .articleIn.color-4-10-dark h3, .articleIn.color-4-10-dark h4, .articleIn.color-4-10-dark h5, .articleIn.color-4-10-dark h6 {
+  color: #0D1C33; }
+.articleIn.color-4-10-dark strong {
+  color: #0D1C33; }
+.articleIn.color-4-10-dark a {
+  color: #0D1C33;
+  text-decoration: none; }
+.articleIn.color-4-10-dark a:visited {
+  color: #0D1C33; }
+.articleIn.color-4-10-dark .articleCloseButton:hover {
+  background: #0D1C33; }
+
 md-grid-tile.color-4-10-dark.ng-enter {
   transform: translateX(200px);
   opacity: 0; }
@@ -2571,6 +3471,18 @@ md-grid-tile.color-4-10-dark.ng-leave-active {
   background: linear-gradient(transparent, #17373C); }
 
 .overlay.color-4-11-dark {
+  background: #17373C; }
+
+.articleIn.color-4-11-dark h1, .articleIn.color-4-11-dark h2, .articleIn.color-4-11-dark h3, .articleIn.color-4-11-dark h4, .articleIn.color-4-11-dark h5, .articleIn.color-4-11-dark h6 {
+  color: #17373C; }
+.articleIn.color-4-11-dark strong {
+  color: #17373C; }
+.articleIn.color-4-11-dark a {
+  color: #17373C;
+  text-decoration: none; }
+.articleIn.color-4-11-dark a:visited {
+  color: #17373C; }
+.articleIn.color-4-11-dark .articleCloseButton:hover {
   background: #17373C; }
 
 md-grid-tile.color-4-11-dark.ng-enter {
@@ -2607,6 +3519,18 @@ md-grid-tile.color-4-11-dark.ng-leave-active {
 .overlay.color-4-12-dark {
   background: #2B6832; }
 
+.articleIn.color-4-12-dark h1, .articleIn.color-4-12-dark h2, .articleIn.color-4-12-dark h3, .articleIn.color-4-12-dark h4, .articleIn.color-4-12-dark h5, .articleIn.color-4-12-dark h6 {
+  color: #2B6832; }
+.articleIn.color-4-12-dark strong {
+  color: #2B6832; }
+.articleIn.color-4-12-dark a {
+  color: #2B6832;
+  text-decoration: none; }
+.articleIn.color-4-12-dark a:visited {
+  color: #2B6832; }
+.articleIn.color-4-12-dark .articleCloseButton:hover {
+  background: #2B6832; }
+
 md-grid-tile.color-4-12-dark.ng-enter {
   transform: translateX(-200px);
   opacity: 0; }
@@ -2640,6 +3564,18 @@ md-grid-tile.color-4-12-dark.ng-leave-active {
 
 .overlay.color-5-1-light {
   background: #FF1744; }
+
+.articleIn.color-5-1-light h1, .articleIn.color-5-1-light h2, .articleIn.color-5-1-light h3, .articleIn.color-5-1-light h4, .articleIn.color-5-1-light h5, .articleIn.color-5-1-light h6 {
+  color: #170004; }
+.articleIn.color-5-1-light strong {
+  color: #170004; }
+.articleIn.color-5-1-light a {
+  color: #170004;
+  text-decoration: none; }
+.articleIn.color-5-1-light a:visited {
+  color: #170004; }
+.articleIn.color-5-1-light .articleCloseButton:hover {
+  background: #170004; }
 
 md-grid-tile.color-5-1-light.ng-enter {
   transform: translateY(200px);
@@ -2675,6 +3611,18 @@ md-grid-tile.color-5-1-light.ng-leave-active {
 .overlay.color-5-2-light {
   background: #304FFE; }
 
+.articleIn.color-5-2-light h1, .articleIn.color-5-2-light h2, .articleIn.color-5-2-light h3, .articleIn.color-5-2-light h4, .articleIn.color-5-2-light h5, .articleIn.color-5-2-light h6 {
+  color: #00072f; }
+.articleIn.color-5-2-light strong {
+  color: #00072f; }
+.articleIn.color-5-2-light a {
+  color: #00072f;
+  text-decoration: none; }
+.articleIn.color-5-2-light a:visited {
+  color: #00072f; }
+.articleIn.color-5-2-light .articleCloseButton:hover {
+  background: #00072f; }
+
 md-grid-tile.color-5-2-light.ng-enter {
   transform: translateX(200px);
   opacity: 0; }
@@ -2708,6 +3656,18 @@ md-grid-tile.color-5-2-light.ng-leave-active {
 
 .overlay.color-5-3-light {
   background: #FFF553; }
+
+.articleIn.color-5-3-light h1, .articleIn.color-5-3-light h2, .articleIn.color-5-3-light h3, .articleIn.color-5-3-light h4, .articleIn.color-5-3-light h5, .articleIn.color-5-3-light h6 {
+  color: #534e00; }
+.articleIn.color-5-3-light strong {
+  color: #534e00; }
+.articleIn.color-5-3-light a {
+  color: #534e00;
+  text-decoration: none; }
+.articleIn.color-5-3-light a:visited {
+  color: #534e00; }
+.articleIn.color-5-3-light .articleCloseButton:hover {
+  background: #534e00; }
 
 md-grid-tile.color-5-3-light.ng-enter {
   transform: translateY(-200px);
@@ -2743,6 +3703,18 @@ md-grid-tile.color-5-3-light.ng-leave-active {
 .overlay.color-5-4-light {
   background: #129E3A; }
 
+.articleIn.color-5-4-light h1, .articleIn.color-5-4-light h2, .articleIn.color-5-4-light h3, .articleIn.color-5-4-light h4, .articleIn.color-5-4-light h5, .articleIn.color-5-4-light h6 {
+  color: black; }
+.articleIn.color-5-4-light strong {
+  color: black; }
+.articleIn.color-5-4-light a {
+  color: black;
+  text-decoration: none; }
+.articleIn.color-5-4-light a:visited {
+  color: black; }
+.articleIn.color-5-4-light .articleCloseButton:hover {
+  background: black; }
+
 md-grid-tile.color-5-4-light.ng-enter {
   transform: translateX(-200px);
   opacity: 0; }
@@ -2776,6 +3748,18 @@ md-grid-tile.color-5-4-light.ng-leave-active {
 
 .overlay.color-5-5-light {
   background: #FF80AB; }
+
+.articleIn.color-5-5-light h1, .articleIn.color-5-5-light h2, .articleIn.color-5-5-light h3, .articleIn.color-5-5-light h4, .articleIn.color-5-5-light h5, .articleIn.color-5-5-light h6 {
+  color: #80002b; }
+.articleIn.color-5-5-light strong {
+  color: #80002b; }
+.articleIn.color-5-5-light a {
+  color: #80002b;
+  text-decoration: none; }
+.articleIn.color-5-5-light a:visited {
+  color: #80002b; }
+.articleIn.color-5-5-light .articleCloseButton:hover {
+  background: #80002b; }
 
 md-grid-tile.color-5-5-light.ng-enter {
   transform: translateY(200px);
@@ -2811,6 +3795,18 @@ md-grid-tile.color-5-5-light.ng-leave-active {
 .overlay.color-5-6-light {
   background: #64B5F6; }
 
+.articleIn.color-5-6-light h1, .articleIn.color-5-6-light h2, .articleIn.color-5-6-light h3, .articleIn.color-5-6-light h4, .articleIn.color-5-6-light h5, .articleIn.color-5-6-light h6 {
+  color: #053256; }
+.articleIn.color-5-6-light strong {
+  color: #053256; }
+.articleIn.color-5-6-light a {
+  color: #053256;
+  text-decoration: none; }
+.articleIn.color-5-6-light a:visited {
+  color: #053256; }
+.articleIn.color-5-6-light .articleCloseButton:hover {
+  background: #053256; }
+
 md-grid-tile.color-5-6-light.ng-enter {
   transform: translateX(200px);
   opacity: 0; }
@@ -2844,6 +3840,18 @@ md-grid-tile.color-5-6-light.ng-leave-active {
 
 .overlay.color-5-7-light {
   background: #FF3D00; }
+
+.articleIn.color-5-7-light h1, .articleIn.color-5-7-light h2, .articleIn.color-5-7-light h3, .articleIn.color-5-7-light h4, .articleIn.color-5-7-light h5, .articleIn.color-5-7-light h6 {
+  color: black; }
+.articleIn.color-5-7-light strong {
+  color: black; }
+.articleIn.color-5-7-light a {
+  color: black;
+  text-decoration: none; }
+.articleIn.color-5-7-light a:visited {
+  color: black; }
+.articleIn.color-5-7-light .articleCloseButton:hover {
+  background: black; }
 
 md-grid-tile.color-5-7-light.ng-enter {
   transform: translateY(-200px);
@@ -2879,6 +3887,18 @@ md-grid-tile.color-5-7-light.ng-leave-active {
 .overlay.color-5-8-light {
   background: #FF6F00; }
 
+.articleIn.color-5-8-light h1, .articleIn.color-5-8-light h2, .articleIn.color-5-8-light h3, .articleIn.color-5-8-light h4, .articleIn.color-5-8-light h5, .articleIn.color-5-8-light h6 {
+  color: black; }
+.articleIn.color-5-8-light strong {
+  color: black; }
+.articleIn.color-5-8-light a {
+  color: black;
+  text-decoration: none; }
+.articleIn.color-5-8-light a:visited {
+  color: black; }
+.articleIn.color-5-8-light .articleCloseButton:hover {
+  background: black; }
+
 md-grid-tile.color-5-8-light.ng-enter {
   transform: translateX(-200px);
   opacity: 0; }
@@ -2912,6 +3932,18 @@ md-grid-tile.color-5-8-light.ng-leave-active {
 
 .overlay.color-5-9-light {
   background: #036708; }
+
+.articleIn.color-5-9-light h1, .articleIn.color-5-9-light h2, .articleIn.color-5-9-light h3, .articleIn.color-5-9-light h4, .articleIn.color-5-9-light h5, .articleIn.color-5-9-light h6 {
+  color: black; }
+.articleIn.color-5-9-light strong {
+  color: black; }
+.articleIn.color-5-9-light a {
+  color: black;
+  text-decoration: none; }
+.articleIn.color-5-9-light a:visited {
+  color: black; }
+.articleIn.color-5-9-light .articleCloseButton:hover {
+  background: black; }
 
 md-grid-tile.color-5-9-light.ng-enter {
   transform: translateY(200px);
@@ -2947,6 +3979,18 @@ md-grid-tile.color-5-9-light.ng-leave-active {
 .overlay.color-5-10-light {
   background: #795548; }
 
+.articleIn.color-5-10-light h1, .articleIn.color-5-10-light h2, .articleIn.color-5-10-light h3, .articleIn.color-5-10-light h4, .articleIn.color-5-10-light h5, .articleIn.color-5-10-light h6 {
+  color: black; }
+.articleIn.color-5-10-light strong {
+  color: black; }
+.articleIn.color-5-10-light a {
+  color: black;
+  text-decoration: none; }
+.articleIn.color-5-10-light a:visited {
+  color: black; }
+.articleIn.color-5-10-light .articleCloseButton:hover {
+  background: black; }
+
 md-grid-tile.color-5-10-light.ng-enter {
   transform: translateX(200px);
   opacity: 0; }
@@ -2980,6 +4024,18 @@ md-grid-tile.color-5-10-light.ng-leave-active {
 
 .overlay.color-5-11-light {
   background: #0091EA; }
+
+.articleIn.color-5-11-light h1, .articleIn.color-5-11-light h2, .articleIn.color-5-11-light h3, .articleIn.color-5-11-light h4, .articleIn.color-5-11-light h5, .articleIn.color-5-11-light h6 {
+  color: black; }
+.articleIn.color-5-11-light strong {
+  color: black; }
+.articleIn.color-5-11-light a {
+  color: black;
+  text-decoration: none; }
+.articleIn.color-5-11-light a:visited {
+  color: black; }
+.articleIn.color-5-11-light .articleCloseButton:hover {
+  background: black; }
 
 md-grid-tile.color-5-11-light.ng-enter {
   transform: translateY(-200px);
@@ -3015,6 +4071,18 @@ md-grid-tile.color-5-11-light.ng-leave-active {
 .overlay.color-5-12-light {
   background: #FF9800; }
 
+.articleIn.color-5-12-light h1, .articleIn.color-5-12-light h2, .articleIn.color-5-12-light h3, .articleIn.color-5-12-light h4, .articleIn.color-5-12-light h5, .articleIn.color-5-12-light h6 {
+  color: black; }
+.articleIn.color-5-12-light strong {
+  color: black; }
+.articleIn.color-5-12-light a {
+  color: black;
+  text-decoration: none; }
+.articleIn.color-5-12-light a:visited {
+  color: black; }
+.articleIn.color-5-12-light .articleCloseButton:hover {
+  background: black; }
+
 md-grid-tile.color-5-12-light.ng-enter {
   transform: translateX(-200px);
   opacity: 0; }
@@ -3048,6 +4116,18 @@ md-grid-tile.color-5-12-light.ng-leave-active {
 
 .overlay.color-5-13-light {
   background: #9C27B0; }
+
+.articleIn.color-5-13-light h1, .articleIn.color-5-13-light h2, .articleIn.color-5-13-light h3, .articleIn.color-5-13-light h4, .articleIn.color-5-13-light h5, .articleIn.color-5-13-light h6 {
+  color: black; }
+.articleIn.color-5-13-light strong {
+  color: black; }
+.articleIn.color-5-13-light a {
+  color: black;
+  text-decoration: none; }
+.articleIn.color-5-13-light a:visited {
+  color: black; }
+.articleIn.color-5-13-light .articleCloseButton:hover {
+  background: black; }
 
 md-grid-tile.color-5-13-light.ng-enter {
   transform: translateY(200px);
@@ -3083,6 +4163,18 @@ md-grid-tile.color-5-13-light.ng-leave-active {
 .overlay.color-5-14-light {
   background: #B71C1C; }
 
+.articleIn.color-5-14-light h1, .articleIn.color-5-14-light h2, .articleIn.color-5-14-light h3, .articleIn.color-5-14-light h4, .articleIn.color-5-14-light h5, .articleIn.color-5-14-light h6 {
+  color: black; }
+.articleIn.color-5-14-light strong {
+  color: black; }
+.articleIn.color-5-14-light a {
+  color: black;
+  text-decoration: none; }
+.articleIn.color-5-14-light a:visited {
+  color: black; }
+.articleIn.color-5-14-light .articleCloseButton:hover {
+  background: black; }
+
 md-grid-tile.color-5-14-light.ng-enter {
   transform: translateX(200px);
   opacity: 0; }
@@ -3116,6 +4208,18 @@ md-grid-tile.color-5-14-light.ng-leave-active {
 
 .overlay.color-5-15-light {
   background: #304FFE; }
+
+.articleIn.color-5-15-light h1, .articleIn.color-5-15-light h2, .articleIn.color-5-15-light h3, .articleIn.color-5-15-light h4, .articleIn.color-5-15-light h5, .articleIn.color-5-15-light h6 {
+  color: #00072f; }
+.articleIn.color-5-15-light strong {
+  color: #00072f; }
+.articleIn.color-5-15-light a {
+  color: #00072f;
+  text-decoration: none; }
+.articleIn.color-5-15-light a:visited {
+  color: #00072f; }
+.articleIn.color-5-15-light .articleCloseButton:hover {
+  background: #00072f; }
 
 md-grid-tile.color-5-15-light.ng-enter {
   transform: translateY(-200px);
@@ -3151,6 +4255,18 @@ md-grid-tile.color-5-15-light.ng-leave-active {
 .overlay.color-5-16-light {
   background: #F4FF81; }
 
+.articleIn.color-5-16-light h1, .articleIn.color-5-16-light h2, .articleIn.color-5-16-light h3, .articleIn.color-5-16-light h4, .articleIn.color-5-16-light h5, .articleIn.color-5-16-light h6 {
+  color: #768100; }
+.articleIn.color-5-16-light strong {
+  color: #768100; }
+.articleIn.color-5-16-light a {
+  color: #768100;
+  text-decoration: none; }
+.articleIn.color-5-16-light a:visited {
+  color: #768100; }
+.articleIn.color-5-16-light .articleCloseButton:hover {
+  background: #768100; }
+
 md-grid-tile.color-5-16-light.ng-enter {
   transform: translateX(-200px);
   opacity: 0; }
@@ -3184,6 +4300,18 @@ md-grid-tile.color-5-16-light.ng-leave-active {
 
 .overlay.color-5-17-light {
   background: #E65100; }
+
+.articleIn.color-5-17-light h1, .articleIn.color-5-17-light h2, .articleIn.color-5-17-light h3, .articleIn.color-5-17-light h4, .articleIn.color-5-17-light h5, .articleIn.color-5-17-light h6 {
+  color: black; }
+.articleIn.color-5-17-light strong {
+  color: black; }
+.articleIn.color-5-17-light a {
+  color: black;
+  text-decoration: none; }
+.articleIn.color-5-17-light a:visited {
+  color: black; }
+.articleIn.color-5-17-light .articleCloseButton:hover {
+  background: black; }
 
 md-grid-tile.color-5-17-light.ng-enter {
   transform: translateY(200px);
@@ -3219,6 +4347,18 @@ md-grid-tile.color-5-17-light.ng-leave-active {
 .overlay.color-5-18-light {
   background: #E91E63; }
 
+.articleIn.color-5-18-light h1, .articleIn.color-5-18-light h2, .articleIn.color-5-18-light h3, .articleIn.color-5-18-light h4, .articleIn.color-5-18-light h5, .articleIn.color-5-18-light h6 {
+  color: #070103; }
+.articleIn.color-5-18-light strong {
+  color: #070103; }
+.articleIn.color-5-18-light a {
+  color: #070103;
+  text-decoration: none; }
+.articleIn.color-5-18-light a:visited {
+  color: #070103; }
+.articleIn.color-5-18-light .articleCloseButton:hover {
+  background: #070103; }
+
 md-grid-tile.color-5-18-light.ng-enter {
   transform: translateX(200px);
   opacity: 0; }
@@ -3252,6 +4392,18 @@ md-grid-tile.color-5-18-light.ng-leave-active {
 
 .overlay.color-5-19-light {
   background: #FF1744; }
+
+.articleIn.color-5-19-light h1, .articleIn.color-5-19-light h2, .articleIn.color-5-19-light h3, .articleIn.color-5-19-light h4, .articleIn.color-5-19-light h5, .articleIn.color-5-19-light h6 {
+  color: #170004; }
+.articleIn.color-5-19-light strong {
+  color: #170004; }
+.articleIn.color-5-19-light a {
+  color: #170004;
+  text-decoration: none; }
+.articleIn.color-5-19-light a:visited {
+  color: #170004; }
+.articleIn.color-5-19-light .articleCloseButton:hover {
+  background: #170004; }
 
 md-grid-tile.color-5-19-light.ng-enter {
   transform: translateY(-200px);
@@ -3287,6 +4439,18 @@ md-grid-tile.color-5-19-light.ng-leave-active {
 .overlay.color-5-20-light {
   background: #03A9F4; }
 
+.articleIn.color-5-20-light h1, .articleIn.color-5-20-light h2, .articleIn.color-5-20-light h3, .articleIn.color-5-20-light h4, .articleIn.color-5-20-light h5, .articleIn.color-5-20-light h6 {
+  color: black; }
+.articleIn.color-5-20-light strong {
+  color: black; }
+.articleIn.color-5-20-light a {
+  color: black;
+  text-decoration: none; }
+.articleIn.color-5-20-light a:visited {
+  color: black; }
+.articleIn.color-5-20-light .articleCloseButton:hover {
+  background: black; }
+
 md-grid-tile.color-5-20-light.ng-enter {
   transform: translateX(-200px);
   opacity: 0; }
@@ -3320,6 +4484,18 @@ md-grid-tile.color-5-20-light.ng-leave-active {
 
 .overlay.color-5-21-light {
   background: #FFEB3B; }
+
+.articleIn.color-5-21-light h1, .articleIn.color-5-21-light h2, .articleIn.color-5-21-light h3, .articleIn.color-5-21-light h4, .articleIn.color-5-21-light h5, .articleIn.color-5-21-light h6 {
+  color: #3b3500; }
+.articleIn.color-5-21-light strong {
+  color: #3b3500; }
+.articleIn.color-5-21-light a {
+  color: #3b3500;
+  text-decoration: none; }
+.articleIn.color-5-21-light a:visited {
+  color: #3b3500; }
+.articleIn.color-5-21-light .articleCloseButton:hover {
+  background: #3b3500; }
 
 md-grid-tile.color-5-21-light.ng-enter {
   transform: translateY(200px);
@@ -3355,6 +4531,18 @@ md-grid-tile.color-5-21-light.ng-leave-active {
 .overlay.color-5-22-light {
   background: #607D8B; }
 
+.articleIn.color-5-22-light h1, .articleIn.color-5-22-light h2, .articleIn.color-5-22-light h3, .articleIn.color-5-22-light h4, .articleIn.color-5-22-light h5, .articleIn.color-5-22-light h6 {
+  color: black; }
+.articleIn.color-5-22-light strong {
+  color: black; }
+.articleIn.color-5-22-light a {
+  color: black;
+  text-decoration: none; }
+.articleIn.color-5-22-light a:visited {
+  color: black; }
+.articleIn.color-5-22-light .articleCloseButton:hover {
+  background: black; }
+
 md-grid-tile.color-5-22-light.ng-enter {
   transform: translateX(200px);
   opacity: 0; }
@@ -3388,6 +4576,18 @@ md-grid-tile.color-5-22-light.ng-leave-active {
 
 .overlay.color-5-23-light {
   background: #5D4037; }
+
+.articleIn.color-5-23-light h1, .articleIn.color-5-23-light h2, .articleIn.color-5-23-light h3, .articleIn.color-5-23-light h4, .articleIn.color-5-23-light h5, .articleIn.color-5-23-light h6 {
+  color: black; }
+.articleIn.color-5-23-light strong {
+  color: black; }
+.articleIn.color-5-23-light a {
+  color: black;
+  text-decoration: none; }
+.articleIn.color-5-23-light a:visited {
+  color: black; }
+.articleIn.color-5-23-light .articleCloseButton:hover {
+  background: black; }
 
 md-grid-tile.color-5-23-light.ng-enter {
   transform: translateY(-200px);
@@ -3423,6 +4623,18 @@ md-grid-tile.color-5-23-light.ng-leave-active {
 .overlay.color-5-24-light {
   background: #00B0FF; }
 
+.articleIn.color-5-24-light h1, .articleIn.color-5-24-light h2, .articleIn.color-5-24-light h3, .articleIn.color-5-24-light h4, .articleIn.color-5-24-light h5, .articleIn.color-5-24-light h6 {
+  color: black; }
+.articleIn.color-5-24-light strong {
+  color: black; }
+.articleIn.color-5-24-light a {
+  color: black;
+  text-decoration: none; }
+.articleIn.color-5-24-light a:visited {
+  color: black; }
+.articleIn.color-5-24-light .articleCloseButton:hover {
+  background: black; }
+
 md-grid-tile.color-5-24-light.ng-enter {
   transform: translateX(-200px);
   opacity: 0; }
@@ -3456,6 +4668,18 @@ md-grid-tile.color-5-24-light.ng-leave-active {
 
 .overlay.color-5-25-light {
   background: #00838F; }
+
+.articleIn.color-5-25-light h1, .articleIn.color-5-25-light h2, .articleIn.color-5-25-light h3, .articleIn.color-5-25-light h4, .articleIn.color-5-25-light h5, .articleIn.color-5-25-light h6 {
+  color: black; }
+.articleIn.color-5-25-light strong {
+  color: black; }
+.articleIn.color-5-25-light a {
+  color: black;
+  text-decoration: none; }
+.articleIn.color-5-25-light a:visited {
+  color: black; }
+.articleIn.color-5-25-light .articleCloseButton:hover {
+  background: black; }
 
 md-grid-tile.color-5-25-light.ng-enter {
   transform: translateY(200px);
@@ -3491,6 +4715,18 @@ md-grid-tile.color-5-25-light.ng-leave-active {
 .overlay.color-5-26-light {
   background: #9E9D24; }
 
+.articleIn.color-5-26-light h1, .articleIn.color-5-26-light h2, .articleIn.color-5-26-light h3, .articleIn.color-5-26-light h4, .articleIn.color-5-26-light h5, .articleIn.color-5-26-light h6 {
+  color: black; }
+.articleIn.color-5-26-light strong {
+  color: black; }
+.articleIn.color-5-26-light a {
+  color: black;
+  text-decoration: none; }
+.articleIn.color-5-26-light a:visited {
+  color: black; }
+.articleIn.color-5-26-light .articleCloseButton:hover {
+  background: black; }
+
 md-grid-tile.color-5-26-light.ng-enter {
   transform: translateX(200px);
   opacity: 0; }
@@ -3525,6 +4761,18 @@ md-grid-tile.color-5-26-light.ng-leave-active {
 .overlay.color-5-27-light {
   background: #558B2F; }
 
+.articleIn.color-5-27-light h1, .articleIn.color-5-27-light h2, .articleIn.color-5-27-light h3, .articleIn.color-5-27-light h4, .articleIn.color-5-27-light h5, .articleIn.color-5-27-light h6 {
+  color: black; }
+.articleIn.color-5-27-light strong {
+  color: black; }
+.articleIn.color-5-27-light a {
+  color: black;
+  text-decoration: none; }
+.articleIn.color-5-27-light a:visited {
+  color: black; }
+.articleIn.color-5-27-light .articleCloseButton:hover {
+  background: black; }
+
 md-grid-tile.color-5-27-light.ng-enter {
   transform: translateY(-200px);
   opacity: 0; }
@@ -3557,6 +4805,18 @@ md-grid-tile.color-5-27-light.ng-leave-active {
   background: linear-gradient(transparent, #FF1744); }
 
 .overlay.color-5-1-dark {
+  background: #FF1744; }
+
+.articleIn.color-5-1-dark h1, .articleIn.color-5-1-dark h2, .articleIn.color-5-1-dark h3, .articleIn.color-5-1-dark h4, .articleIn.color-5-1-dark h5, .articleIn.color-5-1-dark h6 {
+  color: #FF1744; }
+.articleIn.color-5-1-dark strong {
+  color: #FF1744; }
+.articleIn.color-5-1-dark a {
+  color: #FF1744;
+  text-decoration: none; }
+.articleIn.color-5-1-dark a:visited {
+  color: #FF1744; }
+.articleIn.color-5-1-dark .articleCloseButton:hover {
   background: #FF1744; }
 
 md-grid-tile.color-5-1-dark.ng-enter {
@@ -3593,6 +4853,18 @@ md-grid-tile.color-5-1-dark.ng-leave-active {
 .overlay.color-5-2-dark {
   background: #304FFE; }
 
+.articleIn.color-5-2-dark h1, .articleIn.color-5-2-dark h2, .articleIn.color-5-2-dark h3, .articleIn.color-5-2-dark h4, .articleIn.color-5-2-dark h5, .articleIn.color-5-2-dark h6 {
+  color: #304FFE; }
+.articleIn.color-5-2-dark strong {
+  color: #304FFE; }
+.articleIn.color-5-2-dark a {
+  color: #304FFE;
+  text-decoration: none; }
+.articleIn.color-5-2-dark a:visited {
+  color: #304FFE; }
+.articleIn.color-5-2-dark .articleCloseButton:hover {
+  background: #304FFE; }
+
 md-grid-tile.color-5-2-dark.ng-enter {
   transform: translateX(200px);
   opacity: 0; }
@@ -3625,6 +4897,18 @@ md-grid-tile.color-5-2-dark.ng-leave-active {
   background: linear-gradient(transparent, #FFF553); }
 
 .overlay.color-5-3-dark {
+  background: #FFF553; }
+
+.articleIn.color-5-3-dark h1, .articleIn.color-5-3-dark h2, .articleIn.color-5-3-dark h3, .articleIn.color-5-3-dark h4, .articleIn.color-5-3-dark h5, .articleIn.color-5-3-dark h6 {
+  color: #FFF553; }
+.articleIn.color-5-3-dark strong {
+  color: #FFF553; }
+.articleIn.color-5-3-dark a {
+  color: #FFF553;
+  text-decoration: none; }
+.articleIn.color-5-3-dark a:visited {
+  color: #FFF553; }
+.articleIn.color-5-3-dark .articleCloseButton:hover {
   background: #FFF553; }
 
 md-grid-tile.color-5-3-dark.ng-enter {
@@ -3661,6 +4945,18 @@ md-grid-tile.color-5-3-dark.ng-leave-active {
 .overlay.color-5-4-dark {
   background: #129E3A; }
 
+.articleIn.color-5-4-dark h1, .articleIn.color-5-4-dark h2, .articleIn.color-5-4-dark h3, .articleIn.color-5-4-dark h4, .articleIn.color-5-4-dark h5, .articleIn.color-5-4-dark h6 {
+  color: #129E3A; }
+.articleIn.color-5-4-dark strong {
+  color: #129E3A; }
+.articleIn.color-5-4-dark a {
+  color: #129E3A;
+  text-decoration: none; }
+.articleIn.color-5-4-dark a:visited {
+  color: #129E3A; }
+.articleIn.color-5-4-dark .articleCloseButton:hover {
+  background: #129E3A; }
+
 md-grid-tile.color-5-4-dark.ng-enter {
   transform: translateX(-200px);
   opacity: 0; }
@@ -3693,6 +4989,18 @@ md-grid-tile.color-5-4-dark.ng-leave-active {
   background: linear-gradient(transparent, #FF80AB); }
 
 .overlay.color-5-5-dark {
+  background: #FF80AB; }
+
+.articleIn.color-5-5-dark h1, .articleIn.color-5-5-dark h2, .articleIn.color-5-5-dark h3, .articleIn.color-5-5-dark h4, .articleIn.color-5-5-dark h5, .articleIn.color-5-5-dark h6 {
+  color: #FF80AB; }
+.articleIn.color-5-5-dark strong {
+  color: #FF80AB; }
+.articleIn.color-5-5-dark a {
+  color: #FF80AB;
+  text-decoration: none; }
+.articleIn.color-5-5-dark a:visited {
+  color: #FF80AB; }
+.articleIn.color-5-5-dark .articleCloseButton:hover {
   background: #FF80AB; }
 
 md-grid-tile.color-5-5-dark.ng-enter {
@@ -3729,6 +5037,18 @@ md-grid-tile.color-5-5-dark.ng-leave-active {
 .overlay.color-5-6-dark {
   background: #64B5F6; }
 
+.articleIn.color-5-6-dark h1, .articleIn.color-5-6-dark h2, .articleIn.color-5-6-dark h3, .articleIn.color-5-6-dark h4, .articleIn.color-5-6-dark h5, .articleIn.color-5-6-dark h6 {
+  color: #64B5F6; }
+.articleIn.color-5-6-dark strong {
+  color: #64B5F6; }
+.articleIn.color-5-6-dark a {
+  color: #64B5F6;
+  text-decoration: none; }
+.articleIn.color-5-6-dark a:visited {
+  color: #64B5F6; }
+.articleIn.color-5-6-dark .articleCloseButton:hover {
+  background: #64B5F6; }
+
 md-grid-tile.color-5-6-dark.ng-enter {
   transform: translateX(200px);
   opacity: 0; }
@@ -3761,6 +5081,18 @@ md-grid-tile.color-5-6-dark.ng-leave-active {
   background: linear-gradient(transparent, #FF3D00); }
 
 .overlay.color-5-7-dark {
+  background: #FF3D00; }
+
+.articleIn.color-5-7-dark h1, .articleIn.color-5-7-dark h2, .articleIn.color-5-7-dark h3, .articleIn.color-5-7-dark h4, .articleIn.color-5-7-dark h5, .articleIn.color-5-7-dark h6 {
+  color: #FF3D00; }
+.articleIn.color-5-7-dark strong {
+  color: #FF3D00; }
+.articleIn.color-5-7-dark a {
+  color: #FF3D00;
+  text-decoration: none; }
+.articleIn.color-5-7-dark a:visited {
+  color: #FF3D00; }
+.articleIn.color-5-7-dark .articleCloseButton:hover {
   background: #FF3D00; }
 
 md-grid-tile.color-5-7-dark.ng-enter {
@@ -3797,6 +5129,18 @@ md-grid-tile.color-5-7-dark.ng-leave-active {
 .overlay.color-5-8-dark {
   background: #FF6F00; }
 
+.articleIn.color-5-8-dark h1, .articleIn.color-5-8-dark h2, .articleIn.color-5-8-dark h3, .articleIn.color-5-8-dark h4, .articleIn.color-5-8-dark h5, .articleIn.color-5-8-dark h6 {
+  color: #FF6F00; }
+.articleIn.color-5-8-dark strong {
+  color: #FF6F00; }
+.articleIn.color-5-8-dark a {
+  color: #FF6F00;
+  text-decoration: none; }
+.articleIn.color-5-8-dark a:visited {
+  color: #FF6F00; }
+.articleIn.color-5-8-dark .articleCloseButton:hover {
+  background: #FF6F00; }
+
 md-grid-tile.color-5-8-dark.ng-enter {
   transform: translateX(-200px);
   opacity: 0; }
@@ -3829,6 +5173,18 @@ md-grid-tile.color-5-8-dark.ng-leave-active {
   background: linear-gradient(transparent, #036708); }
 
 .overlay.color-5-9-dark {
+  background: #036708; }
+
+.articleIn.color-5-9-dark h1, .articleIn.color-5-9-dark h2, .articleIn.color-5-9-dark h3, .articleIn.color-5-9-dark h4, .articleIn.color-5-9-dark h5, .articleIn.color-5-9-dark h6 {
+  color: #036708; }
+.articleIn.color-5-9-dark strong {
+  color: #036708; }
+.articleIn.color-5-9-dark a {
+  color: #036708;
+  text-decoration: none; }
+.articleIn.color-5-9-dark a:visited {
+  color: #036708; }
+.articleIn.color-5-9-dark .articleCloseButton:hover {
   background: #036708; }
 
 md-grid-tile.color-5-9-dark.ng-enter {
@@ -3865,6 +5221,18 @@ md-grid-tile.color-5-9-dark.ng-leave-active {
 .overlay.color-5-10-dark {
   background: #795548; }
 
+.articleIn.color-5-10-dark h1, .articleIn.color-5-10-dark h2, .articleIn.color-5-10-dark h3, .articleIn.color-5-10-dark h4, .articleIn.color-5-10-dark h5, .articleIn.color-5-10-dark h6 {
+  color: #795548; }
+.articleIn.color-5-10-dark strong {
+  color: #795548; }
+.articleIn.color-5-10-dark a {
+  color: #795548;
+  text-decoration: none; }
+.articleIn.color-5-10-dark a:visited {
+  color: #795548; }
+.articleIn.color-5-10-dark .articleCloseButton:hover {
+  background: #795548; }
+
 md-grid-tile.color-5-10-dark.ng-enter {
   transform: translateX(200px);
   opacity: 0; }
@@ -3897,6 +5265,18 @@ md-grid-tile.color-5-10-dark.ng-leave-active {
   background: linear-gradient(transparent, #0091EA); }
 
 .overlay.color-5-11-dark {
+  background: #0091EA; }
+
+.articleIn.color-5-11-dark h1, .articleIn.color-5-11-dark h2, .articleIn.color-5-11-dark h3, .articleIn.color-5-11-dark h4, .articleIn.color-5-11-dark h5, .articleIn.color-5-11-dark h6 {
+  color: #0091EA; }
+.articleIn.color-5-11-dark strong {
+  color: #0091EA; }
+.articleIn.color-5-11-dark a {
+  color: #0091EA;
+  text-decoration: none; }
+.articleIn.color-5-11-dark a:visited {
+  color: #0091EA; }
+.articleIn.color-5-11-dark .articleCloseButton:hover {
   background: #0091EA; }
 
 md-grid-tile.color-5-11-dark.ng-enter {
@@ -3933,6 +5313,18 @@ md-grid-tile.color-5-11-dark.ng-leave-active {
 .overlay.color-5-12-dark {
   background: #FF9800; }
 
+.articleIn.color-5-12-dark h1, .articleIn.color-5-12-dark h2, .articleIn.color-5-12-dark h3, .articleIn.color-5-12-dark h4, .articleIn.color-5-12-dark h5, .articleIn.color-5-12-dark h6 {
+  color: #FF9800; }
+.articleIn.color-5-12-dark strong {
+  color: #FF9800; }
+.articleIn.color-5-12-dark a {
+  color: #FF9800;
+  text-decoration: none; }
+.articleIn.color-5-12-dark a:visited {
+  color: #FF9800; }
+.articleIn.color-5-12-dark .articleCloseButton:hover {
+  background: #FF9800; }
+
 md-grid-tile.color-5-12-dark.ng-enter {
   transform: translateX(-200px);
   opacity: 0; }
@@ -3965,6 +5357,18 @@ md-grid-tile.color-5-12-dark.ng-leave-active {
   background: linear-gradient(transparent, #9C27B0); }
 
 .overlay.color-5-13-dark {
+  background: #9C27B0; }
+
+.articleIn.color-5-13-dark h1, .articleIn.color-5-13-dark h2, .articleIn.color-5-13-dark h3, .articleIn.color-5-13-dark h4, .articleIn.color-5-13-dark h5, .articleIn.color-5-13-dark h6 {
+  color: #9C27B0; }
+.articleIn.color-5-13-dark strong {
+  color: #9C27B0; }
+.articleIn.color-5-13-dark a {
+  color: #9C27B0;
+  text-decoration: none; }
+.articleIn.color-5-13-dark a:visited {
+  color: #9C27B0; }
+.articleIn.color-5-13-dark .articleCloseButton:hover {
   background: #9C27B0; }
 
 md-grid-tile.color-5-13-dark.ng-enter {
@@ -4001,6 +5405,18 @@ md-grid-tile.color-5-13-dark.ng-leave-active {
 .overlay.color-5-14-dark {
   background: #B71C1C; }
 
+.articleIn.color-5-14-dark h1, .articleIn.color-5-14-dark h2, .articleIn.color-5-14-dark h3, .articleIn.color-5-14-dark h4, .articleIn.color-5-14-dark h5, .articleIn.color-5-14-dark h6 {
+  color: #B71C1C; }
+.articleIn.color-5-14-dark strong {
+  color: #B71C1C; }
+.articleIn.color-5-14-dark a {
+  color: #B71C1C;
+  text-decoration: none; }
+.articleIn.color-5-14-dark a:visited {
+  color: #B71C1C; }
+.articleIn.color-5-14-dark .articleCloseButton:hover {
+  background: #B71C1C; }
+
 md-grid-tile.color-5-14-dark.ng-enter {
   transform: translateX(200px);
   opacity: 0; }
@@ -4033,6 +5449,18 @@ md-grid-tile.color-5-14-dark.ng-leave-active {
   background: linear-gradient(transparent, #304FFE); }
 
 .overlay.color-5-15-dark {
+  background: #304FFE; }
+
+.articleIn.color-5-15-dark h1, .articleIn.color-5-15-dark h2, .articleIn.color-5-15-dark h3, .articleIn.color-5-15-dark h4, .articleIn.color-5-15-dark h5, .articleIn.color-5-15-dark h6 {
+  color: #304FFE; }
+.articleIn.color-5-15-dark strong {
+  color: #304FFE; }
+.articleIn.color-5-15-dark a {
+  color: #304FFE;
+  text-decoration: none; }
+.articleIn.color-5-15-dark a:visited {
+  color: #304FFE; }
+.articleIn.color-5-15-dark .articleCloseButton:hover {
   background: #304FFE; }
 
 md-grid-tile.color-5-15-dark.ng-enter {
@@ -4069,6 +5497,18 @@ md-grid-tile.color-5-15-dark.ng-leave-active {
 .overlay.color-5-16-dark {
   background: #F4FF81; }
 
+.articleIn.color-5-16-dark h1, .articleIn.color-5-16-dark h2, .articleIn.color-5-16-dark h3, .articleIn.color-5-16-dark h4, .articleIn.color-5-16-dark h5, .articleIn.color-5-16-dark h6 {
+  color: #F4FF81; }
+.articleIn.color-5-16-dark strong {
+  color: #F4FF81; }
+.articleIn.color-5-16-dark a {
+  color: #F4FF81;
+  text-decoration: none; }
+.articleIn.color-5-16-dark a:visited {
+  color: #F4FF81; }
+.articleIn.color-5-16-dark .articleCloseButton:hover {
+  background: #F4FF81; }
+
 md-grid-tile.color-5-16-dark.ng-enter {
   transform: translateX(-200px);
   opacity: 0; }
@@ -4101,6 +5541,18 @@ md-grid-tile.color-5-16-dark.ng-leave-active {
   background: linear-gradient(transparent, #E65100); }
 
 .overlay.color-5-17-dark {
+  background: #E65100; }
+
+.articleIn.color-5-17-dark h1, .articleIn.color-5-17-dark h2, .articleIn.color-5-17-dark h3, .articleIn.color-5-17-dark h4, .articleIn.color-5-17-dark h5, .articleIn.color-5-17-dark h6 {
+  color: #E65100; }
+.articleIn.color-5-17-dark strong {
+  color: #E65100; }
+.articleIn.color-5-17-dark a {
+  color: #E65100;
+  text-decoration: none; }
+.articleIn.color-5-17-dark a:visited {
+  color: #E65100; }
+.articleIn.color-5-17-dark .articleCloseButton:hover {
   background: #E65100; }
 
 md-grid-tile.color-5-17-dark.ng-enter {
@@ -4137,6 +5589,18 @@ md-grid-tile.color-5-17-dark.ng-leave-active {
 .overlay.color-5-18-dark {
   background: #E91E63; }
 
+.articleIn.color-5-18-dark h1, .articleIn.color-5-18-dark h2, .articleIn.color-5-18-dark h3, .articleIn.color-5-18-dark h4, .articleIn.color-5-18-dark h5, .articleIn.color-5-18-dark h6 {
+  color: #E91E63; }
+.articleIn.color-5-18-dark strong {
+  color: #E91E63; }
+.articleIn.color-5-18-dark a {
+  color: #E91E63;
+  text-decoration: none; }
+.articleIn.color-5-18-dark a:visited {
+  color: #E91E63; }
+.articleIn.color-5-18-dark .articleCloseButton:hover {
+  background: #E91E63; }
+
 md-grid-tile.color-5-18-dark.ng-enter {
   transform: translateX(200px);
   opacity: 0; }
@@ -4169,6 +5633,18 @@ md-grid-tile.color-5-18-dark.ng-leave-active {
   background: linear-gradient(transparent, #FF1744); }
 
 .overlay.color-5-19-dark {
+  background: #FF1744; }
+
+.articleIn.color-5-19-dark h1, .articleIn.color-5-19-dark h2, .articleIn.color-5-19-dark h3, .articleIn.color-5-19-dark h4, .articleIn.color-5-19-dark h5, .articleIn.color-5-19-dark h6 {
+  color: #FF1744; }
+.articleIn.color-5-19-dark strong {
+  color: #FF1744; }
+.articleIn.color-5-19-dark a {
+  color: #FF1744;
+  text-decoration: none; }
+.articleIn.color-5-19-dark a:visited {
+  color: #FF1744; }
+.articleIn.color-5-19-dark .articleCloseButton:hover {
   background: #FF1744; }
 
 md-grid-tile.color-5-19-dark.ng-enter {
@@ -4205,6 +5681,18 @@ md-grid-tile.color-5-19-dark.ng-leave-active {
 .overlay.color-5-20-dark {
   background: #03A9F4; }
 
+.articleIn.color-5-20-dark h1, .articleIn.color-5-20-dark h2, .articleIn.color-5-20-dark h3, .articleIn.color-5-20-dark h4, .articleIn.color-5-20-dark h5, .articleIn.color-5-20-dark h6 {
+  color: #03A9F4; }
+.articleIn.color-5-20-dark strong {
+  color: #03A9F4; }
+.articleIn.color-5-20-dark a {
+  color: #03A9F4;
+  text-decoration: none; }
+.articleIn.color-5-20-dark a:visited {
+  color: #03A9F4; }
+.articleIn.color-5-20-dark .articleCloseButton:hover {
+  background: #03A9F4; }
+
 md-grid-tile.color-5-20-dark.ng-enter {
   transform: translateX(-200px);
   opacity: 0; }
@@ -4237,6 +5725,18 @@ md-grid-tile.color-5-20-dark.ng-leave-active {
   background: linear-gradient(transparent, #FFEB3B); }
 
 .overlay.color-5-21-dark {
+  background: #FFEB3B; }
+
+.articleIn.color-5-21-dark h1, .articleIn.color-5-21-dark h2, .articleIn.color-5-21-dark h3, .articleIn.color-5-21-dark h4, .articleIn.color-5-21-dark h5, .articleIn.color-5-21-dark h6 {
+  color: #FFEB3B; }
+.articleIn.color-5-21-dark strong {
+  color: #FFEB3B; }
+.articleIn.color-5-21-dark a {
+  color: #FFEB3B;
+  text-decoration: none; }
+.articleIn.color-5-21-dark a:visited {
+  color: #FFEB3B; }
+.articleIn.color-5-21-dark .articleCloseButton:hover {
   background: #FFEB3B; }
 
 md-grid-tile.color-5-21-dark.ng-enter {
@@ -4273,6 +5773,18 @@ md-grid-tile.color-5-21-dark.ng-leave-active {
 .overlay.color-5-22-dark {
   background: #607D8B; }
 
+.articleIn.color-5-22-dark h1, .articleIn.color-5-22-dark h2, .articleIn.color-5-22-dark h3, .articleIn.color-5-22-dark h4, .articleIn.color-5-22-dark h5, .articleIn.color-5-22-dark h6 {
+  color: #607D8B; }
+.articleIn.color-5-22-dark strong {
+  color: #607D8B; }
+.articleIn.color-5-22-dark a {
+  color: #607D8B;
+  text-decoration: none; }
+.articleIn.color-5-22-dark a:visited {
+  color: #607D8B; }
+.articleIn.color-5-22-dark .articleCloseButton:hover {
+  background: #607D8B; }
+
 md-grid-tile.color-5-22-dark.ng-enter {
   transform: translateX(200px);
   opacity: 0; }
@@ -4305,6 +5817,18 @@ md-grid-tile.color-5-22-dark.ng-leave-active {
   background: linear-gradient(transparent, #5D4037); }
 
 .overlay.color-5-23-dark {
+  background: #5D4037; }
+
+.articleIn.color-5-23-dark h1, .articleIn.color-5-23-dark h2, .articleIn.color-5-23-dark h3, .articleIn.color-5-23-dark h4, .articleIn.color-5-23-dark h5, .articleIn.color-5-23-dark h6 {
+  color: #5D4037; }
+.articleIn.color-5-23-dark strong {
+  color: #5D4037; }
+.articleIn.color-5-23-dark a {
+  color: #5D4037;
+  text-decoration: none; }
+.articleIn.color-5-23-dark a:visited {
+  color: #5D4037; }
+.articleIn.color-5-23-dark .articleCloseButton:hover {
   background: #5D4037; }
 
 md-grid-tile.color-5-23-dark.ng-enter {
@@ -4341,6 +5865,18 @@ md-grid-tile.color-5-23-dark.ng-leave-active {
 .overlay.color-5-24-dark {
   background: #00B0FF; }
 
+.articleIn.color-5-24-dark h1, .articleIn.color-5-24-dark h2, .articleIn.color-5-24-dark h3, .articleIn.color-5-24-dark h4, .articleIn.color-5-24-dark h5, .articleIn.color-5-24-dark h6 {
+  color: #00B0FF; }
+.articleIn.color-5-24-dark strong {
+  color: #00B0FF; }
+.articleIn.color-5-24-dark a {
+  color: #00B0FF;
+  text-decoration: none; }
+.articleIn.color-5-24-dark a:visited {
+  color: #00B0FF; }
+.articleIn.color-5-24-dark .articleCloseButton:hover {
+  background: #00B0FF; }
+
 md-grid-tile.color-5-24-dark.ng-enter {
   transform: translateX(-200px);
   opacity: 0; }
@@ -4373,6 +5909,18 @@ md-grid-tile.color-5-24-dark.ng-leave-active {
   background: linear-gradient(transparent, #00838F); }
 
 .overlay.color-5-25-dark {
+  background: #00838F; }
+
+.articleIn.color-5-25-dark h1, .articleIn.color-5-25-dark h2, .articleIn.color-5-25-dark h3, .articleIn.color-5-25-dark h4, .articleIn.color-5-25-dark h5, .articleIn.color-5-25-dark h6 {
+  color: #00838F; }
+.articleIn.color-5-25-dark strong {
+  color: #00838F; }
+.articleIn.color-5-25-dark a {
+  color: #00838F;
+  text-decoration: none; }
+.articleIn.color-5-25-dark a:visited {
+  color: #00838F; }
+.articleIn.color-5-25-dark .articleCloseButton:hover {
   background: #00838F; }
 
 md-grid-tile.color-5-25-dark.ng-enter {
@@ -4409,6 +5957,18 @@ md-grid-tile.color-5-25-dark.ng-leave-active {
 .overlay.color-5-26-dark {
   background: #9E9D24; }
 
+.articleIn.color-5-26-dark h1, .articleIn.color-5-26-dark h2, .articleIn.color-5-26-dark h3, .articleIn.color-5-26-dark h4, .articleIn.color-5-26-dark h5, .articleIn.color-5-26-dark h6 {
+  color: #9E9D24; }
+.articleIn.color-5-26-dark strong {
+  color: #9E9D24; }
+.articleIn.color-5-26-dark a {
+  color: #9E9D24;
+  text-decoration: none; }
+.articleIn.color-5-26-dark a:visited {
+  color: #9E9D24; }
+.articleIn.color-5-26-dark .articleCloseButton:hover {
+  background: #9E9D24; }
+
 md-grid-tile.color-5-26-dark.ng-enter {
   transform: translateX(200px);
   opacity: 0; }
@@ -4441,6 +6001,18 @@ md-grid-tile.color-5-26-dark.ng-leave-active {
   background: linear-gradient(transparent, #558B2F); }
 
 .overlay.color-5-27-dark {
+  background: #558B2F; }
+
+.articleIn.color-5-27-dark h1, .articleIn.color-5-27-dark h2, .articleIn.color-5-27-dark h3, .articleIn.color-5-27-dark h4, .articleIn.color-5-27-dark h5, .articleIn.color-5-27-dark h6 {
+  color: #558B2F; }
+.articleIn.color-5-27-dark strong {
+  color: #558B2F; }
+.articleIn.color-5-27-dark a {
+  color: #558B2F;
+  text-decoration: none; }
+.articleIn.color-5-27-dark a:visited {
+  color: #558B2F; }
+.articleIn.color-5-27-dark .articleCloseButton:hover {
   background: #558B2F; }
 
 md-grid-tile.color-5-27-dark.ng-enter {

@@ -1,6 +1,9 @@
 <div class="header clearfix">
   <div class="logo">
-    <img src="img/logo.svg">  
+    <a href="localhost:3000">
+      <img src="img/logo.svg">    
+    </a>
+    
   </div>
   
   <div class="searchBar" searchbar>
@@ -46,6 +49,7 @@
   </div>
   <div class="sliderContainer">
     <div class="numberInput">
+      <h3>Number of results:</h3>
       <span>Less</span>
       <md-slider-container>
         <md-slider flex min="7" max="27" ng-model="tileNum" aria-label="number of tiles">
@@ -56,7 +60,13 @@
   </div>
 </div>
 
+<div ng-class="{'nextContainer':true,'color-{{colorSet}}':true}" ng-click="next()">
+  <img src="img/next.svg" alt="next">
+</div>
 
+<div ng-class="{'prevContainer':true,'color-{{colorSet}}':true}" ng-click="prev()">
+  <img src="img/prev.svg" alt="prev">
+</div>
 
 <div ng-controller="gridListDemoCtrl"  flex="" ng-cloak="" class="gridListdemoDynamicTiles" ng-app="MyApp">
 
@@ -65,37 +75,39 @@
       <h3>{{topic.topic}}</h3>
     </div>
   </div>
-  <div class="pagContainer">
-    <input type="image" src="img/prev.svg" value="prev" ng-click="prev()" class="pagination">
-    <input type="image" src="img/next.svg" value="next" ng-click="next()" class="pagination">
+
+  <div class="gridListContainer">
+
+    <md-grid-list md-cols="1" md-cols-sm="3" md-cols-md="5" md-cols-gt-md="7" md-row-height-gt-sm="1:1" md-row-height="4:3" md-gutter="8px" md-gutter-gt-sm="8px" holefill ng-class="{'prevState':prevState,'nextState':nextState}">
+      <md-grid-tile ng-repeat="tile in tiles" md-rowspan="{{tile.span.row}}" md-colspan="{{tile.span.col}}" md-colspan-xs="1" ng-class="tile.background" kh-article topic-length>
+        <div class="mainTopic">
+          <h4>{{tile.article.topics[0]}}</h4>
+        </div>
+        <div class="secondTopic">
+          <h4>{{tile.article.topics[1]}}</h4>
+        </div>
+        <div class="thirdTopic">
+          <h4>{{tile.article.topics[2]}}</h4>
+        </div>
+        <div ng-class="'date'+tile.span.col+'-'+tile.span.row +' date'">
+          <h3>{{tile.article.date|date:'MMM dd'}}</h3>
+        </div>
+        <div ng-class="'thumbnail-'+tile.span.col+'-'+tile.span.row +' thumbnail'">
+          <img ng-src="{{tile.article.image}}" alt="image" ng-click="tile.fullscreen!=tile.fullscreen">  
+        </div>
+        <div ng-class="'title-'+tile.span.col+'-'+tile.span.row + ' title' + ' '+tile.background">
+          <h4>{{tile.article.title}}</h4>
+        </div>
+        <div class="link">
+          <a ng-href="{{tile.link}}" alt=""></a>
+        </div>
+        <div ng-class="'overlay'+' '+tile.background"></div>
+      </md-grid-tile>
+    </md-grid-list>
   </div>
 
-  <md-grid-list md-cols="1" md-cols-sm="3" md-cols-md="5" md-cols-gt-md="7" md-row-height-gt-sm="1:1" md-row-height="4:3" md-gutter="8px" md-gutter-gt-sm="4px" holefill>
-    <md-grid-tile ng-repeat="tile in tiles" md-rowspan="{{tile.span.row}}" md-colspan="{{tile.span.col}}" md-colspan-xs="1" ng-class="tile.background" kh-article topic-length>
-      <div class="mainTopic">
-        <h4>{{tile.article.topics[0]}}</h4>
-      </div>
-      <div class="secondTopic">
-        <h4>{{tile.article.topics[1]}}</h4>
-      </div>
-      <div class="thirdTopic">
-        <h4>{{tile.article.topics[2]}}</h4>
-      </div>
-      <div ng-class="'date'+tile.span.col+'-'+tile.span.row +' date'">
-        <h3>{{tile.article.date|date:'MMM dd'}}</h3>
-      </div>
-      <div ng-class="'thumbnail-'+tile.span.col+'-'+tile.span.row +' thumbnail'">
-        <img ng-src="{{tile.article.image}}" alt="image" ng-click="tile.fullscreen!=tile.fullscreen">  
-      </div>
-      <div ng-class="'title-'+tile.span.col+'-'+tile.span.row + ' title' + ' '+tile.background">
-        <h4>{{tile.article.title}}</h4>
-      </div>
-      <div class="link">
-        <a ng-href="{{tile.link}}" alt=""></a>
-      </div>
-      <div ng-class="'overlay'+' '+tile.background"></div>
-    </md-grid-tile>
-  </md-grid-list>
+
+
   <md-progress-circular md-mode="indeterminate" md-diameter="200" class="progressAnimation" ng-show="searching"></md-progress-circular>
   <div class="noResults" ng-show="noResults">
     <h1>no results were found</h1>

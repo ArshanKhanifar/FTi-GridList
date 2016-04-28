@@ -146,6 +146,7 @@ md-grid-tile{
   display: inline-block;
 }
 .headerSmall .searchIcon{
+  cursor: pointer;
   border-radius: 100%;
   margin-top: 5px;
   width: 50px;
@@ -192,21 +193,21 @@ md-grid-tile{
 }
 .headerSmall .textInput{
   float: left;
-  width: calc(100% - 114px);
+  width: 0;
   height: 57px;
   font-size: 23px;
   transition: all 0.5s;
   padding:0px;
   padding-top: 5px;
-  padding-left: 10px;
+  padding-left: 0px;
   border:none;
   border-bottom:1px solid #37474F;
   color: rgba(0,0,0,0.7);
   background: transparent;
 }
-.headerSmall .searchBar .textInput.active{
-  width: calc(95% - 128px);
-  padding-left: 5px
+.headerSmall .searchTextContainer .textInput.active{
+  width: calc(100% - 114px);
+  padding-left: 10px;
 }
 
 .headerSmall .searchBar .numberInput.active{
@@ -235,7 +236,7 @@ md-grid-tile{
   overflow: hidden;
 }
 .headerSmall .searchTextContainer.active{
-  height: 64px;
+  height: 83px;
 }
 .headerSmall .searchTextContainer .searchIcon{
   border-radius: 100%;
@@ -246,6 +247,7 @@ md-grid-tile{
   transition: all 0.3s;
   float: left;
 }
+
 .headerSmall .searchTextContainer .searchIcon:hover{
   background: rgba(55, 71, 79, 0.26);
 }
@@ -274,12 +276,16 @@ md-grid-tile{
   transition: all 0.3s;
 }
 .headerSmall .sliderContainer.active{
-  height: 54px;
+  height: 85px;
   margin-top: 20px;
 }
 .headerSmall .sliderContainer .numberInput span{
   float:left;
   margin-top: 15px;
+}
+.headerSmall .sliderContainer h3{
+  margin:0;
+
 }
 .headerSmall .sliderContainer md-slider-container{
   width: calc(100% - 95px);

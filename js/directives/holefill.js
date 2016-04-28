@@ -223,8 +223,10 @@ app.directive('holefill',['$mdMedia','$compile','$timeout','secondarySearch','to
 									content: elem.raw_content
 								}
 							}
+							for(var i=0;i<tile.article.topics.length;i++){
+								tile.article.topics[i]=mekUppCase(tile.article.topics[i]);
+							}
 							scope.tiles.push(tile);
-
 						})
 					});
 					$timeout(function(){
@@ -277,6 +279,13 @@ app.directive('holefill',['$mdMedia','$compile','$timeout','secondarySearch','to
 						elem.css('paddingBottom','calc(((75% - 0px) * ' + noRows + ') + 216px)');
 						break;
 				}
+			}
+			function mekUppCase(e){
+				var theWords = e.split(' ');
+				for(var i = 0; i < theWords.length; i++){
+					theWords[i] = theWords[i].substr(0,1).toUpperCase() + theWords[i].substr(1);
+				}
+				return theWords.join(' ');
 			}
 		}
 	}

@@ -23,10 +23,11 @@ md-grid-tile.ng-hide-add,md-grid-tile.ng-hide-remove{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-left: 24px;
-  margin-right: 24px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 .topicChip{
+  font-family: marcellus sc, serif;
   height: 35px;
   border-radius: 0px;
   padding-left: 25px;
@@ -64,9 +65,49 @@ md-grid-tile.ng-hide-add,md-grid-tile.ng-hide-remove{
   margin-top: 6px;
 /*  color:rgba(255,255,255,.8);
 */}
+
+.nextContainer,.prevContainer{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  transition: all 0.3s;
+  position: fixed;
+  z-index: 5;
+  background: rgba(250, 250, 250, 0.2);
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+}
+.nextContainer:hover,.prevContainer:hover{
+  background:rgba(250, 250, 250, 0.9);
+}
+@media screen and (max-width: 700px) {
+  .nextContainer,.prevContainer{
+    background:rgba(250, 250, 250, 0.9);
+  }
+}
+.nextContainer{
+  right: 15px;
+  bottom:20%;
+}
+.prevContainer{
+  left: 15px;
+  bottom:20%;
+}
+
+
+
+
 md-grid-list md-grid-tile figure{
   display: block;
 }
+md-grid-list{
+  width: calc(100% - 16px);
+  margin:0;
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
 md-grid-tile figure img{
   height: 100%;
   margin:auto;
@@ -85,6 +126,13 @@ md-grid-tile figure img{
   z-index: 1;
   overflow: hidden;
 }
+.title,.date{
+  font-family: pontano sans, sans-serif;
+}
+.mainTopic,.secondTopic,.thirdTopic{
+  font-family: marcellus sc,serif;
+}
+
 .title.title-1-1{
   width: 100%;
   bottom:0;
@@ -188,7 +236,7 @@ md-grid-tile:hover .overlay{
 .mainTopic,.secondTopic,.thirdTopic{
   position: absolute;
   z-index: 1;
-  background: rgba(0, 0, 0, 0.27);
+  background: #fafafa;
   border-radius: 50%;
   overflow: hidden;
   transition: all 0.4s;
@@ -197,8 +245,10 @@ md-grid-tile:hover .overlay{
 .mainTopic{
   top:2%;
   left: 2%;
-  height: 24px;
-  width: 24px;
+  height: 30px;
+  width: 30px;
+  /*background: rgba(0, 0, 0, 0.47);*/
+  z-index: 2;
 }
 .secondTopic,.thirdTopic{
   height: 24px;
@@ -206,16 +256,19 @@ md-grid-tile:hover .overlay{
   left: 2%;
 }
 .secondTopic{
-  top:calc(2% + 29px);
+  top:calc(2% + 34px);
 }
 .thirdTopic{
-  top:calc(2% + 58px);
+  top:calc(2% + 62px);
 }
 md-grid-tile:hover .mainTopic,.secondTopic,.thirdTopic{
-  border-radius:4px; 
+  border-radius:0px; 
 }
 md-grid-tile:hover h4{
   letter-spacing: 0px;
+}
+md-grid-tile:hover .mainTopic h4{
+  margin-left: 7px;
 }
 .mainTopic h4,.secondTopic h4,.thirdTopic h4{
   margin: 0;
@@ -224,12 +277,14 @@ md-grid-tile:hover h4{
   margin-top: 4px;
   font-size: 14px;
   transition: all 0.4s;
-  color:white;
+  color:rgba(0,0,0,0.9);
   white-space: nowrap;
 }
 
 .mainTopic h4{
   letter-spacing: 16px;
+  margin-top: 6px;
+  margin-left: 11px;
 }
 
 .expandingSquare{
@@ -256,19 +311,83 @@ md-grid-tile:hover h4{
   opacity: 0.8;
 }
 .articleIn{
+  font-family: sorts mill goudy;
   position: fixed;
   overflow-y: scroll;
   height: 85%;
   transition: all 1s 0.3s;
   top: 0;
-  left:13%;
-  right: 13%;  
+  left:15%;
+  top: 5%;
+  right: 15%;  
   z-index: 5;
   background: #fafafa ;
-  padding: 7%;
+  padding: 15%;
   padding-top: 70px;
   box-shadow: 0 0 39px rgba(0,0,0,0.7);
 }
+
+.articleIn .articleCloseButton{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 50px;
+  width: 50px;
+  padding: 7px;
+  transition: all 0.3s;
+}
+
+.articleIn .articleCloseButton svg{
+  height: 100%;
+  width: 100%;
+}
+.articleIn .articleCloseButton svg polygon{
+  transition: all 0.3s;
+}
+
+.articleIn .articleCloseButton:hover svg polygon{
+  fill:white;
+}
+
+@media screen and (max-width: 1100px) {
+  .articleIn{
+    left: 2%;
+    right: 2%;
+    top: 2%;
+    padding: 15%;
+    padding-top: 50px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .articleIn{
+    left: 2%;
+    right: 2%;
+    top: 2%;
+    padding: 5%;
+    padding-top: 50px;
+  }
+}
+
+.articleIn h1,.articleIn h2,.articleIn h3,.articleIn h4,.articleIn h5,.articleIn h6{
+  font-family: inherit;
+  font-size:20px;
+}
+.articleIn img{
+  max-width: 86%;
+}
+.articleIn p{
+  font-family: inherit;
+  font-size: 18px;
+}
+
+.articleIn strong{
+  font-family: inherit;
+}
+.articleIn h1 strong,.articleIn h2 strong,.articleIn h3 strong,.articleIn h4 strong,.articleIn h5 strong,.articleIn h6 strong{
+  font-family: inherit;
+
+}
+
 .articleIn.articleFaded{
   opacity: 0;
 }
@@ -311,10 +430,7 @@ md-grid-tile.faded{
 .gridListdemoDynamicTiles md-icon.s32 span {
   padding-left: 8px; }
 
-.gridListdemoDynamicTiles md-grid-list {
-  margin: 24px; 
-  margin-bottom: 0;
-}
+
 md-grid-tile{
   transition: all 300ms ease-out;
 }

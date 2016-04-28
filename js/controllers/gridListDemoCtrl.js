@@ -4,6 +4,7 @@ app
     $scope.wholeSearch = false;
     $scope.noResults = false;
     $scope.topics=[];
+    $scope.colorSet = criteria.colorSet+1;
 
     $scope.updateTopicsBar = function(){
       $scope.topics = topicsBar.topics;
@@ -62,27 +63,29 @@ app
     }
 
     $scope.$on('searching',function(javaScriptEvent){
-      $scope.searching = true;
-      $scope.wholeSearch = true;
-      $scope.noResults = false;
-      $scope.tiles = [];
-      if(!criteria.topicsBar) topicsBar.empty();
-      console.log(topicsBar.colorPool[criteria.colorSet]);
-      $scope.updateTopicsBar();
-      searcher()
-      .then(function(theResults){
-        $scope.searching = false;
-        if(theResults.length==0){
-          $scope.noResults = true;
-          $scope.wholeSearch = false;
-        }
+      if(!$scope.wholeSearch){
+        $scope.searching = true;
+        $scope.wholeSearch = true;
+        $scope.noResults = false;
+        $scope.tiles = [];
+        if(!criteria.topicsBar) topicsBar.empty();
+        console.log(topicsBar.colorPool[criteria.colorSet]);
         $scope.updateTopicsBar();
-        var randomized = randomify(theResults);
-        for (var i=0 ; i < randomized.length; i++){
-          doPush($scope,randomized,100,i,$timeout);
-        }
-        $scope.$apply();
-      })
+        searcher()
+        .then(function(theResults){
+          $scope.searching = false;
+          if(theResults.length==0){
+            $scope.noResults = true;
+            $scope.wholeSearch = false;
+          }
+          $scope.updateTopicsBar();
+          var randomized = randomify(theResults);
+          for (var i=0 ; i < randomized.length; i++){
+            doPush($scope,randomized,100,i,$timeout);
+          }
+          $scope.$apply();
+        })
+      }
     })
   }])
 function doPush($scope,randomized,interval,i,$timeout){
