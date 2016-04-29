@@ -24,16 +24,16 @@ md-grid-tile {
   background: #00CC97; }
 
 .articleIn.color-1-1-light h1, .articleIn.color-1-1-light h2, .articleIn.color-1-1-light h3, .articleIn.color-1-1-light h4, .articleIn.color-1-1-light h5, .articleIn.color-1-1-light h6 {
-  color: black; }
+  color: #00664c; }
 .articleIn.color-1-1-light strong {
-  color: black; }
+  color: #00664c; }
 .articleIn.color-1-1-light a {
-  color: black;
+  color: #00664c;
   text-decoration: none; }
 .articleIn.color-1-1-light a:visited {
-  color: black; }
+  color: #00664c; }
 .articleIn.color-1-1-light .articleCloseButton:hover {
-  background: black; }
+  background: #00664c; }
 
 md-grid-tile.color-1-1-light.ng-enter {
   transform: translateY(200px);
@@ -70,16 +70,16 @@ md-grid-tile.color-1-1-light.ng-leave-active {
   background: #00FFBD; }
 
 .articleIn.color-1-2-light h1, .articleIn.color-1-2-light h2, .articleIn.color-1-2-light h3, .articleIn.color-1-2-light h4, .articleIn.color-1-2-light h5, .articleIn.color-1-2-light h6 {
-  color: black; }
+  color: #009971; }
 .articleIn.color-1-2-light strong {
-  color: black; }
+  color: #009971; }
 .articleIn.color-1-2-light a {
-  color: black;
+  color: #009971;
   text-decoration: none; }
 .articleIn.color-1-2-light a:visited {
-  color: black; }
+  color: #009971; }
 .articleIn.color-1-2-light .articleCloseButton:hover {
-  background: black; }
+  background: #009971; }
 
 md-grid-tile.color-1-2-light.ng-enter {
   transform: translateX(200px);
@@ -116,16 +116,16 @@ md-grid-tile.color-1-2-light.ng-leave-active {
   background: #FFD84C; }
 
 .articleIn.color-1-3-light h1, .articleIn.color-1-3-light h2, .articleIn.color-1-3-light h3, .articleIn.color-1-3-light h4, .articleIn.color-1-3-light h5, .articleIn.color-1-3-light h6 {
-  color: #4c3b00; }
+  color: #e5b300; }
 .articleIn.color-1-3-light strong {
-  color: #4c3b00; }
+  color: #e5b300; }
 .articleIn.color-1-3-light a {
-  color: #4c3b00;
+  color: #e5b300;
   text-decoration: none; }
 .articleIn.color-1-3-light a:visited {
-  color: #4c3b00; }
+  color: #e5b300; }
 .articleIn.color-1-3-light .articleCloseButton:hover {
-  background: #4c3b00; }
+  background: #e5b300; }
 
 md-grid-tile.color-1-3-light.ng-enter {
   transform: translateY(-200px);
@@ -162,16 +162,16 @@ md-grid-tile.color-1-3-light.ng-leave-active {
   background: #00CC97; }
 
 .articleIn.color-1-4-light h1, .articleIn.color-1-4-light h2, .articleIn.color-1-4-light h3, .articleIn.color-1-4-light h4, .articleIn.color-1-4-light h5, .articleIn.color-1-4-light h6 {
-  color: black; }
+  color: #00664c; }
 .articleIn.color-1-4-light strong {
-  color: black; }
+  color: #00664c; }
 .articleIn.color-1-4-light a {
-  color: black;
+  color: #00664c;
   text-decoration: none; }
 .articleIn.color-1-4-light a:visited {
-  color: black; }
+  color: #00664c; }
 .articleIn.color-1-4-light .articleCloseButton:hover {
-  background: black; }
+  background: #00664c; }
 
 md-grid-tile.color-1-4-light.ng-enter {
   transform: translateX(-200px);
@@ -208,16 +208,16 @@ md-grid-tile.color-1-4-light.ng-leave-active {
   background: #FFC700; }
 
 .articleIn.color-1-5-light h1, .articleIn.color-1-5-light h2, .articleIn.color-1-5-light h3, .articleIn.color-1-5-light h4, .articleIn.color-1-5-light h5, .articleIn.color-1-5-light h6 {
-  color: black; }
+  color: #997700; }
 .articleIn.color-1-5-light strong {
-  color: black; }
+  color: #997700; }
 .articleIn.color-1-5-light a {
-  color: black;
+  color: #997700;
   text-decoration: none; }
 .articleIn.color-1-5-light a:visited {
-  color: black; }
+  color: #997700; }
 .articleIn.color-1-5-light .articleCloseButton:hover {
-  background: black; }
+  background: #997700; }
 
 md-grid-tile.color-1-5-light.ng-enter {
   transform: translateY(200px);
@@ -254,16 +254,16 @@ md-grid-tile.color-1-5-light.ng-leave-active {
   background: #00FFBD; }
 
 .articleIn.color-1-6-light h1, .articleIn.color-1-6-light h2, .articleIn.color-1-6-light h3, .articleIn.color-1-6-light h4, .articleIn.color-1-6-light h5, .articleIn.color-1-6-light h6 {
-  color: black; }
+  color: #009971; }
 .articleIn.color-1-6-light strong {
-  color: black; }
+  color: #009971; }
 .articleIn.color-1-6-light a {
-  color: black;
+  color: #009971;
   text-decoration: none; }
 .articleIn.color-1-6-light a:visited {
-  color: black; }
+  color: #009971; }
 .articleIn.color-1-6-light .articleCloseButton:hover {
-  background: black; }
+  background: #009971; }
 
 md-grid-tile.color-1-6-light.ng-enter {
   transform: translateX(200px);
@@ -300,16 +300,16 @@ md-grid-tile.color-1-6-light.ng-leave-active {
   background: #FFD700; }
 
 .articleIn.color-1-7-light h1, .articleIn.color-1-7-light h2, .articleIn.color-1-7-light h3, .articleIn.color-1-7-light h4, .articleIn.color-1-7-light h5, .articleIn.color-1-7-light h6 {
-  color: black; }
+  color: #998100; }
 .articleIn.color-1-7-light strong {
-  color: black; }
+  color: #998100; }
 .articleIn.color-1-7-light a {
-  color: black;
+  color: #998100;
   text-decoration: none; }
 .articleIn.color-1-7-light a:visited {
-  color: black; }
+  color: #998100; }
 .articleIn.color-1-7-light .articleCloseButton:hover {
-  background: black; }
+  background: #998100; }
 
 md-grid-tile.color-1-7-light.ng-enter {
   transform: translateY(-200px);
@@ -346,16 +346,16 @@ md-grid-tile.color-1-7-light.ng-leave-active {
   background: #FFB500; }
 
 .articleIn.color-1-8-light h1, .articleIn.color-1-8-light h2, .articleIn.color-1-8-light h3, .articleIn.color-1-8-light h4, .articleIn.color-1-8-light h5, .articleIn.color-1-8-light h6 {
-  color: black; }
+  color: #996d00; }
 .articleIn.color-1-8-light strong {
-  color: black; }
+  color: #996d00; }
 .articleIn.color-1-8-light a {
-  color: black;
+  color: #996d00;
   text-decoration: none; }
 .articleIn.color-1-8-light a:visited {
-  color: black; }
+  color: #996d00; }
 .articleIn.color-1-8-light .articleCloseButton:hover {
-  background: black; }
+  background: #996d00; }
 
 md-grid-tile.color-1-8-light.ng-enter {
   transform: translateX(-200px);
@@ -392,16 +392,16 @@ md-grid-tile.color-1-8-light.ng-leave-active {
   background: #00FFBD; }
 
 .articleIn.color-1-9-light h1, .articleIn.color-1-9-light h2, .articleIn.color-1-9-light h3, .articleIn.color-1-9-light h4, .articleIn.color-1-9-light h5, .articleIn.color-1-9-light h6 {
-  color: black; }
+  color: #009971; }
 .articleIn.color-1-9-light strong {
-  color: black; }
+  color: #009971; }
 .articleIn.color-1-9-light a {
-  color: black;
+  color: #009971;
   text-decoration: none; }
 .articleIn.color-1-9-light a:visited {
-  color: black; }
+  color: #009971; }
 .articleIn.color-1-9-light .articleCloseButton:hover {
-  background: black; }
+  background: #009971; }
 
 md-grid-tile.color-1-9-light.ng-enter {
   transform: translateY(200px);
@@ -793,7 +793,7 @@ md-grid-tile.color-1-8-dark.ng-leave-active {
 .title.color-2-1-light {
   color: rgba(0, 0, 0, 0.7); }
 
-.title.title-2-1.color-2-1-light {
+.title.title-1-1.color-2-1-light {
   background: linear-gradient(transparent, #3CBAC8); }
 
 .title.title-2-2.color-2-1-light {
@@ -806,16 +806,16 @@ md-grid-tile.color-1-8-dark.ng-leave-active {
   background: #3CBAC8; }
 
 .articleIn.color-2-1-light h1, .articleIn.color-2-1-light h2, .articleIn.color-2-1-light h3, .articleIn.color-2-1-light h4, .articleIn.color-2-1-light h5, .articleIn.color-2-1-light h6 {
-  color: #010404; }
+  color: #23727b; }
 .articleIn.color-2-1-light strong {
-  color: #010404; }
+  color: #23727b; }
 .articleIn.color-2-1-light a {
-  color: #010404;
+  color: #23727b;
   text-decoration: none; }
 .articleIn.color-2-1-light a:visited {
-  color: #010404; }
+  color: #23727b; }
 .articleIn.color-2-1-light .articleCloseButton:hover {
-  background: #010404; }
+  background: #23727b; }
 
 md-grid-tile.color-2-1-light.ng-enter {
   transform: translateY(200px);
@@ -839,7 +839,7 @@ md-grid-tile.color-2-1-light.ng-leave-active {
 .title.color-2-2-light {
   color: rgba(0, 0, 0, 0.7); }
 
-.title.title-2-1.color-2-2-light {
+.title.title-1-1.color-2-2-light {
   background: linear-gradient(transparent, #F9CB8F); }
 
 .title.title-2-2.color-2-2-light {
@@ -852,16 +852,16 @@ md-grid-tile.color-2-1-light.ng-leave-active {
   background: #F9CB8F; }
 
 .articleIn.color-2-2-light h1, .articleIn.color-2-2-light h2, .articleIn.color-2-2-light h3, .articleIn.color-2-2-light h4, .articleIn.color-2-2-light h5, .articleIn.color-2-2-light h6 {
-  color: #824d07; }
+  color: #f49e2e; }
 .articleIn.color-2-2-light strong {
-  color: #824d07; }
+  color: #f49e2e; }
 .articleIn.color-2-2-light a {
-  color: #824d07;
+  color: #f49e2e;
   text-decoration: none; }
 .articleIn.color-2-2-light a:visited {
-  color: #824d07; }
+  color: #f49e2e; }
 .articleIn.color-2-2-light .articleCloseButton:hover {
-  background: #824d07; }
+  background: #f49e2e; }
 
 md-grid-tile.color-2-2-light.ng-enter {
   transform: translateX(200px);
@@ -885,7 +885,7 @@ md-grid-tile.color-2-2-light.ng-leave-active {
 .title.color-2-3-light {
   color: rgba(0, 0, 0, 0.7); }
 
-.title.title-2-1.color-2-3-light {
+.title.title-1-1.color-2-3-light {
   background: linear-gradient(transparent, #93EDD4); }
 
 .title.title-2-2.color-2-3-light {
@@ -898,16 +898,16 @@ md-grid-tile.color-2-2-light.ng-leave-active {
   background: #93EDD4; }
 
 .articleIn.color-2-3-light h1, .articleIn.color-2-3-light h2, .articleIn.color-2-3-light h3, .articleIn.color-2-3-light h4, .articleIn.color-2-3-light h5, .articleIn.color-2-3-light h6 {
-  color: #126f55; }
+  color: #3cdeb1; }
 .articleIn.color-2-3-light strong {
-  color: #126f55; }
+  color: #3cdeb1; }
 .articleIn.color-2-3-light a {
-  color: #126f55;
+  color: #3cdeb1;
   text-decoration: none; }
 .articleIn.color-2-3-light a:visited {
-  color: #126f55; }
+  color: #3cdeb1; }
 .articleIn.color-2-3-light .articleCloseButton:hover {
-  background: #126f55; }
+  background: #3cdeb1; }
 
 md-grid-tile.color-2-3-light.ng-enter {
   transform: translateY(-200px);
@@ -931,7 +931,7 @@ md-grid-tile.color-2-3-light.ng-leave-active {
 .title.color-2-4-light {
   color: rgba(0, 0, 0, 0.7); }
 
-.title.title-2-1.color-2-4-light {
+.title.title-1-1.color-2-4-light {
   background: linear-gradient(transparent, #3CBAC8); }
 
 .title.title-2-2.color-2-4-light {
@@ -944,16 +944,16 @@ md-grid-tile.color-2-3-light.ng-leave-active {
   background: #3CBAC8; }
 
 .articleIn.color-2-4-light h1, .articleIn.color-2-4-light h2, .articleIn.color-2-4-light h3, .articleIn.color-2-4-light h4, .articleIn.color-2-4-light h5, .articleIn.color-2-4-light h6 {
-  color: #010404; }
+  color: #23727b; }
 .articleIn.color-2-4-light strong {
-  color: #010404; }
+  color: #23727b; }
 .articleIn.color-2-4-light a {
-  color: #010404;
+  color: #23727b;
   text-decoration: none; }
 .articleIn.color-2-4-light a:visited {
-  color: #010404; }
+  color: #23727b; }
 .articleIn.color-2-4-light .articleCloseButton:hover {
-  background: #010404; }
+  background: #23727b; }
 
 md-grid-tile.color-2-4-light.ng-enter {
   transform: translateX(-200px);
@@ -977,7 +977,7 @@ md-grid-tile.color-2-4-light.ng-leave-active {
 .title.color-2-5-light {
   color: rgba(0, 0, 0, 0.7); }
 
-.title.title-2-1.color-2-5-light {
+.title.title-1-1.color-2-5-light {
   background: linear-gradient(transparent, #80DF98); }
 
 .title.title-2-2.color-2-5-light {
@@ -990,16 +990,16 @@ md-grid-tile.color-2-4-light.ng-leave-active {
   background: #80DF98; }
 
 .articleIn.color-2-5-light h1, .articleIn.color-2-5-light h2, .articleIn.color-2-5-light h3, .articleIn.color-2-5-light h4, .articleIn.color-2-5-light h5, .articleIn.color-2-5-light h6 {
-  color: #134d22; }
+  color: #32c758; }
 .articleIn.color-2-5-light strong {
-  color: #134d22; }
+  color: #32c758; }
 .articleIn.color-2-5-light a {
-  color: #134d22;
+  color: #32c758;
   text-decoration: none; }
 .articleIn.color-2-5-light a:visited {
-  color: #134d22; }
+  color: #32c758; }
 .articleIn.color-2-5-light .articleCloseButton:hover {
-  background: #134d22; }
+  background: #32c758; }
 
 md-grid-tile.color-2-5-light.ng-enter {
   transform: translateY(200px);
@@ -1023,7 +1023,7 @@ md-grid-tile.color-2-5-light.ng-leave-active {
 .title.color-2-6-light {
   color: rgba(0, 0, 0, 0.7); }
 
-.title.title-2-1.color-2-6-light {
+.title.title-1-1.color-2-6-light {
   background: linear-gradient(transparent, #80DF98); }
 
 .title.title-2-2.color-2-6-light {
@@ -1036,16 +1036,16 @@ md-grid-tile.color-2-5-light.ng-leave-active {
   background: #80DF98; }
 
 .articleIn.color-2-6-light h1, .articleIn.color-2-6-light h2, .articleIn.color-2-6-light h3, .articleIn.color-2-6-light h4, .articleIn.color-2-6-light h5, .articleIn.color-2-6-light h6 {
-  color: #134d22; }
+  color: #32c758; }
 .articleIn.color-2-6-light strong {
-  color: #134d22; }
+  color: #32c758; }
 .articleIn.color-2-6-light a {
-  color: #134d22;
+  color: #32c758;
   text-decoration: none; }
 .articleIn.color-2-6-light a:visited {
-  color: #134d22; }
+  color: #32c758; }
 .articleIn.color-2-6-light .articleCloseButton:hover {
-  background: #134d22; }
+  background: #32c758; }
 
 md-grid-tile.color-2-6-light.ng-enter {
   transform: translateX(200px);
@@ -1069,7 +1069,7 @@ md-grid-tile.color-2-6-light.ng-leave-active {
 .title.color-2-7-light {
   color: rgba(0, 0, 0, 0.7); }
 
-.title.title-2-1.color-2-7-light {
+.title.title-1-1.color-2-7-light {
   background: linear-gradient(transparent, #3CBAC8); }
 
 .title.title-2-2.color-2-7-light {
@@ -1082,16 +1082,16 @@ md-grid-tile.color-2-6-light.ng-leave-active {
   background: #3CBAC8; }
 
 .articleIn.color-2-7-light h1, .articleIn.color-2-7-light h2, .articleIn.color-2-7-light h3, .articleIn.color-2-7-light h4, .articleIn.color-2-7-light h5, .articleIn.color-2-7-light h6 {
-  color: #010404; }
+  color: #23727b; }
 .articleIn.color-2-7-light strong {
-  color: #010404; }
+  color: #23727b; }
 .articleIn.color-2-7-light a {
-  color: #010404;
+  color: #23727b;
   text-decoration: none; }
 .articleIn.color-2-7-light a:visited {
-  color: #010404; }
+  color: #23727b; }
 .articleIn.color-2-7-light .articleCloseButton:hover {
-  background: #010404; }
+  background: #23727b; }
 
 md-grid-tile.color-2-7-light.ng-enter {
   transform: translateY(-200px);
@@ -1115,7 +1115,7 @@ md-grid-tile.color-2-7-light.ng-leave-active {
 .title.color-2-8-light {
   color: rgba(0, 0, 0, 0.7); }
 
-.title.title-2-1.color-2-8-light {
+.title.title-1-1.color-2-8-light {
   background: linear-gradient(transparent, #93EDD4); }
 
 .title.title-2-2.color-2-8-light {
@@ -1128,16 +1128,16 @@ md-grid-tile.color-2-7-light.ng-leave-active {
   background: #93EDD4; }
 
 .articleIn.color-2-8-light h1, .articleIn.color-2-8-light h2, .articleIn.color-2-8-light h3, .articleIn.color-2-8-light h4, .articleIn.color-2-8-light h5, .articleIn.color-2-8-light h6 {
-  color: #126f55; }
+  color: #3cdeb1; }
 .articleIn.color-2-8-light strong {
-  color: #126f55; }
+  color: #3cdeb1; }
 .articleIn.color-2-8-light a {
-  color: #126f55;
+  color: #3cdeb1;
   text-decoration: none; }
 .articleIn.color-2-8-light a:visited {
-  color: #126f55; }
+  color: #3cdeb1; }
 .articleIn.color-2-8-light .articleCloseButton:hover {
-  background: #126f55; }
+  background: #3cdeb1; }
 
 md-grid-tile.color-2-8-light.ng-enter {
   transform: translateX(-200px);
@@ -1161,7 +1161,7 @@ md-grid-tile.color-2-8-light.ng-leave-active {
 .title.color-2-1-dark {
   color: rgba(255, 255, 255, 0.7); }
 
-.title.title-2-1.color-2-1-dark {
+.title.title-1-1.color-2-1-dark {
   background: linear-gradient(transparent, #F16881); }
 
 .title.title-2-2.color-2-1-dark {
@@ -1207,7 +1207,7 @@ md-grid-tile.color-2-1-dark.ng-leave-active {
 .title.color-2-2-dark {
   color: rgba(255, 255, 255, 0.7); }
 
-.title.title-2-1.color-2-2-dark {
+.title.title-1-1.color-2-2-dark {
   background: linear-gradient(transparent, #F1509A); }
 
 .title.title-2-2.color-2-2-dark {
@@ -1253,7 +1253,7 @@ md-grid-tile.color-2-2-dark.ng-leave-active {
 .title.color-2-3-dark {
   color: rgba(255, 255, 255, 0.7); }
 
-.title.title-2-1.color-2-3-dark {
+.title.title-1-1.color-2-3-dark {
   background: linear-gradient(transparent, #9C775B); }
 
 .title.title-2-2.color-2-3-dark {
@@ -1299,7 +1299,7 @@ md-grid-tile.color-2-3-dark.ng-leave-active {
 .title.color-2-4-dark {
   color: rgba(255, 255, 255, 0.7); }
 
-.title.title-2-1.color-2-4-dark {
+.title.title-1-1.color-2-4-dark {
   background: linear-gradient(transparent, #F150EE); }
 
 .title.title-2-2.color-2-4-dark {
@@ -1345,7 +1345,7 @@ md-grid-tile.color-2-4-dark.ng-leave-active {
 .title.color-2-5-dark {
   color: rgba(255, 255, 255, 0.7); }
 
-.title.title-2-1.color-2-5-dark {
+.title.title-1-1.color-2-5-dark {
   background: linear-gradient(transparent, #2C74BF); }
 
 .title.title-2-2.color-2-5-dark {
@@ -1391,7 +1391,7 @@ md-grid-tile.color-2-5-dark.ng-leave-active {
 .title.color-2-6-dark {
   color: rgba(255, 255, 255, 0.7); }
 
-.title.title-2-1.color-2-6-dark {
+.title.title-1-1.color-2-6-dark {
   background: linear-gradient(transparent, #795548); }
 
 .title.title-2-2.color-2-6-dark {
@@ -1437,7 +1437,7 @@ md-grid-tile.color-2-6-dark.ng-leave-active {
 .title.color-2-7-dark {
   color: rgba(255, 255, 255, 0.7); }
 
-.title.title-2-1.color-2-7-dark {
+.title.title-1-1.color-2-7-dark {
   background: linear-gradient(transparent, #F19181); }
 
 .title.title-2-2.color-2-7-dark {
@@ -1483,7 +1483,7 @@ md-grid-tile.color-2-7-dark.ng-leave-active {
 .title.color-2-8-dark {
   color: rgba(255, 255, 255, 0.7); }
 
-.title.title-2-1.color-2-8-dark {
+.title.title-1-1.color-2-8-dark {
   background: linear-gradient(transparent, #F1509A); }
 
 .title.title-2-2.color-2-8-dark {
@@ -1529,7 +1529,7 @@ md-grid-tile.color-2-8-dark.ng-leave-active {
 .title.color-2-9-dark {
   color: rgba(255, 255, 255, 0.7); }
 
-.title.title-2-1.color-2-9-dark {
+.title.title-1-1.color-2-9-dark {
   background: linear-gradient(transparent, #F150EE); }
 
 .title.title-2-2.color-2-9-dark {
@@ -1575,7 +1575,7 @@ md-grid-tile.color-2-9-dark.ng-leave-active {
 .title.color-2-10-dark {
   color: rgba(255, 255, 255, 0.7); }
 
-.title.title-2-1.color-2-10-dark {
+.title.title-1-1.color-2-10-dark {
   background: linear-gradient(transparent, #0091EA); }
 
 .title.title-2-2.color-2-10-dark {
@@ -1621,7 +1621,7 @@ md-grid-tile.color-2-10-dark.ng-leave-active {
 .title.color-2-11-dark {
   color: rgba(255, 255, 255, 0.7); }
 
-.title.title-2-1.color-2-11-dark {
+.title.title-1-1.color-2-11-dark {
   background: linear-gradient(transparent, #F16881); }
 
 .title.title-2-2.color-2-11-dark {
@@ -1667,7 +1667,7 @@ md-grid-tile.color-2-11-dark.ng-leave-active {
 .title.color-2-12-dark {
   color: rgba(255, 255, 255, 0.7); }
 
-.title.title-2-1.color-2-12-dark {
+.title.title-1-1.color-2-12-dark {
   background: linear-gradient(transparent, #9C775B); }
 
 .title.title-2-2.color-2-12-dark {
@@ -1726,16 +1726,16 @@ md-grid-tile.color-2-12-dark.ng-leave-active {
   background: #D5F8B4; }
 
 .articleIn.color-3-1-light h1, .articleIn.color-3-1-light h2, .articleIn.color-3-1-light h3, .articleIn.color-3-1-light h4, .articleIn.color-3-1-light h5, .articleIn.color-3-1-light h6 {
-  color: #549e0f; }
+  color: #a1ef57; }
 .articleIn.color-3-1-light strong {
-  color: #549e0f; }
+  color: #a1ef57; }
 .articleIn.color-3-1-light a {
-  color: #549e0f;
+  color: #a1ef57;
   text-decoration: none; }
 .articleIn.color-3-1-light a:visited {
-  color: #549e0f; }
+  color: #a1ef57; }
 .articleIn.color-3-1-light .articleCloseButton:hover {
-  background: #549e0f; }
+  background: #a1ef57; }
 
 md-grid-tile.color-3-1-light.ng-enter {
   transform: translateY(200px);
@@ -1772,16 +1772,16 @@ md-grid-tile.color-3-1-light.ng-leave-active {
   background: #88CDB1; }
 
 .articleIn.color-3-2-light h1, .articleIn.color-3-2-light h2, .articleIn.color-3-2-light h3, .articleIn.color-3-2-light h4, .articleIn.color-3-2-light h5, .articleIn.color-3-2-light h6 {
-  color: #193d2e; }
+  color: #47a881; }
 .articleIn.color-3-2-light strong {
-  color: #193d2e; }
+  color: #47a881; }
 .articleIn.color-3-2-light a {
-  color: #193d2e;
+  color: #47a881;
   text-decoration: none; }
 .articleIn.color-3-2-light a:visited {
-  color: #193d2e; }
+  color: #47a881; }
 .articleIn.color-3-2-light .articleCloseButton:hover {
-  background: #193d2e; }
+  background: #47a881; }
 
 md-grid-tile.color-3-2-light.ng-enter {
   transform: translateX(200px);
@@ -1818,16 +1818,16 @@ md-grid-tile.color-3-2-light.ng-leave-active {
   background: #70E3C6; }
 
 .articleIn.color-3-3-light h1, .articleIn.color-3-3-light h2, .articleIn.color-3-3-light h3, .articleIn.color-3-3-light h4, .articleIn.color-3-3-light h5, .articleIn.color-3-3-light h6 {
-  color: #0e4638; }
+  color: #27c69e; }
 .articleIn.color-3-3-light strong {
-  color: #0e4638; }
+  color: #27c69e; }
 .articleIn.color-3-3-light a {
-  color: #0e4638;
+  color: #27c69e;
   text-decoration: none; }
 .articleIn.color-3-3-light a:visited {
-  color: #0e4638; }
+  color: #27c69e; }
 .articleIn.color-3-3-light .articleCloseButton:hover {
-  background: #0e4638; }
+  background: #27c69e; }
 
 md-grid-tile.color-3-3-light.ng-enter {
   transform: translateY(-200px);
@@ -1864,16 +1864,16 @@ md-grid-tile.color-3-3-light.ng-leave-active {
   background: #96F8B4; }
 
 .articleIn.color-3-4-light h1, .articleIn.color-3-4-light h2, .articleIn.color-3-4-light h3, .articleIn.color-3-4-light h4, .articleIn.color-3-4-light h5, .articleIn.color-3-4-light h6 {
-  color: #09862f; }
+  color: #36f270; }
 .articleIn.color-3-4-light strong {
-  color: #09862f; }
+  color: #36f270; }
 .articleIn.color-3-4-light a {
-  color: #09862f;
+  color: #36f270;
   text-decoration: none; }
 .articleIn.color-3-4-light a:visited {
-  color: #09862f; }
+  color: #36f270; }
 .articleIn.color-3-4-light .articleCloseButton:hover {
-  background: #09862f; }
+  background: #36f270; }
 
 md-grid-tile.color-3-4-light.ng-enter {
   transform: translateX(-200px);
@@ -1910,16 +1910,16 @@ md-grid-tile.color-3-4-light.ng-leave-active {
   background: #3DE3C6; }
 
 .articleIn.color-3-5-light h1, .articleIn.color-3-5-light h2, .articleIn.color-3-5-light h3, .articleIn.color-3-5-light h4, .articleIn.color-3-5-light h5, .articleIn.color-3-5-light h6 {
-  color: #041d19; }
+  color: #17a38a; }
 .articleIn.color-3-5-light strong {
-  color: #041d19; }
+  color: #17a38a; }
 .articleIn.color-3-5-light a {
-  color: #041d19;
+  color: #17a38a;
   text-decoration: none; }
 .articleIn.color-3-5-light a:visited {
-  color: #041d19; }
+  color: #17a38a; }
 .articleIn.color-3-5-light .articleCloseButton:hover {
-  background: #041d19; }
+  background: #17a38a; }
 
 md-grid-tile.color-3-5-light.ng-enter {
   transform: translateY(200px);
@@ -1956,16 +1956,16 @@ md-grid-tile.color-3-5-light.ng-leave-active {
   background: #8A9A85; }
 
 .articleIn.color-3-6-light h1, .articleIn.color-3-6-light h2, .articleIn.color-3-6-light h3, .articleIn.color-3-6-light h4, .articleIn.color-3-6-light h5, .articleIn.color-3-6-light h6 {
-  color: #0f120e; }
+  color: #586554; }
 .articleIn.color-3-6-light strong {
-  color: #0f120e; }
+  color: #586554; }
 .articleIn.color-3-6-light a {
-  color: #0f120e;
+  color: #586554;
   text-decoration: none; }
 .articleIn.color-3-6-light a:visited {
-  color: #0f120e; }
+  color: #586554; }
 .articleIn.color-3-6-light .articleCloseButton:hover {
-  background: #0f120e; }
+  background: #586554; }
 
 md-grid-tile.color-3-6-light.ng-enter {
   transform: translateX(200px);
@@ -2002,16 +2002,16 @@ md-grid-tile.color-3-6-light.ng-leave-active {
   background: #96F8B4; }
 
 .articleIn.color-3-7-light h1, .articleIn.color-3-7-light h2, .articleIn.color-3-7-light h3, .articleIn.color-3-7-light h4, .articleIn.color-3-7-light h5, .articleIn.color-3-7-light h6 {
-  color: #09862f; }
+  color: #36f270; }
 .articleIn.color-3-7-light strong {
-  color: #09862f; }
+  color: #36f270; }
 .articleIn.color-3-7-light a {
-  color: #09862f;
+  color: #36f270;
   text-decoration: none; }
 .articleIn.color-3-7-light a:visited {
-  color: #09862f; }
+  color: #36f270; }
 .articleIn.color-3-7-light .articleCloseButton:hover {
-  background: #09862f; }
+  background: #36f270; }
 
 md-grid-tile.color-3-7-light.ng-enter {
   transform: translateY(-200px);
@@ -2048,16 +2048,16 @@ md-grid-tile.color-3-7-light.ng-leave-active {
   background: #7BAD74; }
 
 .articleIn.color-3-8-light h1, .articleIn.color-3-8-light h2, .articleIn.color-3-8-light h3, .articleIn.color-3-8-light h4, .articleIn.color-3-8-light h5, .articleIn.color-3-8-light h6 {
-  color: #0e150d; }
+  color: #4b7645; }
 .articleIn.color-3-8-light strong {
-  color: #0e150d; }
+  color: #4b7645; }
 .articleIn.color-3-8-light a {
-  color: #0e150d;
+  color: #4b7645;
   text-decoration: none; }
 .articleIn.color-3-8-light a:visited {
-  color: #0e150d; }
+  color: #4b7645; }
 .articleIn.color-3-8-light .articleCloseButton:hover {
-  background: #0e150d; }
+  background: #4b7645; }
 
 md-grid-tile.color-3-8-light.ng-enter {
   transform: translateX(-200px);
@@ -2094,16 +2094,16 @@ md-grid-tile.color-3-8-light.ng-leave-active {
   background: #0091EA; }
 
 .articleIn.color-3-9-light h1, .articleIn.color-3-9-light h2, .articleIn.color-3-9-light h3, .articleIn.color-3-9-light h4, .articleIn.color-3-9-light h5, .articleIn.color-3-9-light h6 {
-  color: black; }
+  color: #005284; }
 .articleIn.color-3-9-light strong {
-  color: black; }
+  color: #005284; }
 .articleIn.color-3-9-light a {
-  color: black;
+  color: #005284;
   text-decoration: none; }
 .articleIn.color-3-9-light a:visited {
-  color: black; }
+  color: #005284; }
 .articleIn.color-3-9-light .articleCloseButton:hover {
-  background: black; }
+  background: #005284; }
 
 md-grid-tile.color-3-9-light.ng-enter {
   transform: translateY(200px);
@@ -2140,16 +2140,16 @@ md-grid-tile.color-3-9-light.ng-leave-active {
   background: #3DE3C6; }
 
 .articleIn.color-3-10-light h1, .articleIn.color-3-10-light h2, .articleIn.color-3-10-light h3, .articleIn.color-3-10-light h4, .articleIn.color-3-10-light h5, .articleIn.color-3-10-light h6 {
-  color: #041d19; }
+  color: #17a38a; }
 .articleIn.color-3-10-light strong {
-  color: #041d19; }
+  color: #17a38a; }
 .articleIn.color-3-10-light a {
-  color: #041d19;
+  color: #17a38a;
   text-decoration: none; }
 .articleIn.color-3-10-light a:visited {
-  color: #041d19; }
+  color: #17a38a; }
 .articleIn.color-3-10-light .articleCloseButton:hover {
-  background: #041d19; }
+  background: #17a38a; }
 
 md-grid-tile.color-3-10-light.ng-enter {
   transform: translateX(200px);
@@ -2692,16 +2692,16 @@ md-grid-tile.color-3-11-dark.ng-leave-active {
   background: #A1D700; }
 
 .articleIn.color-4-1-light h1, .articleIn.color-4-1-light h2, .articleIn.color-4-1-light h3, .articleIn.color-4-1-light h4, .articleIn.color-4-1-light h5, .articleIn.color-4-1-light h6 {
-  color: black; }
+  color: #557100; }
 .articleIn.color-4-1-light strong {
-  color: black; }
+  color: #557100; }
 .articleIn.color-4-1-light a {
-  color: black;
+  color: #557100;
   text-decoration: none; }
 .articleIn.color-4-1-light a:visited {
-  color: black; }
+  color: #557100; }
 .articleIn.color-4-1-light .articleCloseButton:hover {
-  background: black; }
+  background: #557100; }
 
 md-grid-tile.color-4-1-light.ng-enter {
   transform: translateY(200px);
@@ -2738,16 +2738,16 @@ md-grid-tile.color-4-1-light.ng-leave-active {
   background: #769D23; }
 
 .articleIn.color-4-2-light h1, .articleIn.color-4-2-light h2, .articleIn.color-4-2-light h3, .articleIn.color-4-2-light h4, .articleIn.color-4-2-light h5, .articleIn.color-4-2-light h6 {
-  color: black; }
+  color: #374a10; }
 .articleIn.color-4-2-light strong {
-  color: black; }
+  color: #374a10; }
 .articleIn.color-4-2-light a {
-  color: black;
+  color: #374a10;
   text-decoration: none; }
 .articleIn.color-4-2-light a:visited {
-  color: black; }
+  color: #374a10; }
 .articleIn.color-4-2-light .articleCloseButton:hover {
-  background: black; }
+  background: #374a10; }
 
 md-grid-tile.color-4-2-light.ng-enter {
   transform: translateX(200px);
@@ -2784,16 +2784,16 @@ md-grid-tile.color-4-2-light.ng-leave-active {
   background: #0091EA; }
 
 .articleIn.color-4-3-light h1, .articleIn.color-4-3-light h2, .articleIn.color-4-3-light h3, .articleIn.color-4-3-light h4, .articleIn.color-4-3-light h5, .articleIn.color-4-3-light h6 {
-  color: black; }
+  color: #005284; }
 .articleIn.color-4-3-light strong {
-  color: black; }
+  color: #005284; }
 .articleIn.color-4-3-light a {
-  color: black;
+  color: #005284;
   text-decoration: none; }
 .articleIn.color-4-3-light a:visited {
-  color: black; }
+  color: #005284; }
 .articleIn.color-4-3-light .articleCloseButton:hover {
-  background: black; }
+  background: #005284; }
 
 md-grid-tile.color-4-3-light.ng-enter {
   transform: translateY(-200px);
@@ -2830,16 +2830,16 @@ md-grid-tile.color-4-3-light.ng-leave-active {
   background: #86AF23; }
 
 .articleIn.color-4-4-light h1, .articleIn.color-4-4-light h2, .articleIn.color-4-4-light h3, .articleIn.color-4-4-light h4, .articleIn.color-4-4-light h5, .articleIn.color-4-4-light h6 {
-  color: black; }
+  color: #455a12; }
 .articleIn.color-4-4-light strong {
-  color: black; }
+  color: #455a12; }
 .articleIn.color-4-4-light a {
-  color: black;
+  color: #455a12;
   text-decoration: none; }
 .articleIn.color-4-4-light a:visited {
-  color: black; }
+  color: #455a12; }
 .articleIn.color-4-4-light .articleCloseButton:hover {
-  background: black; }
+  background: #455a12; }
 
 md-grid-tile.color-4-4-light.ng-enter {
   transform: translateX(-200px);
@@ -2876,16 +2876,16 @@ md-grid-tile.color-4-4-light.ng-leave-active {
   background: #4F9300; }
 
 .articleIn.color-4-5-light h1, .articleIn.color-4-5-light h2, .articleIn.color-4-5-light h3, .articleIn.color-4-5-light h4, .articleIn.color-4-5-light h5, .articleIn.color-4-5-light h6 {
-  color: black; }
+  color: #182d00; }
 .articleIn.color-4-5-light strong {
-  color: black; }
+  color: #182d00; }
 .articleIn.color-4-5-light a {
-  color: black;
+  color: #182d00;
   text-decoration: none; }
 .articleIn.color-4-5-light a:visited {
-  color: black; }
+  color: #182d00; }
 .articleIn.color-4-5-light .articleCloseButton:hover {
-  background: black; }
+  background: #182d00; }
 
 md-grid-tile.color-4-5-light.ng-enter {
   transform: translateY(200px);
@@ -2922,16 +2922,16 @@ md-grid-tile.color-4-5-light.ng-leave-active {
   background: #A1D700; }
 
 .articleIn.color-4-6-light h1, .articleIn.color-4-6-light h2, .articleIn.color-4-6-light h3, .articleIn.color-4-6-light h4, .articleIn.color-4-6-light h5, .articleIn.color-4-6-light h6 {
-  color: black; }
+  color: #557100; }
 .articleIn.color-4-6-light strong {
-  color: black; }
+  color: #557100; }
 .articleIn.color-4-6-light a {
-  color: black;
+  color: #557100;
   text-decoration: none; }
 .articleIn.color-4-6-light a:visited {
-  color: black; }
+  color: #557100; }
 .articleIn.color-4-6-light .articleCloseButton:hover {
-  background: black; }
+  background: #557100; }
 
 md-grid-tile.color-4-6-light.ng-enter {
   transform: translateX(200px);
@@ -2968,16 +2968,16 @@ md-grid-tile.color-4-6-light.ng-leave-active {
   background: #769D23; }
 
 .articleIn.color-4-7-light h1, .articleIn.color-4-7-light h2, .articleIn.color-4-7-light h3, .articleIn.color-4-7-light h4, .articleIn.color-4-7-light h5, .articleIn.color-4-7-light h6 {
-  color: black; }
+  color: #374a10; }
 .articleIn.color-4-7-light strong {
-  color: black; }
+  color: #374a10; }
 .articleIn.color-4-7-light a {
-  color: black;
+  color: #374a10;
   text-decoration: none; }
 .articleIn.color-4-7-light a:visited {
-  color: black; }
+  color: #374a10; }
 .articleIn.color-4-7-light .articleCloseButton:hover {
-  background: black; }
+  background: #374a10; }
 
 md-grid-tile.color-4-7-light.ng-enter {
   transform: translateY(-200px);
@@ -3544,38 +3544,38 @@ md-grid-tile.color-4-12-dark.ng-leave-active {
   background: #2B6832; }
 
 .color-5-1-light {
-  background: #FF1744; }
+  background: #c5d86d; }
 
 .topicChip.color-5-1-light {
-  background: #FF1744;
+  background: #c5d86d;
   color: rgba(0, 0, 0, 0.7); }
 
 .title.color-5-1-light {
   color: rgba(0, 0, 0, 0.7); }
 
 .title.title-1-1.color-5-1-light {
-  background: linear-gradient(transparent, #FF1744); }
+  background: linear-gradient(transparent, #c5d86d); }
 
 .title.title-2-2.color-5-1-light {
-  background: linear-gradient(transparent, #FF1744); }
+  background: linear-gradient(transparent, #c5d86d); }
 
 .title.title-2-1.color-5-1-light {
-  background: linear-gradient(transparent, #FF1744); }
+  background: linear-gradient(transparent, #c5d86d); }
 
 .overlay.color-5-1-light {
-  background: #FF1744; }
+  background: #c5d86d; }
 
 .articleIn.color-5-1-light h1, .articleIn.color-5-1-light h2, .articleIn.color-5-1-light h3, .articleIn.color-5-1-light h4, .articleIn.color-5-1-light h5, .articleIn.color-5-1-light h6 {
-  color: #170004; }
+  color: #99b02f; }
 .articleIn.color-5-1-light strong {
-  color: #170004; }
+  color: #99b02f; }
 .articleIn.color-5-1-light a {
-  color: #170004;
+  color: #99b02f;
   text-decoration: none; }
 .articleIn.color-5-1-light a:visited {
-  color: #170004; }
+  color: #99b02f; }
 .articleIn.color-5-1-light .articleCloseButton:hover {
-  background: #170004; }
+  background: #99b02f; }
 
 md-grid-tile.color-5-1-light.ng-enter {
   transform: translateY(200px);
@@ -3587,41 +3587,41 @@ md-grid-tile.color-5-1-light.ng-leave-active {
   opacity: 0; }
 
 .gridListdemoDynamicTiles .color-5-1-light {
-  background: #FF1744; }
+  background: #c5d86d; }
 
 .color-5-2-light {
-  background: #304FFE; }
+  background: #c5afa4; }
 
 .topicChip.color-5-2-light {
-  background: #304FFE;
+  background: #c5afa4;
   color: rgba(0, 0, 0, 0.7); }
 
 .title.color-5-2-light {
   color: rgba(0, 0, 0, 0.7); }
 
 .title.title-1-1.color-5-2-light {
-  background: linear-gradient(transparent, #304FFE); }
+  background: linear-gradient(transparent, #c5afa4); }
 
 .title.title-2-2.color-5-2-light {
-  background: linear-gradient(transparent, #304FFE); }
+  background: linear-gradient(transparent, #c5afa4); }
 
 .title.title-2-1.color-5-2-light {
-  background: linear-gradient(transparent, #304FFE); }
+  background: linear-gradient(transparent, #c5afa4); }
 
 .overlay.color-5-2-light {
-  background: #304FFE; }
+  background: #c5afa4; }
 
 .articleIn.color-5-2-light h1, .articleIn.color-5-2-light h2, .articleIn.color-5-2-light h3, .articleIn.color-5-2-light h4, .articleIn.color-5-2-light h5, .articleIn.color-5-2-light h6 {
-  color: #00072f; }
+  color: #9d7866; }
 .articleIn.color-5-2-light strong {
-  color: #00072f; }
+  color: #9d7866; }
 .articleIn.color-5-2-light a {
-  color: #00072f;
+  color: #9d7866;
   text-decoration: none; }
 .articleIn.color-5-2-light a:visited {
-  color: #00072f; }
+  color: #9d7866; }
 .articleIn.color-5-2-light .articleCloseButton:hover {
-  background: #00072f; }
+  background: #9d7866; }
 
 md-grid-tile.color-5-2-light.ng-enter {
   transform: translateX(200px);
@@ -3633,1191 +3633,41 @@ md-grid-tile.color-5-2-light.ng-leave-active {
   opacity: 0; }
 
 .gridListdemoDynamicTiles .color-5-2-light {
-  background: #304FFE; }
-
-.color-5-3-light {
-  background: #FFF553; }
-
-.topicChip.color-5-3-light {
-  background: #FFF553;
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.color-5-3-light {
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.title-1-1.color-5-3-light {
-  background: linear-gradient(transparent, #FFF553); }
-
-.title.title-2-2.color-5-3-light {
-  background: linear-gradient(transparent, #FFF553); }
-
-.title.title-2-1.color-5-3-light {
-  background: linear-gradient(transparent, #FFF553); }
-
-.overlay.color-5-3-light {
-  background: #FFF553; }
-
-.articleIn.color-5-3-light h1, .articleIn.color-5-3-light h2, .articleIn.color-5-3-light h3, .articleIn.color-5-3-light h4, .articleIn.color-5-3-light h5, .articleIn.color-5-3-light h6 {
-  color: #534e00; }
-.articleIn.color-5-3-light strong {
-  color: #534e00; }
-.articleIn.color-5-3-light a {
-  color: #534e00;
-  text-decoration: none; }
-.articleIn.color-5-3-light a:visited {
-  color: #534e00; }
-.articleIn.color-5-3-light .articleCloseButton:hover {
-  background: #534e00; }
-
-md-grid-tile.color-5-3-light.ng-enter {
-  transform: translateY(-200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-3-light.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateX(-200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-3-light {
-  background: #FFF553; }
-
-.color-5-4-light {
-  background: #129E3A; }
-
-.topicChip.color-5-4-light {
-  background: #129E3A;
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.color-5-4-light {
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.title-1-1.color-5-4-light {
-  background: linear-gradient(transparent, #129E3A); }
-
-.title.title-2-2.color-5-4-light {
-  background: linear-gradient(transparent, #129E3A); }
-
-.title.title-2-1.color-5-4-light {
-  background: linear-gradient(transparent, #129E3A); }
-
-.overlay.color-5-4-light {
-  background: #129E3A; }
-
-.articleIn.color-5-4-light h1, .articleIn.color-5-4-light h2, .articleIn.color-5-4-light h3, .articleIn.color-5-4-light h4, .articleIn.color-5-4-light h5, .articleIn.color-5-4-light h6 {
-  color: black; }
-.articleIn.color-5-4-light strong {
-  color: black; }
-.articleIn.color-5-4-light a {
-  color: black;
-  text-decoration: none; }
-.articleIn.color-5-4-light a:visited {
-  color: black; }
-.articleIn.color-5-4-light .articleCloseButton:hover {
-  background: black; }
-
-md-grid-tile.color-5-4-light.ng-enter {
-  transform: translateX(-200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-4-light.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateY(200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-4-light {
-  background: #129E3A; }
-
-.color-5-5-light {
-  background: #FF80AB; }
-
-.topicChip.color-5-5-light {
-  background: #FF80AB;
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.color-5-5-light {
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.title-1-1.color-5-5-light {
-  background: linear-gradient(transparent, #FF80AB); }
-
-.title.title-2-2.color-5-5-light {
-  background: linear-gradient(transparent, #FF80AB); }
-
-.title.title-2-1.color-5-5-light {
-  background: linear-gradient(transparent, #FF80AB); }
-
-.overlay.color-5-5-light {
-  background: #FF80AB; }
-
-.articleIn.color-5-5-light h1, .articleIn.color-5-5-light h2, .articleIn.color-5-5-light h3, .articleIn.color-5-5-light h4, .articleIn.color-5-5-light h5, .articleIn.color-5-5-light h6 {
-  color: #80002b; }
-.articleIn.color-5-5-light strong {
-  color: #80002b; }
-.articleIn.color-5-5-light a {
-  color: #80002b;
-  text-decoration: none; }
-.articleIn.color-5-5-light a:visited {
-  color: #80002b; }
-.articleIn.color-5-5-light .articleCloseButton:hover {
-  background: #80002b; }
-
-md-grid-tile.color-5-5-light.ng-enter {
-  transform: translateY(200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-5-light.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateX(200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-5-light {
-  background: #FF80AB; }
-
-.color-5-6-light {
-  background: #64B5F6; }
-
-.topicChip.color-5-6-light {
-  background: #64B5F6;
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.color-5-6-light {
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.title-1-1.color-5-6-light {
-  background: linear-gradient(transparent, #64B5F6); }
-
-.title.title-2-2.color-5-6-light {
-  background: linear-gradient(transparent, #64B5F6); }
-
-.title.title-2-1.color-5-6-light {
-  background: linear-gradient(transparent, #64B5F6); }
-
-.overlay.color-5-6-light {
-  background: #64B5F6; }
-
-.articleIn.color-5-6-light h1, .articleIn.color-5-6-light h2, .articleIn.color-5-6-light h3, .articleIn.color-5-6-light h4, .articleIn.color-5-6-light h5, .articleIn.color-5-6-light h6 {
-  color: #053256; }
-.articleIn.color-5-6-light strong {
-  color: #053256; }
-.articleIn.color-5-6-light a {
-  color: #053256;
-  text-decoration: none; }
-.articleIn.color-5-6-light a:visited {
-  color: #053256; }
-.articleIn.color-5-6-light .articleCloseButton:hover {
-  background: #053256; }
-
-md-grid-tile.color-5-6-light.ng-enter {
-  transform: translateX(200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-6-light.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateY(-200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-6-light {
-  background: #64B5F6; }
-
-.color-5-7-light {
-  background: #FF3D00; }
-
-.topicChip.color-5-7-light {
-  background: #FF3D00;
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.color-5-7-light {
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.title-1-1.color-5-7-light {
-  background: linear-gradient(transparent, #FF3D00); }
-
-.title.title-2-2.color-5-7-light {
-  background: linear-gradient(transparent, #FF3D00); }
-
-.title.title-2-1.color-5-7-light {
-  background: linear-gradient(transparent, #FF3D00); }
-
-.overlay.color-5-7-light {
-  background: #FF3D00; }
-
-.articleIn.color-5-7-light h1, .articleIn.color-5-7-light h2, .articleIn.color-5-7-light h3, .articleIn.color-5-7-light h4, .articleIn.color-5-7-light h5, .articleIn.color-5-7-light h6 {
-  color: black; }
-.articleIn.color-5-7-light strong {
-  color: black; }
-.articleIn.color-5-7-light a {
-  color: black;
-  text-decoration: none; }
-.articleIn.color-5-7-light a:visited {
-  color: black; }
-.articleIn.color-5-7-light .articleCloseButton:hover {
-  background: black; }
-
-md-grid-tile.color-5-7-light.ng-enter {
-  transform: translateY(-200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-7-light.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateX(-200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-7-light {
-  background: #FF3D00; }
-
-.color-5-8-light {
-  background: #FF6F00; }
-
-.topicChip.color-5-8-light {
-  background: #FF6F00;
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.color-5-8-light {
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.title-1-1.color-5-8-light {
-  background: linear-gradient(transparent, #FF6F00); }
-
-.title.title-2-2.color-5-8-light {
-  background: linear-gradient(transparent, #FF6F00); }
-
-.title.title-2-1.color-5-8-light {
-  background: linear-gradient(transparent, #FF6F00); }
-
-.overlay.color-5-8-light {
-  background: #FF6F00; }
-
-.articleIn.color-5-8-light h1, .articleIn.color-5-8-light h2, .articleIn.color-5-8-light h3, .articleIn.color-5-8-light h4, .articleIn.color-5-8-light h5, .articleIn.color-5-8-light h6 {
-  color: black; }
-.articleIn.color-5-8-light strong {
-  color: black; }
-.articleIn.color-5-8-light a {
-  color: black;
-  text-decoration: none; }
-.articleIn.color-5-8-light a:visited {
-  color: black; }
-.articleIn.color-5-8-light .articleCloseButton:hover {
-  background: black; }
-
-md-grid-tile.color-5-8-light.ng-enter {
-  transform: translateX(-200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-8-light.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateY(200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-8-light {
-  background: #FF6F00; }
-
-.color-5-9-light {
-  background: #036708; }
-
-.topicChip.color-5-9-light {
-  background: #036708;
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.color-5-9-light {
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.title-1-1.color-5-9-light {
-  background: linear-gradient(transparent, #036708); }
-
-.title.title-2-2.color-5-9-light {
-  background: linear-gradient(transparent, #036708); }
-
-.title.title-2-1.color-5-9-light {
-  background: linear-gradient(transparent, #036708); }
-
-.overlay.color-5-9-light {
-  background: #036708; }
-
-.articleIn.color-5-9-light h1, .articleIn.color-5-9-light h2, .articleIn.color-5-9-light h3, .articleIn.color-5-9-light h4, .articleIn.color-5-9-light h5, .articleIn.color-5-9-light h6 {
-  color: black; }
-.articleIn.color-5-9-light strong {
-  color: black; }
-.articleIn.color-5-9-light a {
-  color: black;
-  text-decoration: none; }
-.articleIn.color-5-9-light a:visited {
-  color: black; }
-.articleIn.color-5-9-light .articleCloseButton:hover {
-  background: black; }
-
-md-grid-tile.color-5-9-light.ng-enter {
-  transform: translateY(200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-9-light.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateX(200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-9-light {
-  background: #036708; }
-
-.color-5-10-light {
-  background: #795548; }
-
-.topicChip.color-5-10-light {
-  background: #795548;
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.color-5-10-light {
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.title-1-1.color-5-10-light {
-  background: linear-gradient(transparent, #795548); }
-
-.title.title-2-2.color-5-10-light {
-  background: linear-gradient(transparent, #795548); }
-
-.title.title-2-1.color-5-10-light {
-  background: linear-gradient(transparent, #795548); }
-
-.overlay.color-5-10-light {
-  background: #795548; }
-
-.articleIn.color-5-10-light h1, .articleIn.color-5-10-light h2, .articleIn.color-5-10-light h3, .articleIn.color-5-10-light h4, .articleIn.color-5-10-light h5, .articleIn.color-5-10-light h6 {
-  color: black; }
-.articleIn.color-5-10-light strong {
-  color: black; }
-.articleIn.color-5-10-light a {
-  color: black;
-  text-decoration: none; }
-.articleIn.color-5-10-light a:visited {
-  color: black; }
-.articleIn.color-5-10-light .articleCloseButton:hover {
-  background: black; }
-
-md-grid-tile.color-5-10-light.ng-enter {
-  transform: translateX(200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-10-light.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateY(-200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-10-light {
-  background: #795548; }
-
-.color-5-11-light {
-  background: #0091EA; }
-
-.topicChip.color-5-11-light {
-  background: #0091EA;
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.color-5-11-light {
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.title-1-1.color-5-11-light {
-  background: linear-gradient(transparent, #0091EA); }
-
-.title.title-2-2.color-5-11-light {
-  background: linear-gradient(transparent, #0091EA); }
-
-.title.title-2-1.color-5-11-light {
-  background: linear-gradient(transparent, #0091EA); }
-
-.overlay.color-5-11-light {
-  background: #0091EA; }
-
-.articleIn.color-5-11-light h1, .articleIn.color-5-11-light h2, .articleIn.color-5-11-light h3, .articleIn.color-5-11-light h4, .articleIn.color-5-11-light h5, .articleIn.color-5-11-light h6 {
-  color: black; }
-.articleIn.color-5-11-light strong {
-  color: black; }
-.articleIn.color-5-11-light a {
-  color: black;
-  text-decoration: none; }
-.articleIn.color-5-11-light a:visited {
-  color: black; }
-.articleIn.color-5-11-light .articleCloseButton:hover {
-  background: black; }
-
-md-grid-tile.color-5-11-light.ng-enter {
-  transform: translateY(-200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-11-light.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateX(-200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-11-light {
-  background: #0091EA; }
-
-.color-5-12-light {
-  background: #FF9800; }
-
-.topicChip.color-5-12-light {
-  background: #FF9800;
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.color-5-12-light {
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.title-1-1.color-5-12-light {
-  background: linear-gradient(transparent, #FF9800); }
-
-.title.title-2-2.color-5-12-light {
-  background: linear-gradient(transparent, #FF9800); }
-
-.title.title-2-1.color-5-12-light {
-  background: linear-gradient(transparent, #FF9800); }
-
-.overlay.color-5-12-light {
-  background: #FF9800; }
-
-.articleIn.color-5-12-light h1, .articleIn.color-5-12-light h2, .articleIn.color-5-12-light h3, .articleIn.color-5-12-light h4, .articleIn.color-5-12-light h5, .articleIn.color-5-12-light h6 {
-  color: black; }
-.articleIn.color-5-12-light strong {
-  color: black; }
-.articleIn.color-5-12-light a {
-  color: black;
-  text-decoration: none; }
-.articleIn.color-5-12-light a:visited {
-  color: black; }
-.articleIn.color-5-12-light .articleCloseButton:hover {
-  background: black; }
-
-md-grid-tile.color-5-12-light.ng-enter {
-  transform: translateX(-200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-12-light.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateY(200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-12-light {
-  background: #FF9800; }
-
-.color-5-13-light {
-  background: #9C27B0; }
-
-.topicChip.color-5-13-light {
-  background: #9C27B0;
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.color-5-13-light {
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.title-1-1.color-5-13-light {
-  background: linear-gradient(transparent, #9C27B0); }
-
-.title.title-2-2.color-5-13-light {
-  background: linear-gradient(transparent, #9C27B0); }
-
-.title.title-2-1.color-5-13-light {
-  background: linear-gradient(transparent, #9C27B0); }
-
-.overlay.color-5-13-light {
-  background: #9C27B0; }
-
-.articleIn.color-5-13-light h1, .articleIn.color-5-13-light h2, .articleIn.color-5-13-light h3, .articleIn.color-5-13-light h4, .articleIn.color-5-13-light h5, .articleIn.color-5-13-light h6 {
-  color: black; }
-.articleIn.color-5-13-light strong {
-  color: black; }
-.articleIn.color-5-13-light a {
-  color: black;
-  text-decoration: none; }
-.articleIn.color-5-13-light a:visited {
-  color: black; }
-.articleIn.color-5-13-light .articleCloseButton:hover {
-  background: black; }
-
-md-grid-tile.color-5-13-light.ng-enter {
-  transform: translateY(200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-13-light.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateX(200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-13-light {
-  background: #9C27B0; }
-
-.color-5-14-light {
-  background: #B71C1C; }
-
-.topicChip.color-5-14-light {
-  background: #B71C1C;
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.color-5-14-light {
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.title-1-1.color-5-14-light {
-  background: linear-gradient(transparent, #B71C1C); }
-
-.title.title-2-2.color-5-14-light {
-  background: linear-gradient(transparent, #B71C1C); }
-
-.title.title-2-1.color-5-14-light {
-  background: linear-gradient(transparent, #B71C1C); }
-
-.overlay.color-5-14-light {
-  background: #B71C1C; }
-
-.articleIn.color-5-14-light h1, .articleIn.color-5-14-light h2, .articleIn.color-5-14-light h3, .articleIn.color-5-14-light h4, .articleIn.color-5-14-light h5, .articleIn.color-5-14-light h6 {
-  color: black; }
-.articleIn.color-5-14-light strong {
-  color: black; }
-.articleIn.color-5-14-light a {
-  color: black;
-  text-decoration: none; }
-.articleIn.color-5-14-light a:visited {
-  color: black; }
-.articleIn.color-5-14-light .articleCloseButton:hover {
-  background: black; }
-
-md-grid-tile.color-5-14-light.ng-enter {
-  transform: translateX(200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-14-light.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateY(-200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-14-light {
-  background: #B71C1C; }
-
-.color-5-15-light {
-  background: #304FFE; }
-
-.topicChip.color-5-15-light {
-  background: #304FFE;
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.color-5-15-light {
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.title-1-1.color-5-15-light {
-  background: linear-gradient(transparent, #304FFE); }
-
-.title.title-2-2.color-5-15-light {
-  background: linear-gradient(transparent, #304FFE); }
-
-.title.title-2-1.color-5-15-light {
-  background: linear-gradient(transparent, #304FFE); }
-
-.overlay.color-5-15-light {
-  background: #304FFE; }
-
-.articleIn.color-5-15-light h1, .articleIn.color-5-15-light h2, .articleIn.color-5-15-light h3, .articleIn.color-5-15-light h4, .articleIn.color-5-15-light h5, .articleIn.color-5-15-light h6 {
-  color: #00072f; }
-.articleIn.color-5-15-light strong {
-  color: #00072f; }
-.articleIn.color-5-15-light a {
-  color: #00072f;
-  text-decoration: none; }
-.articleIn.color-5-15-light a:visited {
-  color: #00072f; }
-.articleIn.color-5-15-light .articleCloseButton:hover {
-  background: #00072f; }
-
-md-grid-tile.color-5-15-light.ng-enter {
-  transform: translateY(-200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-15-light.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateX(-200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-15-light {
-  background: #304FFE; }
-
-.color-5-16-light {
-  background: #F4FF81; }
-
-.topicChip.color-5-16-light {
-  background: #F4FF81;
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.color-5-16-light {
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.title-1-1.color-5-16-light {
-  background: linear-gradient(transparent, #F4FF81); }
-
-.title.title-2-2.color-5-16-light {
-  background: linear-gradient(transparent, #F4FF81); }
-
-.title.title-2-1.color-5-16-light {
-  background: linear-gradient(transparent, #F4FF81); }
-
-.overlay.color-5-16-light {
-  background: #F4FF81; }
-
-.articleIn.color-5-16-light h1, .articleIn.color-5-16-light h2, .articleIn.color-5-16-light h3, .articleIn.color-5-16-light h4, .articleIn.color-5-16-light h5, .articleIn.color-5-16-light h6 {
-  color: #768100; }
-.articleIn.color-5-16-light strong {
-  color: #768100; }
-.articleIn.color-5-16-light a {
-  color: #768100;
-  text-decoration: none; }
-.articleIn.color-5-16-light a:visited {
-  color: #768100; }
-.articleIn.color-5-16-light .articleCloseButton:hover {
-  background: #768100; }
-
-md-grid-tile.color-5-16-light.ng-enter {
-  transform: translateX(-200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-16-light.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateY(200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-16-light {
-  background: #F4FF81; }
-
-.color-5-17-light {
-  background: #E65100; }
-
-.topicChip.color-5-17-light {
-  background: #E65100;
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.color-5-17-light {
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.title-1-1.color-5-17-light {
-  background: linear-gradient(transparent, #E65100); }
-
-.title.title-2-2.color-5-17-light {
-  background: linear-gradient(transparent, #E65100); }
-
-.title.title-2-1.color-5-17-light {
-  background: linear-gradient(transparent, #E65100); }
-
-.overlay.color-5-17-light {
-  background: #E65100; }
-
-.articleIn.color-5-17-light h1, .articleIn.color-5-17-light h2, .articleIn.color-5-17-light h3, .articleIn.color-5-17-light h4, .articleIn.color-5-17-light h5, .articleIn.color-5-17-light h6 {
-  color: black; }
-.articleIn.color-5-17-light strong {
-  color: black; }
-.articleIn.color-5-17-light a {
-  color: black;
-  text-decoration: none; }
-.articleIn.color-5-17-light a:visited {
-  color: black; }
-.articleIn.color-5-17-light .articleCloseButton:hover {
-  background: black; }
-
-md-grid-tile.color-5-17-light.ng-enter {
-  transform: translateY(200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-17-light.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateX(200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-17-light {
-  background: #E65100; }
-
-.color-5-18-light {
-  background: #E91E63; }
-
-.topicChip.color-5-18-light {
-  background: #E91E63;
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.color-5-18-light {
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.title-1-1.color-5-18-light {
-  background: linear-gradient(transparent, #E91E63); }
-
-.title.title-2-2.color-5-18-light {
-  background: linear-gradient(transparent, #E91E63); }
-
-.title.title-2-1.color-5-18-light {
-  background: linear-gradient(transparent, #E91E63); }
-
-.overlay.color-5-18-light {
-  background: #E91E63; }
-
-.articleIn.color-5-18-light h1, .articleIn.color-5-18-light h2, .articleIn.color-5-18-light h3, .articleIn.color-5-18-light h4, .articleIn.color-5-18-light h5, .articleIn.color-5-18-light h6 {
-  color: #070103; }
-.articleIn.color-5-18-light strong {
-  color: #070103; }
-.articleIn.color-5-18-light a {
-  color: #070103;
-  text-decoration: none; }
-.articleIn.color-5-18-light a:visited {
-  color: #070103; }
-.articleIn.color-5-18-light .articleCloseButton:hover {
-  background: #070103; }
-
-md-grid-tile.color-5-18-light.ng-enter {
-  transform: translateX(200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-18-light.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateY(-200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-18-light {
-  background: #E91E63; }
-
-.color-5-19-light {
-  background: #FF1744; }
-
-.topicChip.color-5-19-light {
-  background: #FF1744;
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.color-5-19-light {
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.title-1-1.color-5-19-light {
-  background: linear-gradient(transparent, #FF1744); }
-
-.title.title-2-2.color-5-19-light {
-  background: linear-gradient(transparent, #FF1744); }
-
-.title.title-2-1.color-5-19-light {
-  background: linear-gradient(transparent, #FF1744); }
-
-.overlay.color-5-19-light {
-  background: #FF1744; }
-
-.articleIn.color-5-19-light h1, .articleIn.color-5-19-light h2, .articleIn.color-5-19-light h3, .articleIn.color-5-19-light h4, .articleIn.color-5-19-light h5, .articleIn.color-5-19-light h6 {
-  color: #170004; }
-.articleIn.color-5-19-light strong {
-  color: #170004; }
-.articleIn.color-5-19-light a {
-  color: #170004;
-  text-decoration: none; }
-.articleIn.color-5-19-light a:visited {
-  color: #170004; }
-.articleIn.color-5-19-light .articleCloseButton:hover {
-  background: #170004; }
-
-md-grid-tile.color-5-19-light.ng-enter {
-  transform: translateY(-200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-19-light.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateX(-200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-19-light {
-  background: #FF1744; }
-
-.color-5-20-light {
-  background: #03A9F4; }
-
-.topicChip.color-5-20-light {
-  background: #03A9F4;
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.color-5-20-light {
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.title-1-1.color-5-20-light {
-  background: linear-gradient(transparent, #03A9F4); }
-
-.title.title-2-2.color-5-20-light {
-  background: linear-gradient(transparent, #03A9F4); }
-
-.title.title-2-1.color-5-20-light {
-  background: linear-gradient(transparent, #03A9F4); }
-
-.overlay.color-5-20-light {
-  background: #03A9F4; }
-
-.articleIn.color-5-20-light h1, .articleIn.color-5-20-light h2, .articleIn.color-5-20-light h3, .articleIn.color-5-20-light h4, .articleIn.color-5-20-light h5, .articleIn.color-5-20-light h6 {
-  color: black; }
-.articleIn.color-5-20-light strong {
-  color: black; }
-.articleIn.color-5-20-light a {
-  color: black;
-  text-decoration: none; }
-.articleIn.color-5-20-light a:visited {
-  color: black; }
-.articleIn.color-5-20-light .articleCloseButton:hover {
-  background: black; }
-
-md-grid-tile.color-5-20-light.ng-enter {
-  transform: translateX(-200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-20-light.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateY(200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-20-light {
-  background: #03A9F4; }
-
-.color-5-21-light {
-  background: #FFEB3B; }
-
-.topicChip.color-5-21-light {
-  background: #FFEB3B;
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.color-5-21-light {
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.title-1-1.color-5-21-light {
-  background: linear-gradient(transparent, #FFEB3B); }
-
-.title.title-2-2.color-5-21-light {
-  background: linear-gradient(transparent, #FFEB3B); }
-
-.title.title-2-1.color-5-21-light {
-  background: linear-gradient(transparent, #FFEB3B); }
-
-.overlay.color-5-21-light {
-  background: #FFEB3B; }
-
-.articleIn.color-5-21-light h1, .articleIn.color-5-21-light h2, .articleIn.color-5-21-light h3, .articleIn.color-5-21-light h4, .articleIn.color-5-21-light h5, .articleIn.color-5-21-light h6 {
-  color: #3b3500; }
-.articleIn.color-5-21-light strong {
-  color: #3b3500; }
-.articleIn.color-5-21-light a {
-  color: #3b3500;
-  text-decoration: none; }
-.articleIn.color-5-21-light a:visited {
-  color: #3b3500; }
-.articleIn.color-5-21-light .articleCloseButton:hover {
-  background: #3b3500; }
-
-md-grid-tile.color-5-21-light.ng-enter {
-  transform: translateY(200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-21-light.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateX(200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-21-light {
-  background: #FFEB3B; }
-
-.color-5-22-light {
-  background: #607D8B; }
-
-.topicChip.color-5-22-light {
-  background: #607D8B;
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.color-5-22-light {
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.title-1-1.color-5-22-light {
-  background: linear-gradient(transparent, #607D8B); }
-
-.title.title-2-2.color-5-22-light {
-  background: linear-gradient(transparent, #607D8B); }
-
-.title.title-2-1.color-5-22-light {
-  background: linear-gradient(transparent, #607D8B); }
-
-.overlay.color-5-22-light {
-  background: #607D8B; }
-
-.articleIn.color-5-22-light h1, .articleIn.color-5-22-light h2, .articleIn.color-5-22-light h3, .articleIn.color-5-22-light h4, .articleIn.color-5-22-light h5, .articleIn.color-5-22-light h6 {
-  color: black; }
-.articleIn.color-5-22-light strong {
-  color: black; }
-.articleIn.color-5-22-light a {
-  color: black;
-  text-decoration: none; }
-.articleIn.color-5-22-light a:visited {
-  color: black; }
-.articleIn.color-5-22-light .articleCloseButton:hover {
-  background: black; }
-
-md-grid-tile.color-5-22-light.ng-enter {
-  transform: translateX(200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-22-light.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateY(-200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-22-light {
-  background: #607D8B; }
-
-.color-5-23-light {
-  background: #5D4037; }
-
-.topicChip.color-5-23-light {
-  background: #5D4037;
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.color-5-23-light {
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.title-1-1.color-5-23-light {
-  background: linear-gradient(transparent, #5D4037); }
-
-.title.title-2-2.color-5-23-light {
-  background: linear-gradient(transparent, #5D4037); }
-
-.title.title-2-1.color-5-23-light {
-  background: linear-gradient(transparent, #5D4037); }
-
-.overlay.color-5-23-light {
-  background: #5D4037; }
-
-.articleIn.color-5-23-light h1, .articleIn.color-5-23-light h2, .articleIn.color-5-23-light h3, .articleIn.color-5-23-light h4, .articleIn.color-5-23-light h5, .articleIn.color-5-23-light h6 {
-  color: black; }
-.articleIn.color-5-23-light strong {
-  color: black; }
-.articleIn.color-5-23-light a {
-  color: black;
-  text-decoration: none; }
-.articleIn.color-5-23-light a:visited {
-  color: black; }
-.articleIn.color-5-23-light .articleCloseButton:hover {
-  background: black; }
-
-md-grid-tile.color-5-23-light.ng-enter {
-  transform: translateY(-200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-23-light.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateX(-200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-23-light {
-  background: #5D4037; }
-
-.color-5-24-light {
-  background: #00B0FF; }
-
-.topicChip.color-5-24-light {
-  background: #00B0FF;
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.color-5-24-light {
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.title-1-1.color-5-24-light {
-  background: linear-gradient(transparent, #00B0FF); }
-
-.title.title-2-2.color-5-24-light {
-  background: linear-gradient(transparent, #00B0FF); }
-
-.title.title-2-1.color-5-24-light {
-  background: linear-gradient(transparent, #00B0FF); }
-
-.overlay.color-5-24-light {
-  background: #00B0FF; }
-
-.articleIn.color-5-24-light h1, .articleIn.color-5-24-light h2, .articleIn.color-5-24-light h3, .articleIn.color-5-24-light h4, .articleIn.color-5-24-light h5, .articleIn.color-5-24-light h6 {
-  color: black; }
-.articleIn.color-5-24-light strong {
-  color: black; }
-.articleIn.color-5-24-light a {
-  color: black;
-  text-decoration: none; }
-.articleIn.color-5-24-light a:visited {
-  color: black; }
-.articleIn.color-5-24-light .articleCloseButton:hover {
-  background: black; }
-
-md-grid-tile.color-5-24-light.ng-enter {
-  transform: translateX(-200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-24-light.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateY(200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-24-light {
-  background: #00B0FF; }
-
-.color-5-25-light {
-  background: #00838F; }
-
-.topicChip.color-5-25-light {
-  background: #00838F;
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.color-5-25-light {
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.title-1-1.color-5-25-light {
-  background: linear-gradient(transparent, #00838F); }
-
-.title.title-2-2.color-5-25-light {
-  background: linear-gradient(transparent, #00838F); }
-
-.title.title-2-1.color-5-25-light {
-  background: linear-gradient(transparent, #00838F); }
-
-.overlay.color-5-25-light {
-  background: #00838F; }
-
-.articleIn.color-5-25-light h1, .articleIn.color-5-25-light h2, .articleIn.color-5-25-light h3, .articleIn.color-5-25-light h4, .articleIn.color-5-25-light h5, .articleIn.color-5-25-light h6 {
-  color: black; }
-.articleIn.color-5-25-light strong {
-  color: black; }
-.articleIn.color-5-25-light a {
-  color: black;
-  text-decoration: none; }
-.articleIn.color-5-25-light a:visited {
-  color: black; }
-.articleIn.color-5-25-light .articleCloseButton:hover {
-  background: black; }
-
-md-grid-tile.color-5-25-light.ng-enter {
-  transform: translateY(200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-25-light.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateX(200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-25-light {
-  background: #00838F; }
-
-.color-5-26-light {
-  background: #9E9D24; }
-
-.topicChip.color-5-26-light {
-  background: #9E9D24;
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.color-5-26-light {
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.title-1-1.color-5-26-light {
-  background: linear-gradient(transparent, #9E9D24); }
-
-.title.title-2-2.color-5-26-light {
-  background: linear-gradient(transparent, #9E9D24); }
-
-.title.title-2-1.color-5-26-light {
-  background: linear-gradient(transparent, #9E9D24); }
-
-.overlay.color-5-26-light {
-  background: #9E9D24; }
-
-.articleIn.color-5-26-light h1, .articleIn.color-5-26-light h2, .articleIn.color-5-26-light h3, .articleIn.color-5-26-light h4, .articleIn.color-5-26-light h5, .articleIn.color-5-26-light h6 {
-  color: black; }
-.articleIn.color-5-26-light strong {
-  color: black; }
-.articleIn.color-5-26-light a {
-  color: black;
-  text-decoration: none; }
-.articleIn.color-5-26-light a:visited {
-  color: black; }
-.articleIn.color-5-26-light .articleCloseButton:hover {
-  background: black; }
-
-md-grid-tile.color-5-26-light.ng-enter {
-  transform: translateX(200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-26-light.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateY(-200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-26-light {
-  background: #9E9D24; }
-
-.color-5-27-light {
-  background: #558B2F; }
-
-.topicChip.color-5-27-light {
-  background: #558B2F;
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.color-5-27-light {
-  color: rgba(0, 0, 0, 0.7); }
-
-.title.title-1-1.color-5-27-light {
-  background: linear-gradient(transparent, #558B2F); }
-
-.title.title-2-2.color-5-27-light {
-  background: linear-gradient(transparent, #558B2F); }
-
-.title.title-2-1.color-5-27-light {
-  background: linear-gradient(transparent, #558B2F); }
-
-.overlay.color-5-27-light {
-  background: #558B2F; }
-
-.articleIn.color-5-27-light h1, .articleIn.color-5-27-light h2, .articleIn.color-5-27-light h3, .articleIn.color-5-27-light h4, .articleIn.color-5-27-light h5, .articleIn.color-5-27-light h6 {
-  color: black; }
-.articleIn.color-5-27-light strong {
-  color: black; }
-.articleIn.color-5-27-light a {
-  color: black;
-  text-decoration: none; }
-.articleIn.color-5-27-light a:visited {
-  color: black; }
-.articleIn.color-5-27-light .articleCloseButton:hover {
-  background: black; }
-
-md-grid-tile.color-5-27-light.ng-enter {
-  transform: translateY(-200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-27-light.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateX(-200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-27-light {
-  background: #558B2F; }
+  background: #c5afa4; }
 
 .color-5-1-dark {
-  background: #FF1744; }
+  background: #3d294f; }
 
 .topicChip.color-5-1-dark {
-  background: #FF1744;
+  background: #3d294f;
   color: rgba(255, 255, 255, 0.7); }
 
 .title.color-5-1-dark {
   color: rgba(255, 255, 255, 0.7); }
 
 .title.title-1-1.color-5-1-dark {
-  background: linear-gradient(transparent, #FF1744); }
+  background: linear-gradient(transparent, #3d294f); }
 
 .title.title-2-2.color-5-1-dark {
-  background: linear-gradient(transparent, #FF1744); }
+  background: linear-gradient(transparent, #3d294f); }
 
 .title.title-2-1.color-5-1-dark {
-  background: linear-gradient(transparent, #FF1744); }
+  background: linear-gradient(transparent, #3d294f); }
 
 .overlay.color-5-1-dark {
-  background: #FF1744; }
+  background: #3d294f; }
 
 .articleIn.color-5-1-dark h1, .articleIn.color-5-1-dark h2, .articleIn.color-5-1-dark h3, .articleIn.color-5-1-dark h4, .articleIn.color-5-1-dark h5, .articleIn.color-5-1-dark h6 {
-  color: #FF1744; }
+  color: #3d294f; }
 .articleIn.color-5-1-dark strong {
-  color: #FF1744; }
+  color: #3d294f; }
 .articleIn.color-5-1-dark a {
-  color: #FF1744;
+  color: #3d294f;
   text-decoration: none; }
 .articleIn.color-5-1-dark a:visited {
-  color: #FF1744; }
+  color: #3d294f; }
 .articleIn.color-5-1-dark .articleCloseButton:hover {
-  background: #FF1744; }
+  background: #3d294f; }
 
 md-grid-tile.color-5-1-dark.ng-enter {
   transform: translateY(200px);
@@ -4829,41 +3679,41 @@ md-grid-tile.color-5-1-dark.ng-leave-active {
   opacity: 0; }
 
 .gridListdemoDynamicTiles .color-5-1-dark {
-  background: #FF1744; }
+  background: #3d294f; }
 
 .color-5-2-dark {
-  background: #304FFE; }
+  background: #d7263D; }
 
 .topicChip.color-5-2-dark {
-  background: #304FFE;
+  background: #d7263D;
   color: rgba(255, 255, 255, 0.7); }
 
 .title.color-5-2-dark {
   color: rgba(255, 255, 255, 0.7); }
 
 .title.title-1-1.color-5-2-dark {
-  background: linear-gradient(transparent, #304FFE); }
+  background: linear-gradient(transparent, #d7263D); }
 
 .title.title-2-2.color-5-2-dark {
-  background: linear-gradient(transparent, #304FFE); }
+  background: linear-gradient(transparent, #d7263D); }
 
 .title.title-2-1.color-5-2-dark {
-  background: linear-gradient(transparent, #304FFE); }
+  background: linear-gradient(transparent, #d7263D); }
 
 .overlay.color-5-2-dark {
-  background: #304FFE; }
+  background: #d7263D; }
 
 .articleIn.color-5-2-dark h1, .articleIn.color-5-2-dark h2, .articleIn.color-5-2-dark h3, .articleIn.color-5-2-dark h4, .articleIn.color-5-2-dark h5, .articleIn.color-5-2-dark h6 {
-  color: #304FFE; }
+  color: #d7263D; }
 .articleIn.color-5-2-dark strong {
-  color: #304FFE; }
+  color: #d7263D; }
 .articleIn.color-5-2-dark a {
-  color: #304FFE;
+  color: #d7263D;
   text-decoration: none; }
 .articleIn.color-5-2-dark a:visited {
-  color: #304FFE; }
+  color: #d7263D; }
 .articleIn.color-5-2-dark .articleCloseButton:hover {
-  background: #304FFE; }
+  background: #d7263D; }
 
 md-grid-tile.color-5-2-dark.ng-enter {
   transform: translateX(200px);
@@ -4875,41 +3725,41 @@ md-grid-tile.color-5-2-dark.ng-leave-active {
   opacity: 0; }
 
 .gridListdemoDynamicTiles .color-5-2-dark {
-  background: #304FFE; }
+  background: #d7263D; }
 
 .color-5-3-dark {
-  background: #FFF553; }
+  background: #f46036; }
 
 .topicChip.color-5-3-dark {
-  background: #FFF553;
+  background: #f46036;
   color: rgba(255, 255, 255, 0.7); }
 
 .title.color-5-3-dark {
   color: rgba(255, 255, 255, 0.7); }
 
 .title.title-1-1.color-5-3-dark {
-  background: linear-gradient(transparent, #FFF553); }
+  background: linear-gradient(transparent, #f46036); }
 
 .title.title-2-2.color-5-3-dark {
-  background: linear-gradient(transparent, #FFF553); }
+  background: linear-gradient(transparent, #f46036); }
 
 .title.title-2-1.color-5-3-dark {
-  background: linear-gradient(transparent, #FFF553); }
+  background: linear-gradient(transparent, #f46036); }
 
 .overlay.color-5-3-dark {
-  background: #FFF553; }
+  background: #f46036; }
 
 .articleIn.color-5-3-dark h1, .articleIn.color-5-3-dark h2, .articleIn.color-5-3-dark h3, .articleIn.color-5-3-dark h4, .articleIn.color-5-3-dark h5, .articleIn.color-5-3-dark h6 {
-  color: #FFF553; }
+  color: #f46036; }
 .articleIn.color-5-3-dark strong {
-  color: #FFF553; }
+  color: #f46036; }
 .articleIn.color-5-3-dark a {
-  color: #FFF553;
+  color: #f46036;
   text-decoration: none; }
 .articleIn.color-5-3-dark a:visited {
-  color: #FFF553; }
+  color: #f46036; }
 .articleIn.color-5-3-dark .articleCloseButton:hover {
-  background: #FFF553; }
+  background: #f46036; }
 
 md-grid-tile.color-5-3-dark.ng-enter {
   transform: translateY(-200px);
@@ -4921,41 +3771,41 @@ md-grid-tile.color-5-3-dark.ng-leave-active {
   opacity: 0; }
 
 .gridListdemoDynamicTiles .color-5-3-dark {
-  background: #FFF553; }
+  background: #f46036; }
 
 .color-5-4-dark {
-  background: #129E3A; }
+  background: #1B998b; }
 
 .topicChip.color-5-4-dark {
-  background: #129E3A;
+  background: #1B998b;
   color: rgba(255, 255, 255, 0.7); }
 
 .title.color-5-4-dark {
   color: rgba(255, 255, 255, 0.7); }
 
 .title.title-1-1.color-5-4-dark {
-  background: linear-gradient(transparent, #129E3A); }
+  background: linear-gradient(transparent, #1B998b); }
 
 .title.title-2-2.color-5-4-dark {
-  background: linear-gradient(transparent, #129E3A); }
+  background: linear-gradient(transparent, #1B998b); }
 
 .title.title-2-1.color-5-4-dark {
-  background: linear-gradient(transparent, #129E3A); }
+  background: linear-gradient(transparent, #1B998b); }
 
 .overlay.color-5-4-dark {
-  background: #129E3A; }
+  background: #1B998b; }
 
 .articleIn.color-5-4-dark h1, .articleIn.color-5-4-dark h2, .articleIn.color-5-4-dark h3, .articleIn.color-5-4-dark h4, .articleIn.color-5-4-dark h5, .articleIn.color-5-4-dark h6 {
-  color: #129E3A; }
+  color: #1B998b; }
 .articleIn.color-5-4-dark strong {
-  color: #129E3A; }
+  color: #1B998b; }
 .articleIn.color-5-4-dark a {
-  color: #129E3A;
+  color: #1B998b;
   text-decoration: none; }
 .articleIn.color-5-4-dark a:visited {
-  color: #129E3A; }
+  color: #1B998b; }
 .articleIn.color-5-4-dark .articleCloseButton:hover {
-  background: #129E3A; }
+  background: #1B998b; }
 
 md-grid-tile.color-5-4-dark.ng-enter {
   transform: translateX(-200px);
@@ -4967,41 +3817,41 @@ md-grid-tile.color-5-4-dark.ng-leave-active {
   opacity: 0; }
 
 .gridListdemoDynamicTiles .color-5-4-dark {
-  background: #129E3A; }
+  background: #1B998b; }
 
 .color-5-5-dark {
-  background: #FF80AB; }
+  background: #ff8360; }
 
 .topicChip.color-5-5-dark {
-  background: #FF80AB;
+  background: #ff8360;
   color: rgba(255, 255, 255, 0.7); }
 
 .title.color-5-5-dark {
   color: rgba(255, 255, 255, 0.7); }
 
 .title.title-1-1.color-5-5-dark {
-  background: linear-gradient(transparent, #FF80AB); }
+  background: linear-gradient(transparent, #ff8360); }
 
 .title.title-2-2.color-5-5-dark {
-  background: linear-gradient(transparent, #FF80AB); }
+  background: linear-gradient(transparent, #ff8360); }
 
 .title.title-2-1.color-5-5-dark {
-  background: linear-gradient(transparent, #FF80AB); }
+  background: linear-gradient(transparent, #ff8360); }
 
 .overlay.color-5-5-dark {
-  background: #FF80AB; }
+  background: #ff8360; }
 
 .articleIn.color-5-5-dark h1, .articleIn.color-5-5-dark h2, .articleIn.color-5-5-dark h3, .articleIn.color-5-5-dark h4, .articleIn.color-5-5-dark h5, .articleIn.color-5-5-dark h6 {
-  color: #FF80AB; }
+  color: #ff8360; }
 .articleIn.color-5-5-dark strong {
-  color: #FF80AB; }
+  color: #ff8360; }
 .articleIn.color-5-5-dark a {
-  color: #FF80AB;
+  color: #ff8360;
   text-decoration: none; }
 .articleIn.color-5-5-dark a:visited {
-  color: #FF80AB; }
+  color: #ff8360; }
 .articleIn.color-5-5-dark .articleCloseButton:hover {
-  background: #FF80AB; }
+  background: #ff8360; }
 
 md-grid-tile.color-5-5-dark.ng-enter {
   transform: translateY(200px);
@@ -5013,41 +3863,41 @@ md-grid-tile.color-5-5-dark.ng-leave-active {
   opacity: 0; }
 
 .gridListdemoDynamicTiles .color-5-5-dark {
-  background: #FF80AB; }
+  background: #ff8360; }
 
 .color-5-6-dark {
-  background: #64B5F6; }
+  background: #9d5c63; }
 
 .topicChip.color-5-6-dark {
-  background: #64B5F6;
+  background: #9d5c63;
   color: rgba(255, 255, 255, 0.7); }
 
 .title.color-5-6-dark {
   color: rgba(255, 255, 255, 0.7); }
 
 .title.title-1-1.color-5-6-dark {
-  background: linear-gradient(transparent, #64B5F6); }
+  background: linear-gradient(transparent, #9d5c63); }
 
 .title.title-2-2.color-5-6-dark {
-  background: linear-gradient(transparent, #64B5F6); }
+  background: linear-gradient(transparent, #9d5c63); }
 
 .title.title-2-1.color-5-6-dark {
-  background: linear-gradient(transparent, #64B5F6); }
+  background: linear-gradient(transparent, #9d5c63); }
 
 .overlay.color-5-6-dark {
-  background: #64B5F6; }
+  background: #9d5c63; }
 
 .articleIn.color-5-6-dark h1, .articleIn.color-5-6-dark h2, .articleIn.color-5-6-dark h3, .articleIn.color-5-6-dark h4, .articleIn.color-5-6-dark h5, .articleIn.color-5-6-dark h6 {
-  color: #64B5F6; }
+  color: #9d5c63; }
 .articleIn.color-5-6-dark strong {
-  color: #64B5F6; }
+  color: #9d5c63; }
 .articleIn.color-5-6-dark a {
-  color: #64B5F6;
+  color: #9d5c63;
   text-decoration: none; }
 .articleIn.color-5-6-dark a:visited {
-  color: #64B5F6; }
+  color: #9d5c63; }
 .articleIn.color-5-6-dark .articleCloseButton:hover {
-  background: #64B5F6; }
+  background: #9d5c63; }
 
 md-grid-tile.color-5-6-dark.ng-enter {
   transform: translateX(200px);
@@ -5059,41 +3909,41 @@ md-grid-tile.color-5-6-dark.ng-leave-active {
   opacity: 0; }
 
 .gridListdemoDynamicTiles .color-5-6-dark {
-  background: #64B5F6; }
+  background: #9d5c63; }
 
 .color-5-7-dark {
-  background: #FF3D00; }
+  background: #e76b74; }
 
 .topicChip.color-5-7-dark {
-  background: #FF3D00;
+  background: #e76b74;
   color: rgba(255, 255, 255, 0.7); }
 
 .title.color-5-7-dark {
   color: rgba(255, 255, 255, 0.7); }
 
 .title.title-1-1.color-5-7-dark {
-  background: linear-gradient(transparent, #FF3D00); }
+  background: linear-gradient(transparent, #e76b74); }
 
 .title.title-2-2.color-5-7-dark {
-  background: linear-gradient(transparent, #FF3D00); }
+  background: linear-gradient(transparent, #e76b74); }
 
 .title.title-2-1.color-5-7-dark {
-  background: linear-gradient(transparent, #FF3D00); }
+  background: linear-gradient(transparent, #e76b74); }
 
 .overlay.color-5-7-dark {
-  background: #FF3D00; }
+  background: #e76b74; }
 
 .articleIn.color-5-7-dark h1, .articleIn.color-5-7-dark h2, .articleIn.color-5-7-dark h3, .articleIn.color-5-7-dark h4, .articleIn.color-5-7-dark h5, .articleIn.color-5-7-dark h6 {
-  color: #FF3D00; }
+  color: #e76b74; }
 .articleIn.color-5-7-dark strong {
-  color: #FF3D00; }
+  color: #e76b74; }
 .articleIn.color-5-7-dark a {
-  color: #FF3D00;
+  color: #e76b74;
   text-decoration: none; }
 .articleIn.color-5-7-dark a:visited {
-  color: #FF3D00; }
+  color: #e76b74; }
 .articleIn.color-5-7-dark .articleCloseButton:hover {
-  background: #FF3D00; }
+  background: #e76b74; }
 
 md-grid-tile.color-5-7-dark.ng-enter {
   transform: translateY(-200px);
@@ -5105,926 +3955,6 @@ md-grid-tile.color-5-7-dark.ng-leave-active {
   opacity: 0; }
 
 .gridListdemoDynamicTiles .color-5-7-dark {
-  background: #FF3D00; }
-
-.color-5-8-dark {
-  background: #FF6F00; }
-
-.topicChip.color-5-8-dark {
-  background: #FF6F00;
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.color-5-8-dark {
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.title-1-1.color-5-8-dark {
-  background: linear-gradient(transparent, #FF6F00); }
-
-.title.title-2-2.color-5-8-dark {
-  background: linear-gradient(transparent, #FF6F00); }
-
-.title.title-2-1.color-5-8-dark {
-  background: linear-gradient(transparent, #FF6F00); }
-
-.overlay.color-5-8-dark {
-  background: #FF6F00; }
-
-.articleIn.color-5-8-dark h1, .articleIn.color-5-8-dark h2, .articleIn.color-5-8-dark h3, .articleIn.color-5-8-dark h4, .articleIn.color-5-8-dark h5, .articleIn.color-5-8-dark h6 {
-  color: #FF6F00; }
-.articleIn.color-5-8-dark strong {
-  color: #FF6F00; }
-.articleIn.color-5-8-dark a {
-  color: #FF6F00;
-  text-decoration: none; }
-.articleIn.color-5-8-dark a:visited {
-  color: #FF6F00; }
-.articleIn.color-5-8-dark .articleCloseButton:hover {
-  background: #FF6F00; }
-
-md-grid-tile.color-5-8-dark.ng-enter {
-  transform: translateX(-200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-8-dark.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateY(200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-8-dark {
-  background: #FF6F00; }
-
-.color-5-9-dark {
-  background: #036708; }
-
-.topicChip.color-5-9-dark {
-  background: #036708;
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.color-5-9-dark {
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.title-1-1.color-5-9-dark {
-  background: linear-gradient(transparent, #036708); }
-
-.title.title-2-2.color-5-9-dark {
-  background: linear-gradient(transparent, #036708); }
-
-.title.title-2-1.color-5-9-dark {
-  background: linear-gradient(transparent, #036708); }
-
-.overlay.color-5-9-dark {
-  background: #036708; }
-
-.articleIn.color-5-9-dark h1, .articleIn.color-5-9-dark h2, .articleIn.color-5-9-dark h3, .articleIn.color-5-9-dark h4, .articleIn.color-5-9-dark h5, .articleIn.color-5-9-dark h6 {
-  color: #036708; }
-.articleIn.color-5-9-dark strong {
-  color: #036708; }
-.articleIn.color-5-9-dark a {
-  color: #036708;
-  text-decoration: none; }
-.articleIn.color-5-9-dark a:visited {
-  color: #036708; }
-.articleIn.color-5-9-dark .articleCloseButton:hover {
-  background: #036708; }
-
-md-grid-tile.color-5-9-dark.ng-enter {
-  transform: translateY(200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-9-dark.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateX(200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-9-dark {
-  background: #036708; }
-
-.color-5-10-dark {
-  background: #795548; }
-
-.topicChip.color-5-10-dark {
-  background: #795548;
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.color-5-10-dark {
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.title-1-1.color-5-10-dark {
-  background: linear-gradient(transparent, #795548); }
-
-.title.title-2-2.color-5-10-dark {
-  background: linear-gradient(transparent, #795548); }
-
-.title.title-2-1.color-5-10-dark {
-  background: linear-gradient(transparent, #795548); }
-
-.overlay.color-5-10-dark {
-  background: #795548; }
-
-.articleIn.color-5-10-dark h1, .articleIn.color-5-10-dark h2, .articleIn.color-5-10-dark h3, .articleIn.color-5-10-dark h4, .articleIn.color-5-10-dark h5, .articleIn.color-5-10-dark h6 {
-  color: #795548; }
-.articleIn.color-5-10-dark strong {
-  color: #795548; }
-.articleIn.color-5-10-dark a {
-  color: #795548;
-  text-decoration: none; }
-.articleIn.color-5-10-dark a:visited {
-  color: #795548; }
-.articleIn.color-5-10-dark .articleCloseButton:hover {
-  background: #795548; }
-
-md-grid-tile.color-5-10-dark.ng-enter {
-  transform: translateX(200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-10-dark.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateY(-200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-10-dark {
-  background: #795548; }
-
-.color-5-11-dark {
-  background: #0091EA; }
-
-.topicChip.color-5-11-dark {
-  background: #0091EA;
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.color-5-11-dark {
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.title-1-1.color-5-11-dark {
-  background: linear-gradient(transparent, #0091EA); }
-
-.title.title-2-2.color-5-11-dark {
-  background: linear-gradient(transparent, #0091EA); }
-
-.title.title-2-1.color-5-11-dark {
-  background: linear-gradient(transparent, #0091EA); }
-
-.overlay.color-5-11-dark {
-  background: #0091EA; }
-
-.articleIn.color-5-11-dark h1, .articleIn.color-5-11-dark h2, .articleIn.color-5-11-dark h3, .articleIn.color-5-11-dark h4, .articleIn.color-5-11-dark h5, .articleIn.color-5-11-dark h6 {
-  color: #0091EA; }
-.articleIn.color-5-11-dark strong {
-  color: #0091EA; }
-.articleIn.color-5-11-dark a {
-  color: #0091EA;
-  text-decoration: none; }
-.articleIn.color-5-11-dark a:visited {
-  color: #0091EA; }
-.articleIn.color-5-11-dark .articleCloseButton:hover {
-  background: #0091EA; }
-
-md-grid-tile.color-5-11-dark.ng-enter {
-  transform: translateY(-200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-11-dark.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateX(-200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-11-dark {
-  background: #0091EA; }
-
-.color-5-12-dark {
-  background: #FF9800; }
-
-.topicChip.color-5-12-dark {
-  background: #FF9800;
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.color-5-12-dark {
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.title-1-1.color-5-12-dark {
-  background: linear-gradient(transparent, #FF9800); }
-
-.title.title-2-2.color-5-12-dark {
-  background: linear-gradient(transparent, #FF9800); }
-
-.title.title-2-1.color-5-12-dark {
-  background: linear-gradient(transparent, #FF9800); }
-
-.overlay.color-5-12-dark {
-  background: #FF9800; }
-
-.articleIn.color-5-12-dark h1, .articleIn.color-5-12-dark h2, .articleIn.color-5-12-dark h3, .articleIn.color-5-12-dark h4, .articleIn.color-5-12-dark h5, .articleIn.color-5-12-dark h6 {
-  color: #FF9800; }
-.articleIn.color-5-12-dark strong {
-  color: #FF9800; }
-.articleIn.color-5-12-dark a {
-  color: #FF9800;
-  text-decoration: none; }
-.articleIn.color-5-12-dark a:visited {
-  color: #FF9800; }
-.articleIn.color-5-12-dark .articleCloseButton:hover {
-  background: #FF9800; }
-
-md-grid-tile.color-5-12-dark.ng-enter {
-  transform: translateX(-200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-12-dark.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateY(200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-12-dark {
-  background: #FF9800; }
-
-.color-5-13-dark {
-  background: #9C27B0; }
-
-.topicChip.color-5-13-dark {
-  background: #9C27B0;
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.color-5-13-dark {
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.title-1-1.color-5-13-dark {
-  background: linear-gradient(transparent, #9C27B0); }
-
-.title.title-2-2.color-5-13-dark {
-  background: linear-gradient(transparent, #9C27B0); }
-
-.title.title-2-1.color-5-13-dark {
-  background: linear-gradient(transparent, #9C27B0); }
-
-.overlay.color-5-13-dark {
-  background: #9C27B0; }
-
-.articleIn.color-5-13-dark h1, .articleIn.color-5-13-dark h2, .articleIn.color-5-13-dark h3, .articleIn.color-5-13-dark h4, .articleIn.color-5-13-dark h5, .articleIn.color-5-13-dark h6 {
-  color: #9C27B0; }
-.articleIn.color-5-13-dark strong {
-  color: #9C27B0; }
-.articleIn.color-5-13-dark a {
-  color: #9C27B0;
-  text-decoration: none; }
-.articleIn.color-5-13-dark a:visited {
-  color: #9C27B0; }
-.articleIn.color-5-13-dark .articleCloseButton:hover {
-  background: #9C27B0; }
-
-md-grid-tile.color-5-13-dark.ng-enter {
-  transform: translateY(200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-13-dark.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateX(200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-13-dark {
-  background: #9C27B0; }
-
-.color-5-14-dark {
-  background: #B71C1C; }
-
-.topicChip.color-5-14-dark {
-  background: #B71C1C;
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.color-5-14-dark {
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.title-1-1.color-5-14-dark {
-  background: linear-gradient(transparent, #B71C1C); }
-
-.title.title-2-2.color-5-14-dark {
-  background: linear-gradient(transparent, #B71C1C); }
-
-.title.title-2-1.color-5-14-dark {
-  background: linear-gradient(transparent, #B71C1C); }
-
-.overlay.color-5-14-dark {
-  background: #B71C1C; }
-
-.articleIn.color-5-14-dark h1, .articleIn.color-5-14-dark h2, .articleIn.color-5-14-dark h3, .articleIn.color-5-14-dark h4, .articleIn.color-5-14-dark h5, .articleIn.color-5-14-dark h6 {
-  color: #B71C1C; }
-.articleIn.color-5-14-dark strong {
-  color: #B71C1C; }
-.articleIn.color-5-14-dark a {
-  color: #B71C1C;
-  text-decoration: none; }
-.articleIn.color-5-14-dark a:visited {
-  color: #B71C1C; }
-.articleIn.color-5-14-dark .articleCloseButton:hover {
-  background: #B71C1C; }
-
-md-grid-tile.color-5-14-dark.ng-enter {
-  transform: translateX(200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-14-dark.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateY(-200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-14-dark {
-  background: #B71C1C; }
-
-.color-5-15-dark {
-  background: #304FFE; }
-
-.topicChip.color-5-15-dark {
-  background: #304FFE;
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.color-5-15-dark {
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.title-1-1.color-5-15-dark {
-  background: linear-gradient(transparent, #304FFE); }
-
-.title.title-2-2.color-5-15-dark {
-  background: linear-gradient(transparent, #304FFE); }
-
-.title.title-2-1.color-5-15-dark {
-  background: linear-gradient(transparent, #304FFE); }
-
-.overlay.color-5-15-dark {
-  background: #304FFE; }
-
-.articleIn.color-5-15-dark h1, .articleIn.color-5-15-dark h2, .articleIn.color-5-15-dark h3, .articleIn.color-5-15-dark h4, .articleIn.color-5-15-dark h5, .articleIn.color-5-15-dark h6 {
-  color: #304FFE; }
-.articleIn.color-5-15-dark strong {
-  color: #304FFE; }
-.articleIn.color-5-15-dark a {
-  color: #304FFE;
-  text-decoration: none; }
-.articleIn.color-5-15-dark a:visited {
-  color: #304FFE; }
-.articleIn.color-5-15-dark .articleCloseButton:hover {
-  background: #304FFE; }
-
-md-grid-tile.color-5-15-dark.ng-enter {
-  transform: translateY(-200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-15-dark.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateX(-200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-15-dark {
-  background: #304FFE; }
-
-.color-5-16-dark {
-  background: #F4FF81; }
-
-.topicChip.color-5-16-dark {
-  background: #F4FF81;
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.color-5-16-dark {
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.title-1-1.color-5-16-dark {
-  background: linear-gradient(transparent, #F4FF81); }
-
-.title.title-2-2.color-5-16-dark {
-  background: linear-gradient(transparent, #F4FF81); }
-
-.title.title-2-1.color-5-16-dark {
-  background: linear-gradient(transparent, #F4FF81); }
-
-.overlay.color-5-16-dark {
-  background: #F4FF81; }
-
-.articleIn.color-5-16-dark h1, .articleIn.color-5-16-dark h2, .articleIn.color-5-16-dark h3, .articleIn.color-5-16-dark h4, .articleIn.color-5-16-dark h5, .articleIn.color-5-16-dark h6 {
-  color: #F4FF81; }
-.articleIn.color-5-16-dark strong {
-  color: #F4FF81; }
-.articleIn.color-5-16-dark a {
-  color: #F4FF81;
-  text-decoration: none; }
-.articleIn.color-5-16-dark a:visited {
-  color: #F4FF81; }
-.articleIn.color-5-16-dark .articleCloseButton:hover {
-  background: #F4FF81; }
-
-md-grid-tile.color-5-16-dark.ng-enter {
-  transform: translateX(-200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-16-dark.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateY(200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-16-dark {
-  background: #F4FF81; }
-
-.color-5-17-dark {
-  background: #E65100; }
-
-.topicChip.color-5-17-dark {
-  background: #E65100;
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.color-5-17-dark {
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.title-1-1.color-5-17-dark {
-  background: linear-gradient(transparent, #E65100); }
-
-.title.title-2-2.color-5-17-dark {
-  background: linear-gradient(transparent, #E65100); }
-
-.title.title-2-1.color-5-17-dark {
-  background: linear-gradient(transparent, #E65100); }
-
-.overlay.color-5-17-dark {
-  background: #E65100; }
-
-.articleIn.color-5-17-dark h1, .articleIn.color-5-17-dark h2, .articleIn.color-5-17-dark h3, .articleIn.color-5-17-dark h4, .articleIn.color-5-17-dark h5, .articleIn.color-5-17-dark h6 {
-  color: #E65100; }
-.articleIn.color-5-17-dark strong {
-  color: #E65100; }
-.articleIn.color-5-17-dark a {
-  color: #E65100;
-  text-decoration: none; }
-.articleIn.color-5-17-dark a:visited {
-  color: #E65100; }
-.articleIn.color-5-17-dark .articleCloseButton:hover {
-  background: #E65100; }
-
-md-grid-tile.color-5-17-dark.ng-enter {
-  transform: translateY(200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-17-dark.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateX(200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-17-dark {
-  background: #E65100; }
-
-.color-5-18-dark {
-  background: #E91E63; }
-
-.topicChip.color-5-18-dark {
-  background: #E91E63;
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.color-5-18-dark {
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.title-1-1.color-5-18-dark {
-  background: linear-gradient(transparent, #E91E63); }
-
-.title.title-2-2.color-5-18-dark {
-  background: linear-gradient(transparent, #E91E63); }
-
-.title.title-2-1.color-5-18-dark {
-  background: linear-gradient(transparent, #E91E63); }
-
-.overlay.color-5-18-dark {
-  background: #E91E63; }
-
-.articleIn.color-5-18-dark h1, .articleIn.color-5-18-dark h2, .articleIn.color-5-18-dark h3, .articleIn.color-5-18-dark h4, .articleIn.color-5-18-dark h5, .articleIn.color-5-18-dark h6 {
-  color: #E91E63; }
-.articleIn.color-5-18-dark strong {
-  color: #E91E63; }
-.articleIn.color-5-18-dark a {
-  color: #E91E63;
-  text-decoration: none; }
-.articleIn.color-5-18-dark a:visited {
-  color: #E91E63; }
-.articleIn.color-5-18-dark .articleCloseButton:hover {
-  background: #E91E63; }
-
-md-grid-tile.color-5-18-dark.ng-enter {
-  transform: translateX(200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-18-dark.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateY(-200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-18-dark {
-  background: #E91E63; }
-
-.color-5-19-dark {
-  background: #FF1744; }
-
-.topicChip.color-5-19-dark {
-  background: #FF1744;
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.color-5-19-dark {
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.title-1-1.color-5-19-dark {
-  background: linear-gradient(transparent, #FF1744); }
-
-.title.title-2-2.color-5-19-dark {
-  background: linear-gradient(transparent, #FF1744); }
-
-.title.title-2-1.color-5-19-dark {
-  background: linear-gradient(transparent, #FF1744); }
-
-.overlay.color-5-19-dark {
-  background: #FF1744; }
-
-.articleIn.color-5-19-dark h1, .articleIn.color-5-19-dark h2, .articleIn.color-5-19-dark h3, .articleIn.color-5-19-dark h4, .articleIn.color-5-19-dark h5, .articleIn.color-5-19-dark h6 {
-  color: #FF1744; }
-.articleIn.color-5-19-dark strong {
-  color: #FF1744; }
-.articleIn.color-5-19-dark a {
-  color: #FF1744;
-  text-decoration: none; }
-.articleIn.color-5-19-dark a:visited {
-  color: #FF1744; }
-.articleIn.color-5-19-dark .articleCloseButton:hover {
-  background: #FF1744; }
-
-md-grid-tile.color-5-19-dark.ng-enter {
-  transform: translateY(-200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-19-dark.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateX(-200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-19-dark {
-  background: #FF1744; }
-
-.color-5-20-dark {
-  background: #03A9F4; }
-
-.topicChip.color-5-20-dark {
-  background: #03A9F4;
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.color-5-20-dark {
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.title-1-1.color-5-20-dark {
-  background: linear-gradient(transparent, #03A9F4); }
-
-.title.title-2-2.color-5-20-dark {
-  background: linear-gradient(transparent, #03A9F4); }
-
-.title.title-2-1.color-5-20-dark {
-  background: linear-gradient(transparent, #03A9F4); }
-
-.overlay.color-5-20-dark {
-  background: #03A9F4; }
-
-.articleIn.color-5-20-dark h1, .articleIn.color-5-20-dark h2, .articleIn.color-5-20-dark h3, .articleIn.color-5-20-dark h4, .articleIn.color-5-20-dark h5, .articleIn.color-5-20-dark h6 {
-  color: #03A9F4; }
-.articleIn.color-5-20-dark strong {
-  color: #03A9F4; }
-.articleIn.color-5-20-dark a {
-  color: #03A9F4;
-  text-decoration: none; }
-.articleIn.color-5-20-dark a:visited {
-  color: #03A9F4; }
-.articleIn.color-5-20-dark .articleCloseButton:hover {
-  background: #03A9F4; }
-
-md-grid-tile.color-5-20-dark.ng-enter {
-  transform: translateX(-200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-20-dark.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateY(200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-20-dark {
-  background: #03A9F4; }
-
-.color-5-21-dark {
-  background: #FFEB3B; }
-
-.topicChip.color-5-21-dark {
-  background: #FFEB3B;
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.color-5-21-dark {
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.title-1-1.color-5-21-dark {
-  background: linear-gradient(transparent, #FFEB3B); }
-
-.title.title-2-2.color-5-21-dark {
-  background: linear-gradient(transparent, #FFEB3B); }
-
-.title.title-2-1.color-5-21-dark {
-  background: linear-gradient(transparent, #FFEB3B); }
-
-.overlay.color-5-21-dark {
-  background: #FFEB3B; }
-
-.articleIn.color-5-21-dark h1, .articleIn.color-5-21-dark h2, .articleIn.color-5-21-dark h3, .articleIn.color-5-21-dark h4, .articleIn.color-5-21-dark h5, .articleIn.color-5-21-dark h6 {
-  color: #FFEB3B; }
-.articleIn.color-5-21-dark strong {
-  color: #FFEB3B; }
-.articleIn.color-5-21-dark a {
-  color: #FFEB3B;
-  text-decoration: none; }
-.articleIn.color-5-21-dark a:visited {
-  color: #FFEB3B; }
-.articleIn.color-5-21-dark .articleCloseButton:hover {
-  background: #FFEB3B; }
-
-md-grid-tile.color-5-21-dark.ng-enter {
-  transform: translateY(200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-21-dark.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateX(200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-21-dark {
-  background: #FFEB3B; }
-
-.color-5-22-dark {
-  background: #607D8B; }
-
-.topicChip.color-5-22-dark {
-  background: #607D8B;
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.color-5-22-dark {
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.title-1-1.color-5-22-dark {
-  background: linear-gradient(transparent, #607D8B); }
-
-.title.title-2-2.color-5-22-dark {
-  background: linear-gradient(transparent, #607D8B); }
-
-.title.title-2-1.color-5-22-dark {
-  background: linear-gradient(transparent, #607D8B); }
-
-.overlay.color-5-22-dark {
-  background: #607D8B; }
-
-.articleIn.color-5-22-dark h1, .articleIn.color-5-22-dark h2, .articleIn.color-5-22-dark h3, .articleIn.color-5-22-dark h4, .articleIn.color-5-22-dark h5, .articleIn.color-5-22-dark h6 {
-  color: #607D8B; }
-.articleIn.color-5-22-dark strong {
-  color: #607D8B; }
-.articleIn.color-5-22-dark a {
-  color: #607D8B;
-  text-decoration: none; }
-.articleIn.color-5-22-dark a:visited {
-  color: #607D8B; }
-.articleIn.color-5-22-dark .articleCloseButton:hover {
-  background: #607D8B; }
-
-md-grid-tile.color-5-22-dark.ng-enter {
-  transform: translateX(200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-22-dark.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateY(-200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-22-dark {
-  background: #607D8B; }
-
-.color-5-23-dark {
-  background: #5D4037; }
-
-.topicChip.color-5-23-dark {
-  background: #5D4037;
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.color-5-23-dark {
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.title-1-1.color-5-23-dark {
-  background: linear-gradient(transparent, #5D4037); }
-
-.title.title-2-2.color-5-23-dark {
-  background: linear-gradient(transparent, #5D4037); }
-
-.title.title-2-1.color-5-23-dark {
-  background: linear-gradient(transparent, #5D4037); }
-
-.overlay.color-5-23-dark {
-  background: #5D4037; }
-
-.articleIn.color-5-23-dark h1, .articleIn.color-5-23-dark h2, .articleIn.color-5-23-dark h3, .articleIn.color-5-23-dark h4, .articleIn.color-5-23-dark h5, .articleIn.color-5-23-dark h6 {
-  color: #5D4037; }
-.articleIn.color-5-23-dark strong {
-  color: #5D4037; }
-.articleIn.color-5-23-dark a {
-  color: #5D4037;
-  text-decoration: none; }
-.articleIn.color-5-23-dark a:visited {
-  color: #5D4037; }
-.articleIn.color-5-23-dark .articleCloseButton:hover {
-  background: #5D4037; }
-
-md-grid-tile.color-5-23-dark.ng-enter {
-  transform: translateY(-200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-23-dark.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateX(-200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-23-dark {
-  background: #5D4037; }
-
-.color-5-24-dark {
-  background: #00B0FF; }
-
-.topicChip.color-5-24-dark {
-  background: #00B0FF;
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.color-5-24-dark {
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.title-1-1.color-5-24-dark {
-  background: linear-gradient(transparent, #00B0FF); }
-
-.title.title-2-2.color-5-24-dark {
-  background: linear-gradient(transparent, #00B0FF); }
-
-.title.title-2-1.color-5-24-dark {
-  background: linear-gradient(transparent, #00B0FF); }
-
-.overlay.color-5-24-dark {
-  background: #00B0FF; }
-
-.articleIn.color-5-24-dark h1, .articleIn.color-5-24-dark h2, .articleIn.color-5-24-dark h3, .articleIn.color-5-24-dark h4, .articleIn.color-5-24-dark h5, .articleIn.color-5-24-dark h6 {
-  color: #00B0FF; }
-.articleIn.color-5-24-dark strong {
-  color: #00B0FF; }
-.articleIn.color-5-24-dark a {
-  color: #00B0FF;
-  text-decoration: none; }
-.articleIn.color-5-24-dark a:visited {
-  color: #00B0FF; }
-.articleIn.color-5-24-dark .articleCloseButton:hover {
-  background: #00B0FF; }
-
-md-grid-tile.color-5-24-dark.ng-enter {
-  transform: translateX(-200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-24-dark.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateY(200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-24-dark {
-  background: #00B0FF; }
-
-.color-5-25-dark {
-  background: #00838F; }
-
-.topicChip.color-5-25-dark {
-  background: #00838F;
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.color-5-25-dark {
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.title-1-1.color-5-25-dark {
-  background: linear-gradient(transparent, #00838F); }
-
-.title.title-2-2.color-5-25-dark {
-  background: linear-gradient(transparent, #00838F); }
-
-.title.title-2-1.color-5-25-dark {
-  background: linear-gradient(transparent, #00838F); }
-
-.overlay.color-5-25-dark {
-  background: #00838F; }
-
-.articleIn.color-5-25-dark h1, .articleIn.color-5-25-dark h2, .articleIn.color-5-25-dark h3, .articleIn.color-5-25-dark h4, .articleIn.color-5-25-dark h5, .articleIn.color-5-25-dark h6 {
-  color: #00838F; }
-.articleIn.color-5-25-dark strong {
-  color: #00838F; }
-.articleIn.color-5-25-dark a {
-  color: #00838F;
-  text-decoration: none; }
-.articleIn.color-5-25-dark a:visited {
-  color: #00838F; }
-.articleIn.color-5-25-dark .articleCloseButton:hover {
-  background: #00838F; }
-
-md-grid-tile.color-5-25-dark.ng-enter {
-  transform: translateY(200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-25-dark.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateX(200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-25-dark {
-  background: #00838F; }
-
-.color-5-26-dark {
-  background: #9E9D24; }
-
-.topicChip.color-5-26-dark {
-  background: #9E9D24;
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.color-5-26-dark {
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.title-1-1.color-5-26-dark {
-  background: linear-gradient(transparent, #9E9D24); }
-
-.title.title-2-2.color-5-26-dark {
-  background: linear-gradient(transparent, #9E9D24); }
-
-.title.title-2-1.color-5-26-dark {
-  background: linear-gradient(transparent, #9E9D24); }
-
-.overlay.color-5-26-dark {
-  background: #9E9D24; }
-
-.articleIn.color-5-26-dark h1, .articleIn.color-5-26-dark h2, .articleIn.color-5-26-dark h3, .articleIn.color-5-26-dark h4, .articleIn.color-5-26-dark h5, .articleIn.color-5-26-dark h6 {
-  color: #9E9D24; }
-.articleIn.color-5-26-dark strong {
-  color: #9E9D24; }
-.articleIn.color-5-26-dark a {
-  color: #9E9D24;
-  text-decoration: none; }
-.articleIn.color-5-26-dark a:visited {
-  color: #9E9D24; }
-.articleIn.color-5-26-dark .articleCloseButton:hover {
-  background: #9E9D24; }
-
-md-grid-tile.color-5-26-dark.ng-enter {
-  transform: translateX(200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-26-dark.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateY(-200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-26-dark {
-  background: #9E9D24; }
-
-.color-5-27-dark {
-  background: #558B2F; }
-
-.topicChip.color-5-27-dark {
-  background: #558B2F;
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.color-5-27-dark {
-  color: rgba(255, 255, 255, 0.7); }
-
-.title.title-1-1.color-5-27-dark {
-  background: linear-gradient(transparent, #558B2F); }
-
-.title.title-2-2.color-5-27-dark {
-  background: linear-gradient(transparent, #558B2F); }
-
-.title.title-2-1.color-5-27-dark {
-  background: linear-gradient(transparent, #558B2F); }
-
-.overlay.color-5-27-dark {
-  background: #558B2F; }
-
-.articleIn.color-5-27-dark h1, .articleIn.color-5-27-dark h2, .articleIn.color-5-27-dark h3, .articleIn.color-5-27-dark h4, .articleIn.color-5-27-dark h5, .articleIn.color-5-27-dark h6 {
-  color: #558B2F; }
-.articleIn.color-5-27-dark strong {
-  color: #558B2F; }
-.articleIn.color-5-27-dark a {
-  color: #558B2F;
-  text-decoration: none; }
-.articleIn.color-5-27-dark a:visited {
-  color: #558B2F; }
-.articleIn.color-5-27-dark .articleCloseButton:hover {
-  background: #558B2F; }
-
-md-grid-tile.color-5-27-dark.ng-enter {
-  transform: translateY(-200px);
-  opacity: 0; }
-
-md-grid-tile.color-5-27-dark.ng-leave-active {
-  transition: all 0.3s;
-  transform: translateX(-200px);
-  opacity: 0; }
-
-.gridListdemoDynamicTiles .color-5-27-dark {
-  background: #558B2F; }
+  background: #e76b74; }
 
 /*# sourceMappingURL=colors.css.map */

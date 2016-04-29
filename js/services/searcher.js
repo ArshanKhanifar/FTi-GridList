@@ -1,4 +1,4 @@
-app.factory('searcher', ['searchCriteria','searchArticle','topicsBar','inventory', function(criteria,searchArticle,topicsBar,inventory){
+app.factory('searcher', ['searchCriteria','searchArticle','topicsBar','inventory','$mdMedia', function(criteria,searchArticle,topicsBar,inventory,$mdMedia){
 	return function(){
 		var promise = new Promise(function(resolve,reject){ 
 			var theResults = [];
@@ -44,12 +44,9 @@ app.factory('searcher', ['searchCriteria','searchArticle','topicsBar','inventory
 					}
 				});
 				response.data.data.forEach(function(elem){
+
 					var tile = {
 						background:topicsBar.setColor(elem.topics[0]),
-						span:{
-							row: Math.ceil(Math.random()*2),
-							col: Math.ceil(Math.random()*2)
-						},
 						article: {
 							title:   elem.title,
 							image:   elem.image,
@@ -57,6 +54,20 @@ app.factory('searcher', ['searchCriteria','searchArticle','topicsBar','inventory
 							date:    elem.date,
 							topics:   elem.topics,
 							content: elem.raw_content
+						}
+					}
+					if(tile.article.image.length<4){
+						tile.article.image = 'img/22.jpg';
+					}
+					if(!$mdMedia('xs')){
+						tile.span = {
+							row: Math.ceil(Math.random()*2),
+							col: Math.ceil(Math.random()*2)
+						}
+					}else{
+						tile.span = {
+							row:1,
+							col:1
 						}
 					}
 

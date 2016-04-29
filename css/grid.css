@@ -109,7 +109,8 @@ md-grid-list{
 }
 
 md-grid-tile figure img{
-  height: 100%;
+  width: 100%;
+  height: initial;
   margin:auto;
   display: block;
 }
@@ -136,26 +137,31 @@ md-grid-tile figure img{
 .title.title-1-1{
   width: 100%;
   bottom:0;
-  height: 0;
+/*  height: 0;*/
   transition: all 0.3s;
+  height: 70%;
+  padding-top: 20px;
 }
 .title h4{
-  margin-left: 6%;
-  margin-right: 6%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 5px;
+  margin-right: 5px;
+  position: absolute;
+  bottom: 10px;
+  font-family: fjalla one;
+  font-size: 24px;
 }
 md-grid-tile:hover .title-1-1{
   height: 70%;
   padding-top: 20px;
 }
-md-grid-tile .title h4{
-  position: absolute;
-  bottom: 0;
-/*  color: rgba(255,255,255,0.8);
-*/}
 .title.title-2-1{
   bottom:0;
   width: 100%;
-  height: 0;
+  /*height: 0;*/
+  height: 50%;
+  padding-top: 50px;
   transition: all 0.3s;
 }
 md-grid-tile:hover .title-2-1{
@@ -166,7 +172,9 @@ md-grid-tile:hover .title-2-1{
   width: 100%;
   transition: all 0.3s;
   bottom:0;
-  height: 0;
+/*  height: 0;*/
+  height: 30%;
+  padding-top: 50px;
 }
 md-grid-tile:hover .title-2-2{
   height: 30%;
@@ -174,10 +182,22 @@ md-grid-tile:hover .title-2-2{
 }
 .title.title-1-2{
   bottom:0; 
-  height: 50%;
-  width: 80%;
-  left: 10%;
+  height: 45%;
+  width: 100%;
 }
+.title.title-1-2 h4{
+  font-size: 24px;
+}
+.title.title-2-2 h4{
+  font-size: 24px;
+}
+.title.title-2-1 h4{
+  font-size: 24px;
+}
+.title.title-1-1 h4{
+  font-size: 24px;
+}
+
 .date{
   top:2%;
   right: 2%;
@@ -190,6 +210,32 @@ md-grid-tile:hover .title-2-2{
   font-size: 14px;
   color: white;
 }
+.thumbnail img{
+  opacity: 0;
+  transition: all 0.3s;
+}
+.thumbnail.thumbnail-2-1 img{
+  height: 100%;
+  width: initial;
+}
+
+
+md-grid-tile:hover .thumbnail img{
+  opacity: 1;
+}
+
+md-grid-tile:hover .thumbnail.thumbnailBackground img{
+  opacity: 0;
+}
+.thumbnail.thumbnailBackground img{
+  opacity: 1;
+  height: 100%;
+  transition: all 0.3s;
+  width: initial;
+  -webkit-filter: blur(7px);
+  filter: blur(7px);
+}
+
 
 .thumbnail{
   position: absolute;
@@ -208,9 +254,9 @@ md-grid-tile:hover .title-2-2{
   left: 0;
   right: 0;
 }
-.thumbnail-2-1 img{
-  width: 100%;
-  height: initial;
+.thumbnail-1-2.thumbnail img{
+  height: 100%;
+  width: initial;
 }
 .thumbnail-2-1{
   top: 0;
@@ -314,11 +360,10 @@ md-grid-tile:hover .mainTopic h4{
   font-family: sorts mill goudy;
   position: fixed;
   overflow-y: scroll;
-  height: 85%;
   transition: all 1s 0.3s;
-  top: 0;
   left:15%;
   top: 5%;
+  bottom:0;
   right: 15%;  
   z-index: 5;
   background: #fafafa ;
@@ -328,9 +373,9 @@ md-grid-tile:hover .mainTopic h4{
 }
 
 .articleIn .articleCloseButton{
-  position: absolute;
-  top: 0;
-  right: 0;
+  position: fixed;
+  top: calc(5%);
+  right: calc(15% + 14px);
   height: 50px;
   width: 50px;
   padding: 7px;
@@ -349,6 +394,110 @@ md-grid-tile:hover .mainTopic h4{
   fill:white;
 }
 
+.articleIn .shareContainer{
+  position: fixed;
+  top: calc(5% + 15px);
+  height: 56px;
+  width: 40px;
+  right: calc(15% + 78px);
+  transition: width 0.3s;
+  border-radius: 0;
+  overflow: hidden;
+}
+.articleIn .marginTop,.articleIn .gradientTop,.articleIn .gradientBottom{
+  position: fixed;
+}
+.articleIn .marginTop{
+  top: 5%;
+  left: 15%;
+  right: calc(15% + 15px);
+  height: 65px;
+  background: linear-gradient(#fafafa,#fafafa 90%,transparent);
+}
+
+.articleIn .gradientBottom{
+  bottom: 0;
+  left: 15%;
+  right: calc(15% + 15px);
+  background: linear-gradient(transparent,#fafafa 80%, #fafafa);
+  height: 20px;
+}
+.articleIn .shareContainer:hover{
+  width: 255px;
+}
+.articleIn .wideContainer{
+  width: 300px;
+  height: 150px;
+  float: right;
+}
+.articleIn .shareContainer:hover .shareButton{
+  transform:rotate(90deg);
+}
+.articleIn .facebookButton,.articleIn .twitterButton,.articleIn .googlePlusButton,.articleIn .shareButton{
+  border-radius: 100%;
+  transition: all 0.3s;
+  height: 20px;
+  width: 20px;
+  padding: 5px;
+  margin-right:5px; 
+  float:right;
+  cursor: pointer;
+}
+.articleIn .shareButton{
+  height: 30px;
+  width: 30px;
+}
+.articleIn .facebookButton{
+  border:2px solid #3B5998;
+}
+.articleIn .facebookButton svg{
+  height: 100%;
+  width: 100%;
+}
+.articleIn .facebookButton:hover{
+  background: #3B5998;
+}
+.articleIn .facebookButton:hover svg path{
+  fill:white;
+}
+.articleIn .facebookButton svg path{
+  fill:#3B5998;
+  transition: all 0.3s;
+}
+.articleIn .twitterButton{
+  border:2px solid #1DA1F2;
+}
+.articleIn .twitterButton:hover{
+  background: #1DA1F2;
+}
+.articleIn .twitterButton:hover svg path{
+  fill:white;
+}
+.articleIn .twitterButton svg path{
+  fill:#1DA1F2;
+  transition: all 0.3s;
+}
+
+.articleIn .googlePlusButton{
+  border:2px solid #DB4437;
+}
+.articleIn .googlePlusButton:hover{
+  background: #DB4437;
+}
+.articleIn .googlePlusButton:hover svg path{
+  fill:white;
+}
+.articleIn .googlePlusButton svg{
+  width: 100%;
+  height: 100%;
+}
+.articleIn .googlePlusButton svg path{
+  fill:#DB4437;
+  transition: all 0.3s;
+}
+
+
+
 @media screen and (max-width: 1100px) {
   .articleIn{
     left: 2%;
@@ -357,14 +506,28 @@ md-grid-tile:hover .mainTopic h4{
     padding: 15%;
     padding-top: 50px;
   }
+  .articleIn .marginTop{
+    top: 2%;
+    left: 2%;
+    right: calc(2% + 15px);
+  }
+  .articleIn .gradientBottom{
+    right: calc(2% + 15px);
+    left: 2%;
+  }
+  .articleIn .articleCloseButton{
+    top: calc(2%);
+    right: calc(2% + 14px);
+  }
+  .articleIn .shareContainer{
+    top: calc(2% + 15px);
+    right: calc(2% + 78px);
+  }
 }
 @media screen and (max-width: 700px) {
   .articleIn{
-    left: 2%;
-    right: 2%;
-    top: 2%;
     padding: 5%;
-    padding-top: 50px;
+    padding-top: 65px;
   }
 }
 
@@ -378,6 +541,7 @@ md-grid-tile:hover .mainTopic h4{
 .articleIn p{
   font-family: inherit;
   font-size: 18px;
+  text-align: justify;
 }
 
 .articleIn strong{

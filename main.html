@@ -1,40 +1,47 @@
 <div class="header clearfix">
   <div class="logo">
-    <a href="localhost:3000">
+    <a href="http://fti.qedata.io">
       <img src="img/logo.svg">    
     </a>
-    
   </div>
   
   <div class="searchBar" searchbar>
     <form>
-      <div class="sliderIcon">
+  <!--     <div class="sliderIcon">
         <img src="img/slider.svg" alt="search icon" align="bottom">
-      </div>
+      </div> -->
+      <div></div>
 
       <div class="searchIcon">
         <input type="image" src="img/search.svg" alt="search icon" ng-click="search()">    
       </div>
       <input class="textInput" type="text" placeholder="search fintech news" ng-model="searchText">
-      <div class="numberInput">
-      <span>Less</span>
-      <md-slider-container>
-        <md-slider flex min="7" max="27" ng-model="tileNum" aria-label="number of tiles">
-        </md-slider>
-      </md-slider-container>
-      <span>More</span>
+      <div class="activeTopics">
+        <div ng-class="{'activeTopic':true,'{{topic.color}}':true}" ng-repeat="topic in topics | filter: {active:true} : true"></div>
       </div>
+      <!-- <div class="numberInput">
+        <span>Less</span>
+        <md-slider-container>
+          <md-slider flex min="7" max="27" ng-model="tileNum" aria-label="number of tiles">
+          </md-slider>
+        </md-slider-container>
+        <span>More</span>
+      </div> -->
+      <div></div>
     </form>
   </div>
 </div>
 
 <div class="headerSmall clearfix" header-small>
   <div class="logo">
-    <img src="img/logo.svg">
+    <a href="http://fti.qedata.io">
+      <img src="img/logo.svg">
+    </a>
   </div>
-  <div class="sliderIcon">
+<!--   <div class="sliderIcon">
     <img src="img/slider.svg" alt="search icon" align="bottom">
-  </div>
+  </div> -->
+  <div></div>
   <div class="searchIcon">
     <img src="img/search.svg" alt="search icon">    
   </div>
@@ -46,8 +53,11 @@
       </div>
       <input class="textInput" type="text" placeholder="search fintech news" ng-model="searchText">
     </form>
+    <div class="activeTopics">
+      <div ng-class="{'activeTopic':true,'{{topic.color}}':true}" ng-repeat="topic in topics | filter: {active:true} : true"></div>
+    </div>
   </div>
-  <div class="sliderContainer">
+ <!--  <div class="sliderContainer">
     <div class="numberInput">
       <h3>Number of results:</h3>
       <span>Less</span>
@@ -57,7 +67,8 @@
       </md-slider-container>
       <span>More</span>
     </div>
-  </div>
+  </div> -->
+  <div></div>
 </div>
 
 <div ng-class="{'nextContainer':true,'color-{{colorSet}}':true}" ng-click="next()">
@@ -79,7 +90,7 @@
   <div class="gridListContainer">
 
     <md-grid-list md-cols="1" md-cols-sm="3" md-cols-md="5" md-cols-gt-md="7" md-row-height-gt-sm="1:1" md-row-height="4:3" md-gutter="8px" md-gutter-gt-sm="8px" holefill ng-class="{'prevState':prevState,'nextState':nextState}">
-      <md-grid-tile ng-repeat="tile in tiles" md-rowspan="{{tile.span.row}}" md-colspan="{{tile.span.col}}" md-colspan-xs="1" ng-class="tile.background" kh-article topic-length>
+      <md-grid-tile ng-repeat="tile in tiles" md-rowspan="{{tile.span.row}}" md-colspan="{{tile.span.col}}" md-colspan-xs="1" md-rowspan-xs="1"ng-class="tile.background" kh-article topic-length>
         <div class="mainTopic">
           <h4>{{tile.article.topics[0]}}</h4>
         </div>
@@ -92,10 +103,15 @@
         <div ng-class="'date'+tile.span.col+'-'+tile.span.row +' date'">
           <h3>{{tile.article.date|date:'MMM dd'}}</h3>
         </div>
-        <div ng-class="'thumbnail-'+tile.span.col+'-'+tile.span.row +' thumbnail'">
-          <img ng-src="{{tile.article.image}}" alt="image" ng-click="tile.fullscreen!=tile.fullscreen">  
+
+        <div ng-class="'thumbnail-'+tile.span.col+'-'+tile.span.row +' thumbnail thumbnailBackground'">
+          <img ng-src="{{tile.article.image}}" alt="image">
         </div>
-        <div ng-class="'title-'+tile.span.col+'-'+tile.span.row + ' title' + ' '+tile.background">
+
+        <div ng-class="'thumbnail-'+tile.span.col+'-'+tile.span.row +' thumbnail'">
+          <img ng-src="{{tile.article.image}}" alt="image">
+        </div>
+        <div ng-class="'title-'+tile.span.col+'-'+tile.span.row + ' title' + ' '+tile.background" title-size>
           <h4>{{tile.article.title}}</h4>
         </div>
         <div class="link">

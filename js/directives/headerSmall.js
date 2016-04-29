@@ -1,7 +1,8 @@
 app.directive('headerSmall',['$document',function($document){
 	return {
 		link:function(scope,elem,attrs){
-			var sliderIcon = angular.element(elem.children()[1]);
+			elem.find = find;
+			var sliderIcon = angular.element(elem.children()[1]); 
 			var searchIcon = angular.element(elem.children()[2]);
 			var textContainer = angular.element(elem.children()[3]);
 			var sliderContainer = angular.element(elem.children()[4]);

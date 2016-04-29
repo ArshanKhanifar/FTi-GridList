@@ -1,4 +1,5 @@
-app.controller('MainController', ['$scope','$window','$route','$routeParams','searchCriteria', function($scope,$window,$route,$routeParams,criteria){
+app.controller('MainController', ['$scope','$window','$route','$routeParams','searchCriteria','topicsBar', function($scope,$window,$route,$routeParams,criteria,topicsBar){
+	$scope.topics = topicsBar.topics;
 	$scope.searchText='';
 	$scope.tileNum = 13;
 	$scope.page =  criteria.page; 

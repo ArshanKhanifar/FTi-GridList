@@ -6,8 +6,8 @@ $colors3light: #D5F8B4 #88CDB1 #70E3C6 #96F8B4 #3DE3C6 #8A9A85  #96F8B4 #7BAD74 
 $colors3dark: #7E566B #8A9A85 #422335 #422335 #732B4B #7BAD74 #972B89 #0091EA #DC456B #732B4B #972B89;
 $colors4light: #A1D700 #769D23 #0091EA #86AF23 #4F9300 #A1D700 #769D23;
 $colors4dark: #0D1C33 #17373C #2B6832 #4F9300 #11205C #2B7D32 #036708 #20472C #11205C #0D1C33 #17373C #2B6832;
-$colors5light: #FF1744 #304FFE #FFF553 #129E3A #FF80AB #64B5F6 #FF3D00 #FF6F00 #036708 #795548 #0091EA #FF9800 #9C27B0 #B71C1C #304FFE #F4FF81 #E65100 #E91E63 #FF1744 #03A9F4 #FFEB3B #607D8B #5D4037 #00B0FF #00838F #9E9D24 #558B2F; 
-$colors5dark: #FF1744 #304FFE #FFF553 #129E3A #FF80AB #64B5F6 #FF3D00 #FF6F00 #036708 #795548 #0091EA #FF9800 #9C27B0 #B71C1C #304FFE #F4FF81 #E65100 #E91E63 #FF1744 #03A9F4 #FFEB3B #607D8B #5D4037 #00B0FF #00838F #9E9D24 #558B2F; 
+$colors5light: #c5d86d #c5afa4;
+$colors5dark: #3d294f #d7263D #f46036 #1B998b #ff8360 #9d5c63 #e76b74; 
 
 
 
@@ -51,20 +51,21 @@ $i:1;
 	}
 	.articleIn.color-1-#{$i}-light{
 		h1,h2,h3,h4,h5,h6{
-			color:darken($color,50%);
+			color:darken($color,20%);
 		}
 		strong{
-			color:darken($color,50%);
+			color:darken($color,20%);
+
 		}
 		a{
-			color:darken($color,50%);
+			color:darken($color,20%);
 			text-decoration: none;
 		}
 		a:visited{
-			color:darken($color,50%);
+			color:darken($color,20%);
 		}
 		.articleCloseButton:hover{
-		  background: darken($color,50%);
+		  background: darken($color,20%);
 		}
 	}
 	
@@ -223,7 +224,7 @@ $i:1;
 		color:rgba(0,0,0,0.7);
 
 	}
-	.title.title-2-1.color-2-#{$i}-light{
+	.title.title-1-1.color-2-#{$i}-light{
 	  background: linear-gradient(transparent,$color);
 	}
 	.title.title-2-2.color-2-#{$i}-light{
@@ -237,20 +238,20 @@ $i:1;
 	}
 	.articleIn.color-2-#{$i}-light{
 		h1,h2,h3,h4,h5,h6{
-			color:darken($color,50%);
+			color:darken($color,20%);
 		}
 		strong{
-			color:darken($color,50%);
+			color:darken($color,20%);
 		}
 		a{
-			color:darken($color,50%);
+			color:darken($color,20%);
 			text-decoration: none;
 		}
 		a:visited{
-			color:darken($color,50%);
+			color:darken($color,20%);
 		}
 		.articleCloseButton:hover{
-		  background: darken($color,50%);
+		  background: darken($color,20%);
 		}
 	}
 	
@@ -316,7 +317,7 @@ $i:1;
 	.title.color-2-#{$i}-dark{
 		color:rgba(255,255,255,0.7);
 	}
-	.title.title-2-1.color-2-#{$i}-dark{
+	.title.title-1-1.color-2-#{$i}-dark{
 	  background: linear-gradient(transparent,$color);
 	}
 	.title.title-2-2.color-2-#{$i}-dark{
@@ -423,20 +424,20 @@ $i:1;
 	}
 	.articleIn.color-3-#{$i}-light{
 		h1,h2,h3,h4,h5,h6{
-			color:darken($color,50%);
+			color:darken($color,20%);
 		}
 		strong{
-			color:darken($color,50%);
+			color:darken($color,20%);
 		}
 		a{
-			color:darken($color,50%);
+			color:darken($color,20%);
 			text-decoration: none;
 		}
 		a:visited{
-			color:darken($color,50%);
+			color:darken($color,20%);
 		}
 		.articleCloseButton:hover{
-		  background: darken($color,50%);
+		  background: darken($color,20%);
 		}
 	}
 	
@@ -609,20 +610,20 @@ $i:1;
 	}
 	.articleIn.color-4-#{$i}-light{
 		h1,h2,h3,h4,h5,h6{
-			color:darken($color,50%);
+			color:darken($color,20%);
 		}
 		strong{
-			color:darken($color,50%);
+			color:darken($color,20%);
 		}
 		a{
-			color:darken($color,50%);
+			color:darken($color,20%);
 			text-decoration: none;
 		}
 		a:visited{
-			color:darken($color,50%);
+			color:darken($color,20%);
 		}
 		.articleCloseButton:hover{
-		  background: darken($color,50%);
+		  background: darken($color,20%);
 		}
 	}
 	
@@ -795,20 +796,20 @@ $i:1;
 	}
 	.articleIn.color-5-#{$i}-light{
 		h1,h2,h3,h4,h5,h6{
-			color:darken($color,50%);
+			color:darken($color,20%);
 		}
 		strong{
-			color:darken($color,50%);
+			color:darken($color,20%);
 		}
 		a{
-			color:darken($color,50%);
+			color:darken($color,20%);
 			text-decoration: none;
 		}
 		a:visited{
-			color:darken($color,50%);
+			color:darken($color,20%);
 		}
 		.articleCloseButton:hover{
-		  background: darken($color,50%);
+		  background: darken($color,20%);
 		}
 	}
 	

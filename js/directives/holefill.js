@@ -223,6 +223,9 @@ app.directive('holefill',['$mdMedia','$compile','$timeout','secondarySearch','to
 									content: elem.raw_content
 								}
 							}
+							if(tile.article.image.length<5){
+								tile.article.image = 'img/22.jpg';
+							}
 							for(var i=0;i<tile.article.topics.length;i++){
 								tile.article.topics[i]=mekUppCase(tile.article.topics[i]);
 							}

@@ -1,16 +1,34 @@
 app.factory('topicsBar',['searchCriteria',function(criteria){
 	var colorPool = [];
-	for (var i = 1 ; i <= 5 ; i++){
-		var colorSet = {
-			light:[],
-			dark:[]
-		};
-		for (var j = 1 ; j <= 11 ; j++){
-			colorSet.light.push('color-'+i+'-'+j+'-'+'light');
-			colorSet.dark.push('color-'+i+'-'+j+'-'+'dark');
+	colorPool.push({
+		light:makeColorSet(1,11,'light'),
+		dark:makeColorSet(1,11,'dark')
+	})
+	colorPool.push({
+		light:makeColorSet(2,11,'light'),
+		dark:makeColorSet(2,11,'dark')
+	})
+	colorPool.push({
+		light:makeColorSet(3,11,'light'),
+		dark:makeColorSet(3,11,'dark')
+	})
+	colorPool.push({
+		light:makeColorSet(4,11,'light'),
+		dark:makeColorSet(4,11,'dark')
+	})
+	colorPool.push({
+		light:makeColorSet(5,1,'light'),
+		dark:makeColorSet(5,8,'dark')
+	})
+
+	function makeColorSet(i,n,brightness){
+		var arr=[];
+		for (var j = 1 ; j <= n ; j++){
+			arr.push('color-'+i+'-'+j+'-'+brightness);
 		}
-		colorPool.push(colorSet);
+		return arr
 	}
+
 	return {
 		colorPool:colorPool,
 		// colorPool:['pink','blue','purple','orange','green','lime'],
@@ -37,7 +55,7 @@ app.factory('topicsBar',['searchCriteria',function(criteria){
 			})
 			return val;
 		},
-		upcomingColor:'light',
+		upcomingColor:true,
 		addTopic:function(topic,topicId){
 			var topicObj = {
 				topic:topic,
@@ -45,15 +63,17 @@ app.factory('topicsBar',['searchCriteria',function(criteria){
 				active:false,
 				inactive:criteria.filtered,
 			};
-			if(this.upComingColor=='light'){
-				topicObj.color = this.colorPool[criteria.colorSet].light.shift();
-				topicObj.colorType = 'light';
-				this.upComingColor='dark';
-			}else{
-				topicObj.color = this.colorPool[criteria.colorSet].dark.shift();
-				topicObj.colorType = 'dark';
-				this.upComingColor='light';
-			};
+			while(topicObj.color==undefined){
+				if(this.upComingColor){
+					topicObj.color = this.colorPool[criteria.colorSet].light.shift();
+					topicObj.colorType = 'light';
+				}else{
+					topicObj.color = this.colorPool[criteria.colorSet].dark.shift();
+					topicObj.colorType = 'dark';
+				};
+				this.upComingColor = !this.upComingColor;
+			}
+
 			this.topics.push(topicObj);
 		},
 		removeTopic:function(topic){ // not used yet! haven't found a use case either

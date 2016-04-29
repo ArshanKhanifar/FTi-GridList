@@ -26,16 +26,17 @@ app.directive('topicLength',function(){
 				maxLength = maxOfThese([mainWidth,secondWidth,thirdWidth]);
 			},100);
 
+			// elem.bind('mouseenter',function(){
+			// 	mainTopic.css('width',mainWidth +'px');
+			// }).bind('mouseleave',function(){
+			// 	mainTopic.css('width','');
+			// })
 			elem.bind('mouseenter',function(){
-				mainTopic.css('width',mainWidth +'px');
-			}).bind('mouseleave',function(){
-				mainTopic.css('width','');
-			})
-			mainTopic.bind('mouseenter',function(){
 				mainTopic.css('width',maxLength+'px');
 				secondTopic.css('width',maxLength+'px');
 				thirdTopic.css('width',maxLength+'px');
 			}).bind('mouseleave',function(){
+				mainTopic.css('width','');
 				secondTopic.css('width','');
 				thirdTopic.css('width','');
 			})
